@@ -53,10 +53,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: GameS-fuLlG1.pAGES.DEV
+    servername: gAMES-FullG1.PAGeS.DEv
     skip-cert-verify: true
     ws-opts:
-      path: /6Ldzxn1KGqldPBtq/ZGUucmFkaWNhbGx5LnBybw==
+      path: /zLCUgcA8sLTc9cv4/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -70,10 +70,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gaMES-FulLg1.PAGEs.deV
+    servername: gAmEs-FuLlG1.paGes.DEV
     skip-cert-verify: true
     ws-opts:
-      path: /OW2rZLh3RskMQ8ia/ZGUucmFkaWNhbGx5LnBybw==
+      path: /l59vOL4uESn66XOV/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -82,15 +82,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 3 - VLESS - IPv4 : 443"
     port: 443
-    server: 172.66.44.210
+    server: 188.114.97.3
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: gaMES-FulLg1.paGES.DeV
+    servername: GameS-FUllG1.pAGES.dEV
     skip-cert-verify: true
     ws-opts:
-      path: /oJvCNOrFyD1NOYtz/ZGUucmFkaWNhbGx5LnBybw==
+      path: /6aIJ0FWWcHjloQ65/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -99,15 +99,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 4 - VLESS - IPv4 : 443"
     port: 443
-    server: 172.66.47.46
+    server: 188.114.96.3
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: gAMEs-fullG1.PAges.dEv
+    servername: gaMeS-fUlLg1.PaGEs.DEV
     skip-cert-verify: true
     ws-opts:
-      path: /C5IUj37cCfnwp6RG/ZGUucmFkaWNhbGx5LnBybw==
+      path: /ZIWHZ3yBA8V7I7Ej/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -116,15 +116,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 5 - VLESS - IPv6 : 443"
     port: 443
-    server: 2606:4700:310c::ac42:2cd2
+    server: 2a06:98c1:3120::3
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: GAmeS-FULlg1.pageS.DEV
+    servername: GAmes-FUllG1.PAGEs.deV
     skip-cert-verify: true
     ws-opts:
-      path: /HnlmSWSya9IYM0Z2/ZGUucmFkaWNhbGx5LnBybw==
+      path: /iw0IzeDT6EsuQnAQ/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -133,15 +133,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 6 - VLESS - IPv6 : 443"
     port: 443
-    server: 2606:4700:310c::ac42:2f2e
+    server: 2a06:98c1:3121::3
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: gaMEs-fulLG1.PagES.dEv
+    servername: gaMES-fUllG1.PaGES.DeV
     skip-cert-verify: true
     ws-opts:
-      path: /9RQmSzAdJH8tLrRj/ZGUucmFkaWNhbGx5LnBybw==
+      path: /1Oiq2IR4aICOT8rf/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -155,10 +155,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: GAMES-FULlG1.pAgES.Dev
+    servername: GameS-Fullg1.paGeS.DEV
     skip-cert-verify: true
     ws-opts:
-      path: /4kJNZS3Nowebd45K/ZGUucmFkaWNhbGx5LnBybw==
+      path: /kgId8c0KrdYyOFb8/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -172,10 +172,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: Games-FUlLg1.pAgeS.DEv
+    servername: GAMEs-FULlg1.paGes.DEv
     skip-cert-verify: true
     ws-opts:
-      path: /SjrrYMQk1zxHx5uQ/ZGUucmFkaWNhbGx5LnBybw==
+      path: /yrVem6qAxOTQfdVC/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -189,10 +189,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gAmES-fuLlg1.pAGES.DeV
+    servername: gaMEs-FuLLG1.PaGEs.deV
     skip-cert-verify: true
     ws-opts:
-      path: /RM86RfkewPvlVRBZ/ZGUucmFkaWNhbGx5LnBybw==
+      path: /IjW1FgwYHgZ4MFuk/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -206,10 +206,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gAmes-FulLg1.PaGES.dEv
+    servername: GAmES-FUllG1.paGes.DeV
     skip-cert-verify: true
     ws-opts:
-      path: /luG8xZhRdTa6bhxY/ZGUucmFkaWNhbGx5LnBybw==
+      path: /BdLR4NHNehAgBAsU/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -223,10 +223,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gAmes-fuLlG1.pageS.DEV
+    servername: gaMEs-FUlLg1.Pages.DEv
     skip-cert-verify: true
     ws-opts:
-      path: /edsP2uefW3sVBWhI/ZGUucmFkaWNhbGx5LnBybw==
+      path: /vsK20OBeDr5g3J78/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -240,10 +240,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: GAMES-FULLG1.pagEs.DEV
+    servername: GAmES-FULLg1.pages.dev
     skip-cert-verify: true
     ws-opts:
-      path: /gU5O4SW5iHu199ZQ/ZGUucmFkaWNhbGx5LnBybw==
+      path: /dyoJMmBxRMjwQQlb/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -257,10 +257,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: GaMEs-FuLlg1.PAgEs.dev
+    servername: GamEs-FulLG1.pAGEs.dEV
     skip-cert-verify: true
     ws-opts:
-      path: /X6HFFQNo9VjhRSb4/ZGUucmFkaWNhbGx5LnBybw==
+      path: /s4TSnsXPayrZgwVw/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -274,10 +274,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gAMes-fULlG1.pageS.deV
+    servername: GaMES-fullg1.PAges.dEV
     skip-cert-verify: true
     ws-opts:
-      path: /YUtxfH1VaasX6hwe/ZGUucmFkaWNhbGx5LnBybw==
+      path: /5ZMBGoDfDbXf1Auw/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -291,10 +291,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gamEs-FUlLG1.Pages.DeV
+    servername: gaMeS-FULLG1.PAges.Dev
     skip-cert-verify: true
     ws-opts:
-      path: /cXEiVp8c7xbcF8D7/ZGUucmFkaWNhbGx5LnBybw==
+      path: /Vs8HpzZCvqOgHN3y/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -308,10 +308,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: GaMES-Fullg1.pagES.dev
+    servername: GaMeS-fuLlg1.pageS.Dev
     skip-cert-verify: true
     ws-opts:
-      path: /Vq4zC5Vzh6FBboGS/ZGUucmFkaWNhbGx5LnBybw==
+      path: /Ol4eJSDBM3zhMJ9Z/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -325,10 +325,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: GaMes-FULlG1.PAges.deV
+    servername: gAMeS-fullG1.pAgEs.DeV
     skip-cert-verify: true
     ws-opts:
-      path: /EW9Dr3joYLlLsG7S/ZGUucmFkaWNhbGx5LnBybw==
+      path: /s5K75hghWCvLNWaX/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -342,10 +342,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gamES-fUlLg1.pAgeS.DEV
+    servername: GAmes-fullg1.pages.DEv
     skip-cert-verify: true
     ws-opts:
-      path: /UrIFD1MYNksOwECV/ZGUucmFkaWNhbGx5LnBybw==
+      path: /PsKbwlb9z55HyBdm/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -359,10 +359,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: GaMeS-FUlLG1.PAgeS.DeV
+    servername: gamEs-fUllG1.paGes.dev
     skip-cert-verify: true
     ws-opts:
-      path: /a7Q2PZgTaGrhJfUD/ZGUucmFkaWNhbGx5LnBybw==
+      path: /rmAZBqRrY3FOI33d/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -376,10 +376,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gameS-fULlg1.PAGes.deV
+    servername: GaMeS-FULLg1.pAges.DEv
     skip-cert-verify: true
     ws-opts:
-      path: /4eRbKFebifwJPFKG/ZGUucmFkaWNhbGx5LnBybw==
+      path: /WGuhyCOzyfHmhVXk/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -393,10 +393,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: GaMES-FUllG1.PageS.deV
+    servername: GaMeS-Fullg1.PAgEs.DEV
     skip-cert-verify: true
     ws-opts:
-      path: /RBhorP0tHNfqNyv6/ZGUucmFkaWNhbGx5LnBybw==
+      path: /mr6U0IH6zkbVSvn2/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -410,10 +410,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gamES-fUlLG1.PAgeS.DeV
+    servername: GameS-fullg1.PAgEs.dEV
     skip-cert-verify: true
     ws-opts:
-      path: /shI4oVBPzQaFfVej/ZGUucmFkaWNhbGx5LnBybw==
+      path: /d1jVV8um1smQwmzf/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -427,10 +427,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gaMeS-fULLG1.PAgES.DEV
+    servername: Games-FULLG1.PAges.dev
     skip-cert-verify: true
     ws-opts:
-      path: /sGmA5tNpYBF5c2CP/ZGUucmFkaWNhbGx5LnBybw==
+      path: /i3LfadM9gZCVtiYV/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -444,10 +444,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: GAmES-fUlLg1.paGEs.dEV
+    servername: GAmes-fulLg1.pAGES.dev
     skip-cert-verify: true
     ws-opts:
-      path: /KvRFp5D9xBoeLnu8/ZGUucmFkaWNhbGx5LnBybw==
+      path: /aTTo1PV7LzYuwnXZ/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -456,15 +456,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 25 - VLESS - IPv4 : 2053"
     port: 2053
-    server: 172.66.44.210
+    server: 188.114.97.3
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: gAMes-fULlG1.pAGeS.deV
+    servername: gAmEs-fulLG1.PAGes.dev
     skip-cert-verify: true
     ws-opts:
-      path: /TcbdSgguGo86UskR/ZGUucmFkaWNhbGx5LnBybw==
+      path: /gJ3kuo6Tu8MU8TCL/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -473,15 +473,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 26 - VLESS - IPv4 : 2053"
     port: 2053
-    server: 172.66.47.46
+    server: 188.114.96.3
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: GamEs-FuLLG1.pageS.dev
+    servername: GaMEs-fulLG1.PAGes.DEv
     skip-cert-verify: true
     ws-opts:
-      path: /mXBsY0U0iJpWzXVu/ZGUucmFkaWNhbGx5LnBybw==
+      path: /GQcAMPMlMuj7ORQf/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -490,15 +490,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 27 - VLESS - IPv6 : 2053"
     port: 2053
-    server: 2606:4700:310c::ac42:2cd2
+    server: 2a06:98c1:3120::3
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: gAMes-FUllg1.PAGEs.dev
+    servername: gameS-FuLLG1.PaGeS.DEv
     skip-cert-verify: true
     ws-opts:
-      path: /ldcnYAyyCT1GTERb/ZGUucmFkaWNhbGx5LnBybw==
+      path: /xmiz0Ro4yyks6biS/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -507,15 +507,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 28 - VLESS - IPv6 : 2053"
     port: 2053
-    server: 2606:4700:310c::ac42:2f2e
+    server: 2a06:98c1:3121::3
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: GAmeS-fulLg1.paGes.DeV
+    servername: gAmES-fuLLg1.pAGes.deV
     skip-cert-verify: true
     ws-opts:
-      path: /jSEUwV44hbIX2Pb8/ZGUucmFkaWNhbGx5LnBybw==
+      path: /vd4E3sX56bjXs5fz/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -529,10 +529,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: GAmes-fULLg1.pAGEs.dev
+    servername: gaMES-FULLG1.PagEs.deV
     skip-cert-verify: true
     ws-opts:
-      path: /0LsAGjXegHiLgrhq/ZGUucmFkaWNhbGx5LnBybw==
+      path: /0tD6uo8OOg9T6Nsy/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -546,10 +546,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gamEs-fULlG1.pAGes.DEV
+    servername: Games-FUllg1.PAgEs.DEV
     skip-cert-verify: true
     ws-opts:
-      path: /GrxmBR3Sw8cWkb0E/ZGUucmFkaWNhbGx5LnBybw==
+      path: /9erAeM0PYgQfSZ5J/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -563,10 +563,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gaMES-FUlLg1.paGES.DeV
+    servername: GAmEs-fuLLG1.pAgEs.dev
     skip-cert-verify: true
     ws-opts:
-      path: /MMXb3roS71F83Fd5/ZGUucmFkaWNhbGx5LnBybw==
+      path: /yI8k2t0PmwI4rF4X/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -580,10 +580,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: Games-FuLlG1.PAgEs.Dev
+    servername: GaMes-fuLlg1.PAGES.dev
     skip-cert-verify: true
     ws-opts:
-      path: /bhMuokOsceZN70Pg/ZGUucmFkaWNhbGx5LnBybw==
+      path: /4TOZrQEj1BJwKQgQ/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -597,10 +597,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: GamES-fulLg1.PageS.DEV
+    servername: GAmEs-fUlLG1.pagEs.Dev
     skip-cert-verify: true
     ws-opts:
-      path: /bsNi5z5S4s6FPfbk/ZGUucmFkaWNhbGx5LnBybw==
+      path: /sqK0EY356A3QgDqe/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -614,10 +614,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gAMeS-fULlg1.Pages.dEV
+    servername: gaMeS-fUllg1.PAgeS.dev
     skip-cert-verify: true
     ws-opts:
-      path: /EckAs6W3T7RoIXED/ZGUucmFkaWNhbGx5LnBybw==
+      path: /9yS7YzJqpFeHRBoh/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -631,10 +631,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gAMeS-FuLLG1.PaGES.deV
+    servername: gaMes-fulLG1.pageS.dEv
     skip-cert-verify: true
     ws-opts:
-      path: /EjLKeRns4XwZYA00/ZGUucmFkaWNhbGx5LnBybw==
+      path: /Mhnya8yop1i0tNQH/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -648,10 +648,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: GaMEs-fULLg1.PAgES.dEv
+    servername: gAmeS-fuLLg1.pAgES.dev
     skip-cert-verify: true
     ws-opts:
-      path: /hpAC1FCyjmFvqD71/ZGUucmFkaWNhbGx5LnBybw==
+      path: /09Vmogqv3m4KdSBO/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -665,10 +665,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: GAMes-fuLLG1.PAges.DeV
+    servername: gameS-FulLg1.PAges.DEv
     skip-cert-verify: true
     ws-opts:
-      path: /I50ct3Uq8JhDkwKF/ZGUucmFkaWNhbGx5LnBybw==
+      path: /TTg2wK4PfCnOlkQK/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -682,10 +682,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: GaMES-fULlg1.pageS.dEV
+    servername: gAMes-FuLlg1.PaGES.Dev
     skip-cert-verify: true
     ws-opts:
-      path: /vtxK7rKFndL9HhOC/ZGUucmFkaWNhbGx5LnBybw==
+      path: /NkjiKqyDNXGm7zD9/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -699,10 +699,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gAMEs-fullG1.PaGEs.DeV
+    servername: GAMes-FULlG1.pageS.DEv
     skip-cert-verify: true
     ws-opts:
-      path: /Qci9ci7ii1ysb1GE/ZGUucmFkaWNhbGx5LnBybw==
+      path: /tMNs5spQi5el6WYl/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -716,10 +716,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gaMEs-fullG1.paGeS.Dev
+    servername: gAmEs-FULlG1.pages.DEv
     skip-cert-verify: true
     ws-opts:
-      path: /x750GYir5BCwb2Mo/ZGUucmFkaWNhbGx5LnBybw==
+      path: /07fTD5JilGirJdLA/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -733,10 +733,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: GaMeS-FULLg1.pAGeS.dEv
+    servername: GaMeS-fuLLg1.pAGes.dev
     skip-cert-verify: true
     ws-opts:
-      path: /xRkxENttND9yQoyi/ZGUucmFkaWNhbGx5LnBybw==
+      path: /5ysASOxsg6LV6JUO/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -750,10 +750,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gAMes-FuLLG1.Pages.dEV
+    servername: GameS-Fullg1.pAges.DEV
     skip-cert-verify: true
     ws-opts:
-      path: /QoT1f2kyhQFSOrIt/ZGUucmFkaWNhbGx5LnBybw==
+      path: /1NLbBUOwBJTbbps7/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -767,10 +767,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: Games-fuLlg1.PAgEs.DEV
+    servername: GAMeS-FullG1.paGes.dEV
     skip-cert-verify: true
     ws-opts:
-      path: /vLHKOd0GRhnmbfsE/ZGUucmFkaWNhbGx5LnBybw==
+      path: /HR2yxCBeUONfvbty/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -784,10 +784,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gAMeS-fUlLg1.PAGeS.dEV
+    servername: GaMes-FuLLG1.pageS.deV
     skip-cert-verify: true
     ws-opts:
-      path: /VSPVELNjx1Tf1DaX/ZGUucmFkaWNhbGx5LnBybw==
+      path: /0LiiK22qhnEKQ4gO/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -801,10 +801,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: GAmEs-fULlG1.pagES.dEv
+    servername: gaMeS-fUllG1.PaGeS.Dev
     skip-cert-verify: true
     ws-opts:
-      path: /PXL39AjL9Au4esA5/ZGUucmFkaWNhbGx5LnBybw==
+      path: /Wzewi8kH7jrzQSyq/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -818,10 +818,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: GaMeS-fUlLg1.PAgEs.DeV
+    servername: gaMes-fULlG1.PAgES.dEV
     skip-cert-verify: true
     ws-opts:
-      path: /mn71WftybIUQ9XQr/ZGUucmFkaWNhbGx5LnBybw==
+      path: /fJDSlCqCFA2i6TJE/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -830,15 +830,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 47 - VLESS - IPv4 : 2087"
     port: 2087
-    server: 172.66.44.210
+    server: 188.114.97.3
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: gaMES-fullg1.PAGES.deV
+    servername: gAMeS-FULLG1.PAgEs.DeV
     skip-cert-verify: true
     ws-opts:
-      path: /Mp0OSdWxDvP4pp6c/ZGUucmFkaWNhbGx5LnBybw==
+      path: /P6jgGUs2WlcWIwG3/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -847,15 +847,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 48 - VLESS - IPv4 : 2087"
     port: 2087
-    server: 172.66.47.46
+    server: 188.114.96.3
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: Games-FuLLg1.PAgES.dEV
+    servername: gAMEs-FuLLG1.pAges.DeV
     skip-cert-verify: true
     ws-opts:
-      path: /76ls84oJSoj1bWO9/ZGUucmFkaWNhbGx5LnBybw==
+      path: /c0O0033yeLEndFKv/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -864,15 +864,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 49 - VLESS - IPv6 : 2087"
     port: 2087
-    server: 2606:4700:310c::ac42:2cd2
+    server: 2a06:98c1:3120::3
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: GamEs-FulLG1.PAgES.DEV
+    servername: GAmes-fulLg1.paGes.Dev
     skip-cert-verify: true
     ws-opts:
-      path: /PY5k92WJr8abMyLx/ZGUucmFkaWNhbGx5LnBybw==
+      path: /1c8vVYGRFoY6X43t/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -881,15 +881,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 50 - VLESS - IPv6 : 2087"
     port: 2087
-    server: 2606:4700:310c::ac42:2f2e
+    server: 2a06:98c1:3121::3
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: GAmes-fuLLg1.pAGes.DEV
+    servername: GaMeS-FuLlG1.pAGes.DeV
     skip-cert-verify: true
     ws-opts:
-      path: /Nvxi9iUn41CJrNWS/ZGUucmFkaWNhbGx5LnBybw==
+      path: /12hdS3IGKrllNoCa/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -903,10 +903,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: GAMEs-FulLG1.PaGEs.dEv
+    servername: gaMeS-fulLG1.pagES.Dev
     skip-cert-verify: true
     ws-opts:
-      path: /mk86Ecj4yXhIO7ir/ZGUucmFkaWNhbGx5LnBybw==
+      path: /A14aefTCFM52gtHs/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -920,10 +920,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: GamEs-FUlLg1.PAGES.Dev
+    servername: gAMEs-fuLLg1.pagES.dEV
     skip-cert-verify: true
     ws-opts:
-      path: /6wriwySTlk9MHcdo/ZGUucmFkaWNhbGx5LnBybw==
+      path: /rl9fzZSKTXxJBPRm/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -937,10 +937,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: Games-fulLg1.pAgEs.DEV
+    servername: gAmeS-Fullg1.PAGeS.DEv
     skip-cert-verify: true
     ws-opts:
-      path: /Ctc2UmIdKNeX8lZK/ZGUucmFkaWNhbGx5LnBybw==
+      path: /XITBDCO78rjZJaqm/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -954,10 +954,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: GAMeS-fuLlg1.PAGES.Dev
+    servername: GameS-FulLG1.pAgeS.DEV
     skip-cert-verify: true
     ws-opts:
-      path: /buROx3CEsuUEg342/ZGUucmFkaWNhbGx5LnBybw==
+      path: /HreUiy8Q4tB3T2mK/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -971,10 +971,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gaMes-fULlG1.PaGeS.deV
+    servername: GaMEs-FUllg1.paGes.dEV
     skip-cert-verify: true
     ws-opts:
-      path: /BMlkCbzBIzWpl2pT/ZGUucmFkaWNhbGx5LnBybw==
+      path: /ZEBizU9X5yA3Hlvd/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -988,10 +988,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: Games-FulLg1.PageS.Dev
+    servername: GaMEs-fulLg1.pages.dEv
     skip-cert-verify: true
     ws-opts:
-      path: /6YnioWobhVC7W5AR/ZGUucmFkaWNhbGx5LnBybw==
+      path: /z8UUqwNqZstLoRx2/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1005,10 +1005,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gaMEs-fULLG1.pAges.deV
+    servername: gAMes-FullG1.PAGeS.DEV
     skip-cert-verify: true
     ws-opts:
-      path: /q7Xb9IgSOyLXQvUo/ZGUucmFkaWNhbGx5LnBybw==
+      path: /HJDpznm8eKQwS4x8/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1022,10 +1022,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gAMES-FUllG1.PAgeS.deV
+    servername: GAmes-fUllG1.paGeS.DEv
     skip-cert-verify: true
     ws-opts:
-      path: /ICMaV9cnOsm3SLHv/ZGUucmFkaWNhbGx5LnBybw==
+      path: /8gdq2WFtEFEgloit/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1039,10 +1039,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: GAmes-FulLG1.pAges.DEV
+    servername: GaMEs-fULlG1.pageS.DEV
     skip-cert-verify: true
     ws-opts:
-      path: /ZrC8TxSsxwNquTY5/ZGUucmFkaWNhbGx5LnBybw==
+      path: /xRoWo6GeJ9fDLjrT/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1056,10 +1056,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: Games-fullg1.pAGeS.DEV
+    servername: GAMEs-fULLG1.pAgEs.Dev
     skip-cert-verify: true
     ws-opts:
-      path: /YwS5Uodp5QL9g8MT/ZGUucmFkaWNhbGx5LnBybw==
+      path: /db8lQvROorbnG3c2/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1073,10 +1073,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gAmEs-fUllg1.PageS.DEV
+    servername: gAMEs-FULLg1.pAGeS.dEv
     skip-cert-verify: true
     ws-opts:
-      path: /edWdUZpTJxgEhKx5/ZGUucmFkaWNhbGx5LnBybw==
+      path: /6jEooNNybosplvBm/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1090,10 +1090,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gAMes-FULlG1.PaGEs.dEv
+    servername: gaMeS-fulLG1.PaGeS.deV
     skip-cert-verify: true
     ws-opts:
-      path: /DnTmiuhtHPVPU95m/ZGUucmFkaWNhbGx5LnBybw==
+      path: /rZcgBHVfrCMziBTX/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1107,10 +1107,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: GAMEs-FULlG1.PAGES.DEv
+    servername: gAMEs-fullG1.PaGEs.dEV
     skip-cert-verify: true
     ws-opts:
-      path: /uwpMs6djti8XlJHX/ZGUucmFkaWNhbGx5LnBybw==
+      path: /WWt4BaMtwybZjor3/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1124,10 +1124,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gAmES-FuLLG1.PaGES.DEv
+    servername: Games-fuLlg1.pAGEs.dEV
     skip-cert-verify: true
     ws-opts:
-      path: /ptH5vl2MnUsngSev/ZGUucmFkaWNhbGx5LnBybw==
+      path: /18FwWGIjhhIIMPja/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1141,10 +1141,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gameS-FUllG1.PagES.dEv
+    servername: GAmes-fUlLG1.PAGes.DeV
     skip-cert-verify: true
     ws-opts:
-      path: /Zyr9wncp5NH6NrKu/ZGUucmFkaWNhbGx5LnBybw==
+      path: /Qtxe33sG2xpdvjeX/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1158,10 +1158,10 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: gAmES-fULLg1.pAGes.deV
+    servername: gAMeS-FUlLG1.paGES.dev
     skip-cert-verify: true
     ws-opts:
-      path: /gVjhhfnLj1RXN3SE/ZGUucmFkaWNhbGx5LnBybw==
+      path: /BJmhwRGln3oDMmD9/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1174,11 +1174,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: GameS-fuLlG1.pAGES.DEV
+    sni: gAMES-FullG1.PAGeS.DEv
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /tr6Ldzxn1KGqldPBtq/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trzLCUgcA8sLTc9cv4/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1190,11 +1190,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gaMES-FulLg1.PAGEs.deV
+    sni: gAmEs-FuLlG1.paGes.DEV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trOW2rZLh3RskMQ8ia/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trl59vOL4uESn66XOV/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1202,15 +1202,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 3 - Trojan - IPv4 : 443"
     port: 443
-    server: 172.66.44.210
+    server: 188.114.97.3
     type: trojan
     network: ws
     udp: true
-    sni: gaMES-FulLg1.paGES.DeV
+    sni: GameS-FUllG1.pAGES.dEV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /troJvCNOrFyD1NOYtz/ZGUucmFkaWNhbGx5LnBybw==
+      path: /tr6aIJ0FWWcHjloQ65/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1218,15 +1218,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 4 - Trojan - IPv4 : 443"
     port: 443
-    server: 172.66.47.46
+    server: 188.114.96.3
     type: trojan
     network: ws
     udp: true
-    sni: gAMEs-fullG1.PAges.dEv
+    sni: gaMeS-fUlLg1.PaGEs.DEV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trC5IUj37cCfnwp6RG/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trZIWHZ3yBA8V7I7Ej/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1234,15 +1234,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 5 - Trojan - IPv6 : 443"
     port: 443
-    server: "[2606:4700:310c::ac42:2cd2]"
+    server: "[2a06:98c1:3120::3]"
     type: trojan
     network: ws
     udp: true
-    sni: GAmeS-FULlg1.pageS.DEV
+    sni: GAmes-FUllG1.PAGEs.deV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trHnlmSWSya9IYM0Z2/ZGUucmFkaWNhbGx5LnBybw==
+      path: /triw0IzeDT6EsuQnAQ/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1250,15 +1250,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 6 - Trojan - IPv6 : 443"
     port: 443
-    server: "[2606:4700:310c::ac42:2f2e]"
+    server: "[2a06:98c1:3121::3]"
     type: trojan
     network: ws
     udp: true
-    sni: gaMEs-fulLG1.PagES.dEv
+    sni: gaMES-fUllG1.PaGES.DeV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /tr9RQmSzAdJH8tLrRj/ZGUucmFkaWNhbGx5LnBybw==
+      path: /tr1Oiq2IR4aICOT8rf/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1270,11 +1270,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: GAMES-FULlG1.pAgES.Dev
+    sni: GameS-Fullg1.paGeS.DEV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /tr4kJNZS3Nowebd45K/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trkgId8c0KrdYyOFb8/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1286,11 +1286,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: Games-FUlLg1.pAgeS.DEv
+    sni: GAMEs-FULlg1.paGes.DEv
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trSjrrYMQk1zxHx5uQ/ZGUucmFkaWNhbGx5LnBybw==
+      path: /tryrVem6qAxOTQfdVC/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1302,11 +1302,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gAmES-fuLlg1.pAGES.DeV
+    sni: gaMEs-FuLLG1.PaGEs.deV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trRM86RfkewPvlVRBZ/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trIjW1FgwYHgZ4MFuk/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1318,11 +1318,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gAmes-FulLg1.PaGES.dEv
+    sni: GAmES-FUllG1.paGes.DeV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trluG8xZhRdTa6bhxY/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trBdLR4NHNehAgBAsU/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1334,11 +1334,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gAmes-fuLlG1.pageS.DEV
+    sni: gaMEs-FUlLg1.Pages.DEv
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /tredsP2uefW3sVBWhI/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trvsK20OBeDr5g3J78/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1350,11 +1350,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: GAMES-FULLG1.pagEs.DEV
+    sni: GAmES-FULLg1.pages.dev
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trgU5O4SW5iHu199ZQ/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trdyoJMmBxRMjwQQlb/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1366,11 +1366,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: GaMEs-FuLlg1.PAgEs.dev
+    sni: GamEs-FulLG1.pAGEs.dEV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trX6HFFQNo9VjhRSb4/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trs4TSnsXPayrZgwVw/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1382,11 +1382,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gAMes-fULlG1.pageS.deV
+    sni: GaMES-fullg1.PAges.dEV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trYUtxfH1VaasX6hwe/ZGUucmFkaWNhbGx5LnBybw==
+      path: /tr5ZMBGoDfDbXf1Auw/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1398,11 +1398,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gamEs-FUlLG1.Pages.DeV
+    sni: gaMeS-FULLG1.PAges.Dev
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trcXEiVp8c7xbcF8D7/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trVs8HpzZCvqOgHN3y/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1414,11 +1414,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: GaMES-Fullg1.pagES.dev
+    sni: GaMeS-fuLlg1.pageS.Dev
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trVq4zC5Vzh6FBboGS/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trOl4eJSDBM3zhMJ9Z/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1430,11 +1430,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: GaMes-FULlG1.PAges.deV
+    sni: gAMeS-fullG1.pAgEs.DeV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trEW9Dr3joYLlLsG7S/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trs5K75hghWCvLNWaX/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1446,11 +1446,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gamES-fUlLg1.pAgeS.DEV
+    sni: GAmes-fullg1.pages.DEv
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trUrIFD1MYNksOwECV/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trPsKbwlb9z55HyBdm/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1462,11 +1462,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: GaMeS-FUlLG1.PAgeS.DeV
+    sni: gamEs-fUllG1.paGes.dev
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /tra7Q2PZgTaGrhJfUD/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trrmAZBqRrY3FOI33d/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1478,11 +1478,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gameS-fULlg1.PAGes.deV
+    sni: GaMeS-FULLg1.pAges.DEv
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /tr4eRbKFebifwJPFKG/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trWGuhyCOzyfHmhVXk/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1494,11 +1494,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: GaMES-FUllG1.PageS.deV
+    sni: GaMeS-Fullg1.PAgEs.DEV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trRBhorP0tHNfqNyv6/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trmr6U0IH6zkbVSvn2/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1510,11 +1510,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gamES-fUlLG1.PAgeS.DeV
+    sni: GameS-fullg1.PAgEs.dEV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trshI4oVBPzQaFfVej/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trd1jVV8um1smQwmzf/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1526,11 +1526,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gaMeS-fULLG1.PAgES.DEV
+    sni: Games-FULLG1.PAges.dev
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trsGmA5tNpYBF5c2CP/ZGUucmFkaWNhbGx5LnBybw==
+      path: /tri3LfadM9gZCVtiYV/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1542,11 +1542,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: GAmES-fUlLg1.paGEs.dEV
+    sni: GAmes-fulLg1.pAGES.dev
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trKvRFp5D9xBoeLnu8/ZGUucmFkaWNhbGx5LnBybw==
+      path: /traTTo1PV7LzYuwnXZ/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1554,15 +1554,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 25 - Trojan - IPv4 : 2053"
     port: 2053
-    server: 172.66.44.210
+    server: 188.114.97.3
     type: trojan
     network: ws
     udp: true
-    sni: gAMes-fULlG1.pAGeS.deV
+    sni: gAmEs-fulLG1.PAGes.dev
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trTcbdSgguGo86UskR/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trgJ3kuo6Tu8MU8TCL/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1570,15 +1570,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 26 - Trojan - IPv4 : 2053"
     port: 2053
-    server: 172.66.47.46
+    server: 188.114.96.3
     type: trojan
     network: ws
     udp: true
-    sni: GamEs-FuLLG1.pageS.dev
+    sni: GaMEs-fulLG1.PAGes.DEv
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trmXBsY0U0iJpWzXVu/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trGQcAMPMlMuj7ORQf/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1586,15 +1586,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 27 - Trojan - IPv6 : 2053"
     port: 2053
-    server: "[2606:4700:310c::ac42:2cd2]"
+    server: "[2a06:98c1:3120::3]"
     type: trojan
     network: ws
     udp: true
-    sni: gAMes-FUllg1.PAGEs.dev
+    sni: gameS-FuLLG1.PaGeS.DEv
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trldcnYAyyCT1GTERb/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trxmiz0Ro4yyks6biS/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1602,15 +1602,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 28 - Trojan - IPv6 : 2053"
     port: 2053
-    server: "[2606:4700:310c::ac42:2f2e]"
+    server: "[2a06:98c1:3121::3]"
     type: trojan
     network: ws
     udp: true
-    sni: GAmeS-fulLg1.paGes.DeV
+    sni: gAmES-fuLLg1.pAGes.deV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trjSEUwV44hbIX2Pb8/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trvd4E3sX56bjXs5fz/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1622,11 +1622,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: GAmes-fULLg1.pAGEs.dev
+    sni: gaMES-FULLG1.PagEs.deV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /tr0LsAGjXegHiLgrhq/ZGUucmFkaWNhbGx5LnBybw==
+      path: /tr0tD6uo8OOg9T6Nsy/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1638,11 +1638,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gamEs-fULlG1.pAGes.DEV
+    sni: Games-FUllg1.PAgEs.DEV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trGrxmBR3Sw8cWkb0E/ZGUucmFkaWNhbGx5LnBybw==
+      path: /tr9erAeM0PYgQfSZ5J/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1654,11 +1654,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gaMES-FUlLg1.paGES.DeV
+    sni: GAmEs-fuLLG1.pAgEs.dev
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trMMXb3roS71F83Fd5/ZGUucmFkaWNhbGx5LnBybw==
+      path: /tryI8k2t0PmwI4rF4X/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1670,11 +1670,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: Games-FuLlG1.PAgEs.Dev
+    sni: GaMes-fuLlg1.PAGES.dev
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trbhMuokOsceZN70Pg/ZGUucmFkaWNhbGx5LnBybw==
+      path: /tr4TOZrQEj1BJwKQgQ/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1686,11 +1686,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: GamES-fulLg1.PageS.DEV
+    sni: GAmEs-fUlLG1.pagEs.Dev
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trbsNi5z5S4s6FPfbk/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trsqK0EY356A3QgDqe/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1702,11 +1702,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gAMeS-fULlg1.Pages.dEV
+    sni: gaMeS-fUllg1.PAgeS.dev
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trEckAs6W3T7RoIXED/ZGUucmFkaWNhbGx5LnBybw==
+      path: /tr9yS7YzJqpFeHRBoh/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1718,11 +1718,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gAMeS-FuLLG1.PaGES.deV
+    sni: gaMes-fulLG1.pageS.dEv
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trEjLKeRns4XwZYA00/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trMhnya8yop1i0tNQH/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1734,11 +1734,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: GaMEs-fULLg1.PAgES.dEv
+    sni: gAmeS-fuLLg1.pAgES.dev
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trhpAC1FCyjmFvqD71/ZGUucmFkaWNhbGx5LnBybw==
+      path: /tr09Vmogqv3m4KdSBO/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1750,11 +1750,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: GAMes-fuLLG1.PAges.DeV
+    sni: gameS-FulLg1.PAges.DEv
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trI50ct3Uq8JhDkwKF/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trTTg2wK4PfCnOlkQK/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1766,11 +1766,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: GaMES-fULlg1.pageS.dEV
+    sni: gAMes-FuLlg1.PaGES.Dev
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trvtxK7rKFndL9HhOC/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trNkjiKqyDNXGm7zD9/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1782,11 +1782,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gAMEs-fullG1.PaGEs.DeV
+    sni: GAMes-FULlG1.pageS.DEv
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trQci9ci7ii1ysb1GE/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trtMNs5spQi5el6WYl/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1798,11 +1798,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gaMEs-fullG1.paGeS.Dev
+    sni: gAmEs-FULlG1.pages.DEv
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trx750GYir5BCwb2Mo/ZGUucmFkaWNhbGx5LnBybw==
+      path: /tr07fTD5JilGirJdLA/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1814,11 +1814,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: GaMeS-FULLg1.pAGeS.dEv
+    sni: GaMeS-fuLLg1.pAGes.dev
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trxRkxENttND9yQoyi/ZGUucmFkaWNhbGx5LnBybw==
+      path: /tr5ysASOxsg6LV6JUO/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1830,11 +1830,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gAMes-FuLLG1.Pages.dEV
+    sni: GameS-Fullg1.pAges.DEV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trQoT1f2kyhQFSOrIt/ZGUucmFkaWNhbGx5LnBybw==
+      path: /tr1NLbBUOwBJTbbps7/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1846,11 +1846,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: Games-fuLlg1.PAgEs.DEV
+    sni: GAMeS-FullG1.paGes.dEV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trvLHKOd0GRhnmbfsE/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trHR2yxCBeUONfvbty/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1862,11 +1862,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gAMeS-fUlLg1.PAGeS.dEV
+    sni: GaMes-FuLLG1.pageS.deV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trVSPVELNjx1Tf1DaX/ZGUucmFkaWNhbGx5LnBybw==
+      path: /tr0LiiK22qhnEKQ4gO/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1878,11 +1878,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: GAmEs-fULlG1.pagES.dEv
+    sni: gaMeS-fUllG1.PaGeS.Dev
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trPXL39AjL9Au4esA5/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trWzewi8kH7jrzQSyq/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1894,11 +1894,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: GaMeS-fUlLg1.PAgEs.DeV
+    sni: gaMes-fULlG1.PAgES.dEV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trmn71WftybIUQ9XQr/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trfJDSlCqCFA2i6TJE/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1906,15 +1906,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 47 - Trojan - IPv4 : 2087"
     port: 2087
-    server: 172.66.44.210
+    server: 188.114.97.3
     type: trojan
     network: ws
     udp: true
-    sni: gaMES-fullg1.PAGES.deV
+    sni: gAMeS-FULLG1.PAgEs.DeV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trMp0OSdWxDvP4pp6c/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trP6jgGUs2WlcWIwG3/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1922,15 +1922,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 48 - Trojan - IPv4 : 2087"
     port: 2087
-    server: 172.66.47.46
+    server: 188.114.96.3
     type: trojan
     network: ws
     udp: true
-    sni: Games-FuLLg1.PAgES.dEV
+    sni: gAMEs-FuLLG1.pAges.DeV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /tr76ls84oJSoj1bWO9/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trc0O0033yeLEndFKv/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1938,15 +1938,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 49 - Trojan - IPv6 : 2087"
     port: 2087
-    server: "[2606:4700:310c::ac42:2cd2]"
+    server: "[2a06:98c1:3120::3]"
     type: trojan
     network: ws
     udp: true
-    sni: GamEs-FulLG1.PAgES.DEV
+    sni: GAmes-fulLg1.paGes.Dev
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trPY5k92WJr8abMyLx/ZGUucmFkaWNhbGx5LnBybw==
+      path: /tr1c8vVYGRFoY6X43t/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1954,15 +1954,15 @@ proxies:
     client-fingerprint: randomized
   - name: "💦 50 - Trojan - IPv6 : 2087"
     port: 2087
-    server: "[2606:4700:310c::ac42:2f2e]"
+    server: "[2a06:98c1:3121::3]"
     type: trojan
     network: ws
     udp: true
-    sni: GAmes-fuLLg1.pAGes.DEV
+    sni: GaMeS-FuLlG1.pAGes.DeV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trNvxi9iUn41CJrNWS/ZGUucmFkaWNhbGx5LnBybw==
+      path: /tr12hdS3IGKrllNoCa/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1974,11 +1974,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: GAMEs-FulLG1.PaGEs.dEv
+    sni: gaMeS-fulLG1.pagES.Dev
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trmk86Ecj4yXhIO7ir/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trA14aefTCFM52gtHs/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -1990,11 +1990,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: GamEs-FUlLg1.PAGES.Dev
+    sni: gAMEs-fuLLg1.pagES.dEV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /tr6wriwySTlk9MHcdo/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trrl9fzZSKTXxJBPRm/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -2006,11 +2006,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: Games-fulLg1.pAgEs.DEV
+    sni: gAmeS-Fullg1.PAGeS.DEv
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trCtc2UmIdKNeX8lZK/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trXITBDCO78rjZJaqm/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -2022,11 +2022,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: GAMeS-fuLlg1.PAGES.Dev
+    sni: GameS-FulLG1.pAgeS.DEV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trbuROx3CEsuUEg342/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trHreUiy8Q4tB3T2mK/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -2038,11 +2038,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gaMes-fULlG1.PaGeS.deV
+    sni: GaMEs-FUllg1.paGes.dEV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trBMlkCbzBIzWpl2pT/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trZEBizU9X5yA3Hlvd/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -2054,11 +2054,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: Games-FulLg1.PageS.Dev
+    sni: GaMEs-fulLg1.pages.dEv
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /tr6YnioWobhVC7W5AR/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trz8UUqwNqZstLoRx2/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -2070,11 +2070,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gaMEs-fULLG1.pAges.deV
+    sni: gAMes-FullG1.PAGeS.DEV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trq7Xb9IgSOyLXQvUo/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trHJDpznm8eKQwS4x8/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -2086,11 +2086,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gAMES-FUllG1.PAgeS.deV
+    sni: GAmes-fUllG1.paGeS.DEv
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trICMaV9cnOsm3SLHv/ZGUucmFkaWNhbGx5LnBybw==
+      path: /tr8gdq2WFtEFEgloit/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -2102,11 +2102,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: GAmes-FulLG1.pAges.DEV
+    sni: GaMEs-fULlG1.pageS.DEV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trZrC8TxSsxwNquTY5/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trxRoWo6GeJ9fDLjrT/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -2118,11 +2118,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: Games-fullg1.pAGeS.DEV
+    sni: GAMEs-fULLG1.pAgEs.Dev
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trYwS5Uodp5QL9g8MT/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trdb8lQvROorbnG3c2/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -2134,11 +2134,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gAmEs-fUllg1.PageS.DEV
+    sni: gAMEs-FULLg1.pAGeS.dEv
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /tredWdUZpTJxgEhKx5/ZGUucmFkaWNhbGx5LnBybw==
+      path: /tr6jEooNNybosplvBm/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -2150,11 +2150,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gAMes-FULlG1.PaGEs.dEv
+    sni: gaMeS-fulLG1.PaGeS.deV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trDnTmiuhtHPVPU95m/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trrZcgBHVfrCMziBTX/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -2166,11 +2166,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: GAMEs-FULlG1.PAGES.DEv
+    sni: gAMEs-fullG1.PaGEs.dEV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /truwpMs6djti8XlJHX/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trWWt4BaMtwybZjor3/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -2182,11 +2182,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gAmES-FuLLG1.PaGES.DEv
+    sni: Games-fuLlg1.pAGEs.dEV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trptH5vl2MnUsngSev/ZGUucmFkaWNhbGx5LnBybw==
+      path: /tr18FwWGIjhhIIMPja/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -2198,11 +2198,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gameS-FUllG1.PagES.dEv
+    sni: GAmes-fUlLG1.PAGes.DeV
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trZyr9wncp5NH6NrKu/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trQtxe33sG2xpdvjeX/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:
@@ -2214,11 +2214,11 @@ proxies:
     type: trojan
     network: ws
     udp: true
-    sni: gAmES-fULLg1.pAGes.deV
+    sni: gAMeS-FUlLG1.paGES.dev
     password: h123456h
     skip-cert-verify: false
     ws-opts:
-      path: /trgVjhhfnLj1RXN3SE/ZGUucmFkaWNhbGx5LnBybw==
+      path: /trBJmhwRGln3oDMmD9/ZGUucmFkaWNhbGx5LnBybw==
       headers:
         host: games-fullg1.pages.dev
     alpn:

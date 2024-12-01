@@ -46,349 +46,638 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: defaultName_1
-    port: 2095
-    server: 185.146.173.185
-    type: vless
-    network: httpupgrade
-    udp: true
-    uuid: fce9ae11-0fd2-4989-b1d5-c6e1e1d5e2fd
-  - name: defaultName_2
+  - name: Telegram+:+@tv2rayrr🐎_1
     port: 80
-    server: 162.19.228.119
+    server: 52.32.21.48
     type: vless
-    network: ws
+    network: tcp
     udp: true
-    uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
-  - name: defaultName_3
-    port: 8880
-    server: "2a06:98c1:3123::"
-    type: vless
-    network: ws
-    udp: true
-    uuid: Bos
-  - name: defaultName_4
-    port: 443
-    server: 45.63.117.50
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: cpanel3.sassanidempire.com
     skip-cert-verify: true
-    ws-opts:
-      path: /ws
-      headers:
-        host: cpanel3.sassanidempire.com
-    alpn:
-      - http/1.1
-    uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
-    client-fingerprint: chrome
-  - name: defaultName_5
+    uuid: 8ad9fe06-8104-4cb2-e436-3318dd6628ad
+  - name: Telegram+:+@tv2rayrr🐎_2
     port: 80
-    server: 151.101.3.8
+    server: 52.43.13.178
     type: vless
-    network: ws
+    network: tcp
     udp: true
-    uuid: telegram-id-ArV2ray
-  - name: defaultName_6
+    skip-cert-verify: true
+    uuid: 8ad9fe06-8104-4cb2-e436-3318dd6628ad
+  - name: Telegram+:+@tv2rayrr🐎_3
     port: 80
-    server: 151.101.3.8
+    server: 44.235.79.52
     type: vless
-    network: ws
+    network: tcp
     udp: true
-    uuid: telegram-id-ArV2ray
-  - name: defaultName_7
-    port: 2096
-    server: 147.45.51.16
-    type: vless
-    network: grpc
-    udp: true
-    servername: dash.cloudflare.com
     skip-cert-verify: true
-    grpc-opts: {}
-    reality-opts:
-      public-key: c3R5_lORnQd1X3A2E0ulHJn396G2X_ZYIs66ldEVQWI
-      short-id: 28f58957
-    uuid: 16747acc-95c8-44ba-9b66-3d8a0c035347
-    client-fingerprint: firefox
-  - name: defaultName_8
-    port: 443
-    server: 45.63.117.50
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: cpanel3.sassanidempire.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /ws
-      headers:
-        host: cpanel3.sassanidempire.com
-    alpn:
-      - http/1.1
-    uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
-  - name: defaultName_9
-    port: 2060
-    server: 185.247.184.147
-    type: vless
-    network: grpc
-    udp: true
-    servername: dash.cloudflare.com
-    skip-cert-verify: true
-    grpc-opts: {}
-    reality-opts:
-      public-key: 1k5jM49Bx5DEAfS5Vpqz93t2XOXk-kwXl0V5Q9jn_WY
-      short-id: f77e5398
-    alpn:
-      - h2,http/1.1
-    uuid: 4a60a8e0-b51d-41ae-8500-1b0b6724c6e6
-    client-fingerprint: chrome
-  - name: defaultName_10
+    uuid: 8ad9fe06-8104-4cb2-e436-3318dd6628ad
+  - name: Telegram+:+@tv2rayrr🐎_4
     port: 80
-    server: 151.101.3.8
+    server: 54.149.65.113
     type: vless
-    network: ws
+    network: tcp
     udp: true
-    uuid: telegram-id-ArV2ray
-  - name: defaultName_11
+    skip-cert-verify: true
+    uuid: 8ad9fe06-8104-4cb2-e436-3318dd6628ad
+  - name: Telegram+:+@tv2rayrr🐎_5
+    port: 80
+    server: 52.27.173.10
+    type: vless
+    network: tcp
+    udp: true
+    skip-cert-verify: true
+    uuid: 8ad9fe06-8104-4cb2-e436-3318dd6628ad
+  - name: Telegram+:+@tv2rayrr🐎_6
     port: 2052
-    server: 104.17.148.22
+    server: ns.cloudflare.com
     type: vless
-    network: ws
+    network: httpupgrade
     udp: true
     skip-cert-verify: true
-    ws-opts:
-      path: /telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=2052
-      headers:
-        host: www.speedtest.net.B.5.dnschecker.Tech.
-    uuid: telegram-id-ArV2ray
-  - name: defaultName_12
+    uuid: 98c16832-eded-4ebf-ab47-5729ef974b77
+  - name: Telegram+:+@tv2rayrr🐎_7
     port: 443
-    server: 151.101.2.133
+    server: purina.rs
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: mio.splashthat.com
+    servername: purina.rs
     skip-cert-verify: true
     ws-opts:
-      path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=2048
+      path: ws/community/gr?ed=2048
       headers:
-        host: barkatc2.ir
-    uuid: ea52c459-86ac-4707-8062-564ca031ae43
-  - name: defaultName_13
+        host: ammar.ir
+    alpn:
+      - h2,http/1.1
+    uuid: e84e5d0-f69c-454a-a61b-bceae745e14f
+    client-fingerprint: chrome
+  - name: Telegram+:+@tv2rayrr🐎_8
     port: 443
-    server: 146.75.118.133
+    server: live.wkrq.com
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: live.989bull.com
+    servername: live.wkrq.com
     skip-cert-verify: true
     ws-opts:
-      path: /@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam?ed=443
+      path: ws/?ed=2048
       headers:
-        host: Savteam.CI
+        host: hvcr4d5767yhub.com
+    uuid: 2647ef9-e7b2-45ce-b70a-145a550a8759
+  - name: Telegram+:+@tv2rayrr🐎_9
+    port: 443
+    server: fr5-speedtest.tools.gcore.com
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gcore.lu
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: 9.gcr.dns04.com
+    uuid: f200126-5865-4980-b6dd-2211dbaadf10
+    client-fingerprint: chrome
+  - name: Telegram+:+@tv2rayrr🐎_10
+    port: 8443
+    server: 172.66.46.224
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: trojanyu.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram@V2ray_Alpha/?ed=2560
+      headers:
+        host: trojanyu.pages.dev
     alpn:
       - http/1.1
-    uuid: SAVTEAM14
-    client-fingerprint: chrome
-  - name: defaultName_14
+    uuid: 1a1ef5f-97b8-4a4e-910d-6415441b371a
+    client-fingerprint: randomized
+  - name: Telegram+:+@tv2rayrr🐎_11
     port: 443
-    server: 89.187.169.71
-    type: vless
-    network: tcp
-    tls: true
-    udp: true
-    servername: www.cloudflare.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: B5i03yc1WUTOQD8v_N0UrCUaR4AgMJ40rEl8tXUJY0g
-      short-id: 01b200e90e250221
-    uuid: 6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: defaultName_15
-    port: 443
-    server: 151.101.130.228
+    server: 172.66.46.224
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: hajlab.ucdavis.edu
+    servername: trojanyu.pages.dev
     skip-cert-verify: true
     ws-opts:
-      path: "@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--\
-        @Maznet--@MAZNET?ed=2560"
+      path: /TELEGRAM-MARAMBASHI_MARAMBASHI/?ed=2560
       headers:
-        host: loye.ir
-    uuid: dac2e369-da14-496a-87ce-eee67acfdecf
-  - name: defaultName_16
-    port: 443
-    server: 45.63.117.50
+        host: trojanyu.pages.dev
+    alpn:
+      - http/1.1
+    uuid: 1a1ef5f-97b8-4a4e-910d-6415441b371a
+    client-fingerprint: randomized
+  - name: Telegram+:+@tv2rayrr🐎_12
+    port: 90
+    server: svnteam-joinchannel.misvn.ir
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam?ed=2048
+      headers:
+        host: Svnteam.SvnTeam.SvnTeam.First.ir
+    uuid: SVNTEA
+  - name: "Telegram+:+@tv2rayrr🐎v2ray:"
+    port: 8443
+    server: 172.66.46.224
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: cpanel3.sassanidempire.com
+    servername: trojanyu.pages.dev
     skip-cert-verify: true
     ws-opts:
-      path: /ws
+      path: /?ed=2560
       headers:
-        host: cpanel3.sassanidempire.com
-    uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
-    client-fingerprint: chrome
-  - name: defaultName_17
-    port: 38971
-    server: 2a01:4f8:c17:1cd7::1
-    type: vless
-    network: tcp
-    udp: true
-    uuid: TELEGRAM-ServerNett
-  - name: defaultName_18
-    port: 35321
-    server: 2a01:4f9:c011:337b::1
-    type: vless
-    network: tcp
-    udp: true
-    uuid: d5cad95d-821d-4557-a758-6a985b85a08c
-  - name: defaultName_19
+        host: trojanyu.pages.dev
+    alpn:
+      - http/1.1
+    uuid: 1aeff5f-97b8-4a4e-910d-6415441b371a
+    client-fingerprint: randomized
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_1
     port: 8880
-    server: "2a06:98c1:3123::"
+    server: zula.ir
     type: vless
-    network: ws
+    network: httpupgrade
     udp: true
-    uuid: Bos
-  - name: defaultName_20
+    skip-cert-verify: true
+    uuid: e952fc48-1f3d-47b4-b7bf-1149e0b4dbe6
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_2
+    port: 8880
+    server: 104.17.207.36
+    type: vless
+    network: httpupgrade
+    udp: true
+    skip-cert-verify: true
+    uuid: e952fc48-1f3d-47b4-b7bf-1149e0b4dbe6
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_3
+    port: 8880
+    server: 172.66.47.146
+    type: vless
+    network: httpupgrade
+    udp: true
+    skip-cert-verify: true
+    uuid: e952fc48-1f3d-47b4-b7bf-1149e0b4dbe6
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_4
     port: 80
-    server: 151.101.128.155
+    server: 172.66.47.146
     type: vless
     network: ws
     udp: true
-    uuid: 43e585a6-4369-4502-c459-ac933f70c495
-  - name: defaultName_21
+    skip-cert-verify: true
+    ws-opts:
+      path: /@Daily_Cofnigs,@Daily_Cofnigs,@Daily_Cofnigs?ed=2560
+      headers:
+        host: www.speedtest.net.soft98.ir.nobitex.com.vigilantecollection.com
+    uuid: 6d62f776-5985-4d5f-8799-9f95c5e375cd
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_5
+    port: 80
+    server: 104.17.97.5
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /@Daily_Cofnigs,@Daily_Cofnigs,@Daily_Cofnigs?ed=2560
+      headers:
+        host: www.speedtest.net.soft98.ir.nobitex.com.vigilantecollection.com
+    uuid: 6d62f776-5985-4d5f-8799-9f95c5e375cd
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_6
+    port: 80
+    server: www.speedtest.net
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /@Daily_Cofnigs,@Daily_Cofnigs,@Daily_Cofnigs?ed=2560
+      headers:
+        host: www.speedtest.net.soft98.ir.nobitex.com.vigilantecollection.com
+    uuid: 6d62f776-5985-4d5f-8799-9f95c5e375cd
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_7
     port: 443
-    server: 2a05:541:124:19::1
+    server: 140.248.170.223
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: bia-daily-configs.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /@Daily_Configs,@Daily_Configs,@Daily_Configs
+      headers:
+        host: bia-daily-configs.com
+    alpn:
+      - h3,h2
+    uuid: 93e69143-c1db-446f-a07c-c49642924fdc
+    client-fingerprint: random
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_8
+    port: 80
+    server: 151.101.3.8
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /@Daily_Configs,@Daily_Configs,@Daily_Configs
+      headers:
+        host: bia-daily-configs.com
+    uuid: 93e69143-c1db-446f-a07c-c49642924fdc
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_9
+    port: 443
+    server: 199.232.79.51
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ELiV2-0.COM
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: ELiV2-0.COM
+    uuid: 8cecedef-f088-5419-913d-c4c8b24c651d
+    client-fingerprint: qq
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_10
+    port: 80
+    server: 199.232.79.51
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: ELiV2-0.COM
+    uuid: 8cecedef-f088-5419-913d-c4c8b24c651d
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_11
+    port: 443
+    server: 199.232.79.51
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ELiV2-ELENA.COM
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: ELiV2-ELENA.COM
+    uuid: cfe1723e-887f-5184-a2de-3d23cc1ac09a
+    client-fingerprint: qq
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_12
+    port: 80
+    server: 140.248.139.207
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: ELiV2-ELENA.COM
+    uuid: cfe1723e-887f-5184-a2de-3d23cc1ac09a
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_13
+    port: 80
+    server: NUFiLTER.fastly80.hosting-ip.com
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048
+      headers:
+        host: api.nhl186.ir
+    uuid: TELEGRAM-NUFiLTER
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_14
+    port: 80
+    server: NUFiLTER.fastly80-3.hosting-ip.com
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048
+      headers:
+        host: api.nhl80.ir
+    uuid: TELEGRAM-NUFiLTER
+  - name: 🍋15@oneclickvpnkeys
+    port: 443
+    server: fr5-speedtest.tools.gcore.com
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gcore.lu
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: 9.gcr.dns04.com
+    uuid: f2004126-5865-4980-b6dd-2211dbaadf10
+    client-fingerprint: chrome
+  - name: 🍋14@oneclickvpnkeys
+    port: 11965
+    server: 59.29.116.20
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: global2.ccdd.site
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: global2.ccdd.site
+    uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6
+  - name: 🍋5@oneclickvpnkeys
+    port: 8080
+    server: 37.230.62.172
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: a.mifeng.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: a.mifeng.us.kg
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  - name: 🍋13@oneclickvpnkeys
+    port: 80
+    server: 185.146.173.58
+    type: vless
+    network: ws
+    udp: true
+    uuid: f151bde4-6981-4ad9-bd01-dd34ad792a3e
+  - name: 🍋6@oneclickvpnkeys
+    port: 443
+    server: 188.42.145.140
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: g1.youyuan.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?proxyip=proxyip.multacom.fxxk.dedyn.io
+      headers:
+        host: g1.youyuan.us.kg
+    uuid: f3fcb0be-c785-4791-bd88-335dd20f0c1e
+    client-fingerprint: chrome
+  - name: 🍋7@oneclickvpnkeys
+    port: 80
+    server: unlimiteddev.fastly80-3.hosting-ip.com
+    type: vless
+    network: ws
+    udp: true
+    uuid: 8b5cbe33-cc76-4fcf-eeb6-1ee544e767d2
+  - name: 🍋8@oneclickvpnkeys
+    port: 80
+    server: unlimiteddev.fastly80-2.hosting-ip.com
+    type: vless
+    network: ws
+    udp: true
+    uuid: 8b5cbe33-cc76-4fcf-eeb6-1ee544e767d2
+  - name: 🍋9@oneclickvpnkeys
+    port: 8080
+    server: 104.17.234.128
+    type: vless
+    network: ws
+    udp: true
+    uuid: ac954fc8-fdf6-4894-b01a-7ba7ec46f312
+  - name: 🍋11@oneclickvpnkeys
+    port: 443
+    server: 40.172.92.89
+    type: ss
+    udp: true
+    password: u17T3BvpYaaiuW2c
+    cipher: chacha20-ietf-poly1305
+  - name: 🍋10@oneclickvpnkeys
+    port: 443
+    server: 16.24.76.210
+    type: ss
+    udp: true
+    password: Bog0ELmMM9DSxDdQ
+    cipher: chacha20-ietf-poly1305
+  - name: 🍋12@oneclickvpnkeys
+    port: 24064
+    server: 150.241.68.171
+    type: ss
+    udp: true
+    password: LcEDAhRkNrjwB16SvN5d7fAmpswtGTAexB1qdzmeFrg=
+    cipher: chacha20-ietf-poly1305
+  - name: 🍋4@oneclickvpnkeys
+    port: 443
+    server: 212.102.53.198
+    type: ss
+    udp: true
+    password: shadowsocks
+    cipher: aes-128-gcm
+  - name: 🍋16@oneclickvpnkeys
+    port: 57263
+    server: 150.241.95.62
+    type: ss
+    udp: true
+    password: As=Qe0JVvH
+    cipher: chacha20-ietf-poly1305
+  - name: 🍋3@oneclickvpnkeys
+    port: 80
+    server: svnteam-joinchannel.misvn.ir
+    type: vless
+    network: ws
+    udp: true
+    uuid: SVNTEAM
+  - name: 🍋1@oneclickvpnkeys
+    port: 25543
+    server: 150.241.101.222
+    type: ss
+    udp: true
+    password: z97LYaTmlqXNLzSozfMfGu
+    cipher: chacha20-ietf-poly1305
+  - name: 🍋2@oneclickvpnkeys
+    port: 29742
+    server: 150.241.101.222
     type: vless
     network: tcp
-    tls: true
     udp: true
-    uuid: v2rayng__76
-  - name: defaultName_22
-    port: 33000
-    server: 2a0b:4140:659a:6::6
-    type: vless
-    network: grpc
-    udp: true
-    servername: www.speedtest.net
+    servername: google.com
     skip-cert-verify: true
-    grpc-opts: {}
     reality-opts:
-      public-key: JrN7nZEbUeBJFHTAKwtz5Dmd10SGgA8UCHEMLA2xOg0
-      short-id: be7f13dd
-    uuid: b106570b-6b5f-40c1-8081-03093fbe8fa5
+      public-key: fPtoPIDDJIW4pSY8TAFM0BKPA0ELOkX7ssc3i23SXlE
+      short-id: "75813316"
+    uuid: fb359e90-d32a-4a92-a625-2a2cc469bba4
+    flow: xtls-rprx-vision
+    client-fingerprint: random
+  - name: 🍎11@oneclickvpnkeys
+    port: 443
+    server: beyonddbc.sbs
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: beyonddbc.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /linkws
+      headers:
+        host: beyonddbc.sbs
+    cipher: auto
+    uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
+    alterId: 0
+  - name: 🍎10@oneclickvpnkeys
+    port: 21771
+    server: 150.241.102.95
+    type: ss
+    udp: true
+    password: yuvTE1Pkp9RlDUtm1JzfJn
+    cipher: chacha20-ietf-poly1305
+  - name: 🍎14@oneclickvpnkeys
+    port: 8080
+    server: 172.67.64.120
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+      headers:
+        host: 30218215898937032484083613431792.v2line.net
+    cipher: auto
+    uuid: b952c094-b477-4a5e-a4d7-b62d6d1675af
+    alterId: 0
+  - name: 🍒5@oneclickvpnkeys
+    port: 443
+    server: beyonddsz.cfd
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: beyonddsz.cfd
+    skip-cert-verify: true
+    ws-opts:
+      path: /linkws
+      headers:
+        host: beyonddsz.cfd
+    cipher: auto
+    uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+    alterId: 0
+  - name: ⚱️8@oneclickvpnkeys
+    port: 443
+    server: 45.135.235.111
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: fq521.6789.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: juzi
+      headers:
+        host: fq521.6789.cloudns.be
+    uuid: 775213ac-3976-439a-8977-3277c0e4735d
     client-fingerprint: chrome
-  - name: defaultName_23
+  - name: 🍓52@oneclickvpnkeys
     port: 443
-    server: "2a06:98c1:3123::"
+    server: 94.247.142.241
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: st-pl-1.brocdn.com
+    servername: fq521.6789.cloudns.be
     skip-cert-verify: true
     ws-opts:
-      path: /websocket
+      path: twitterfreecodessecurity=tls
       headers:
-        host: st-pl-1.brocdn.com
-    uuid: dd563276-d5f9-11ee-aaa8-00505603e70d
-  - name: defaultName_24
-    port: 443
-    server: 2a04:4e42:7d::740
+        host: fq521.6789.cloudns.be
+    uuid: 775213ac-3976-439a-8977-3277c0e4735d
+  - name: 🍉23@oneclickvpnkeys
+    port: 8443
+    server: 172.66.46.224
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: zmaoz.faculty.ucdavis.edu
+    servername: trojanyu.pages.dev
     skip-cert-verify: true
     ws-opts:
-      path: /@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
+      path: /?ed=2560
       headers:
-        host: gisheh7.ir
-    uuid: tel--ZEDMODEON
-  - name: defaultName_25
+        host: trojanyu.pages.dev
+    alpn:
+      - http/1.1
+    uuid: 1a1eff5f-97b8-4a4e-910d-6415441b371a
+    client-fingerprint: randomized
+  - name: 🍉22@oneclickvpnkeys
+    port: 80
+    server: 5.75.202.205
+    type: vless
+    network: ws
+    udp: true
+    uuid: a35017af-d228-44bd-885c-e5951ce09df6
+  - name: 🍉88@oneclickvpnkeys
     port: 443
-    server: 2a04:4e42:7d::740
+    server: 172.66.46.224
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: zmaoz.faculty.ucdavis.edu
+    servername: trojanyu.pages.dev
     skip-cert-verify: true
     ws-opts:
-      path: /@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
+      path: /TELEGRAM-MARAMBASHI_MARAMBASHI/?ed=2560
       headers:
-        host: snappshop.ir
-    uuid: tel--ZEDMODEON
+        host: trojanyu.pages.dev
+    alpn:
+      - http/1.1
+    uuid: 1a1eff5f-97b8-4a4e-910d-6415441b371a
+    client-fingerprint: randomized
+  - name: 🍎38@oneclickvpnkeys
+    port: 433
+    server: 77.73.67.216
+    type: vless
+    network: tcp
+    udp: true
+    servername: spb.hola-git.ru
+    skip-cert-verify: true
+    reality-opts:
+      public-key: LI5VU2h1LyAVbB-kDvCFDMmS7cRRUKQR8CxSRYt-LWM
+      short-id: 822c85ff
+    uuid: yZWfBW0ouFrbTIkZcsAH
+    flow: xtls-rprx-vision
+    client-fingerprint: random
+  - name: 🍎29@oneclickvpnkeys
+    port: 443
+    server: 23.150.248.153
+    type: trojan
+    network: ws
+    udp: true
+    sni: jobscareerforstudent.com
+    password: 984e400bf5d541b7b0815913fe0c432a
+    skip-cert-verify: true
+    ws-opts:
+      path: /6b777a91
+      headers:
+        host: jobscareerforstudent.com
+    alpn:
+      - http/1.1
     client-fingerprint: chrome
-  - name: defaultName_26
-    port: 443
-    server: 2a04:4e42:7d::645
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: ergwork.web.unc.edu
-    skip-cert-verify: true
-    ws-opts:
-      path: /@ZEDMODEON-ZEDMODEON@ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
-      headers:
-        host: snapp.taxi
-    uuid: Join--ZEDMODEON
-  - name: defaultName_27
-    port: 443
-    server: 104.26.11.137
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: st-fr-1.brocdn.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /websocket
-      headers:
-        host: st-fr-1.brocdn.com
-    uuid: e2b0ddf8-dcbc-11ee-b67b-00505603e70d
-  - name: defaultName_28
-    port: 443
-    server: 2a04:4e42:7d::645
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: ergwork.web.unc.edu
-    skip-cert-verify: true
-    ws-opts:
-      path: /@ZEDMODEON-ZEDMODEON@ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
-      headers:
-        host: snapp.taxi
-    uuid: Join--ZEDMODEON
-  - name: defaultName_29
-    port: 443
-    server: 2a04:4e42:400::645
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: connectcarolina.sites.unc.edu
-    skip-cert-verify: true
-    ws-opts:
-      path: /@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
-      headers:
-        host: tapsi.shop
-    uuid: tel--ZEDMODEON
-  - name: defaultName_30
+  - name: 🍎44@oneclickvpnkeys
     port: 2060
     server: 185.247.184.147
     type: vless
@@ -404,898 +693,41 @@ proxies:
       - h2,http/1.1
     uuid: 4a60a8e0-b51d-41ae-8500-1b0b6724c6e6
     client-fingerprint: chrome
-  - name: defaultName_31
-    port: 2053
-    server: 40.160.11.136
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: test.mrkian.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /Gcore.com?ed=443
-    uuid: 0e921714-b28c-4ffd-a371-eb486bc5a1ce
-  - name: defaultName_32
-    port: 4009
-    server: 185.119.240.34
-    type: vless
-    network: tcp
-    udp: true
-    uuid: c97861ff-0b79-44df-9019-6f8b5dd796ee
-  - name: defaultName_33
-    port: 8443
-    server: 20.151.63.165
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_34
+  - name: 🍎77@oneclickvpnkeys
     port: 443
-    server: 151.101.130.228
-    type: vless
+    server: 45.145.167.103
+    type: vmess
     network: ws
     tls: true
     udp: true
-    servername: hajlab.ucdavis.edu
+    version: "2"
+    servername: indiavideo.sbs
     skip-cert-verify: true
     ws-opts:
-      path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
+      path: /linkws
       headers:
-        host: joinshhproxybedeeeee.ir
-    uuid: f65869de-5d70-4267-ac2b-87a278d0c8be
-  - name: defaultName_35
-    port: 80
-    server: 151.101.194.219
-    type: vless
-    network: ws
-    udp: true
-    uuid: b44d981a-0ecb-43db-8eb6-2f7001aeb2d4
-  - name: defaultName_36
-    port: 4009
-    server: 185.119.240.240
-    type: vless
-    network: tcp
-    udp: true
-    uuid: c97861ff-0b79-44df-9019-6f8b5dd796ee
-  - name: defaultName_37
-    port: 8080
-    server: 104.18.23.19
-    type: vless
-    network: ws
-    udp: true
-    uuid: 520061ab-e8e3-4325-9272-8e3583094964
-  - name: defaultName_38
+        host: indiavideo.sbs
+    cipher: auto
+    uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162
+    alterId: 0
+  - name: 🍎78@oneclickvpnkeys
     port: 443
-    server: 104.26.10.137
-    type: vless
+    server: indiavideo.sbs
+    type: vmess
     network: ws
     tls: true
     udp: true
-    servername: st-fr-1.brocdn.com
+    version: "2"
+    servername: indiavideo.sbs
     skip-cert-verify: true
     ws-opts:
-      path: /websocket
+      path: /linkws
       headers:
-        host: st-fr-1.brocdn.com
-    uuid: 3894cbc1-e06a-11ee-95c9-00505603e70d
-  - name: defaultName_39
-    port: 4001
-    server: 89.47.197.123
-    type: vless
-    network: tcp
-    udp: true
-    uuid: 93c02d6d-e210-43bb-90ee-91784b889d0e
-  - name: defaultName_40
-    port: 8080
-    server: 172.67.69.236
-    type: vless
-    network: httpupgrade
-    udp: true
-    uuid: 3cff1332-9020-4a58-8dbf-3ff31bd271a4
-  - name: defaultName_41
-    port: 80
-    server: 162.19.228.119
-    type: vless
-    network: ws
-    udp: true
-    uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
-  - name: defaultName_42
-    port: 1620
-    server: 188.245.163.79
-    type: vless
-    network: tcp
-    udp: true
-    servername: wwww.refersion.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
-      short-id: 3a622700e73c6642
-    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: defaultName_43
-    port: 1616
-    server: 188.245.163.79
-    type: vless
-    network: tcp
-    udp: true
-    servername: refersion.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
-      short-id: 3a622700e73c6642
-    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: defaultName_44
-    port: 45948
-    server: 49.12.232.18
-    type: vless
-    network: tcp
-    udp: true
-    servername: microsoft.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: 6uXONnLC5qft2TiBpMDRcBLVE8C0_gNlDCf00r0U_QI
-      short-id: e9db424f
-    uuid: a1f048d5-55eb-4f1b-99ff-8b6d4fa38512
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-  - name: defaultName_45
-    port: 2095
-    server: 185.146.173.185
-    type: vless
-    network: httpupgrade
-    udp: true
-    uuid: fce9ae11-0fd2-4989-b1d5-c6e1e1d5e2fd
-  - name: defaultName_46
-    port: 46951
-    server: 49.12.232.18
-    type: vless
-    network: grpc
-    udp: true
-    servername: microsoft.com
-    skip-cert-verify: true
-    grpc-opts: {}
-    reality-opts:
-      public-key: rQYwLzPwYJblfCzt58-6YXpWgPYauFACkMNsFc_4A3c
-      short-id: ffd6166f
-    uuid: 92ff8e9c-cd7c-4e44-bdf5-734b3153a096
-    client-fingerprint: firefox
-  - name: defaultName_47
-    port: 4009
-    server: 185.119.240.34
-    type: vless
-    network: tcp
-    udp: true
-    uuid: c97861ff-0b79-44df-9019-6f8b5dd796ee
-  - name: defaultName_48
-    port: 8080
-    server: 104.18.23.19
-    type: vless
-    network: ws
-    udp: true
-    uuid: 520061ab-e8e3-4325-9272-8e3583094964
-  - name: defaultName_49
-    port: 443
-    server: 45.63.117.50
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: cpanel3.sassanidempire.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /ws
-      headers:
-        host: cpanel3.sassanidempire.com
-    alpn:
-      - http/1.1
-    uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
-  - name: defaultName_50
-    port: 8443
-    server: 20.151.63.165
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_51
-    port: 80
-    server: 92.38.145.145
-    type: vless
-    network: httpupgrade
-    udp: true
-    uuid: 3e91d67b-44c8-40bd-9479-748f85e3f20c
-  - name: defaultName_52
-    port: 17534
-    server: 1.168.172.13
-    type: vless
-    network: tcp
-    udp: true
-    servername: icloud.cdn-apple.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: 9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc
-    uuid: 8392b0ac-b196-4529-ea35-b9111eed41c5
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: defaultName_53
-    port: 443
-    server: 172.67.73.241
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: st-fr-1.brocdn.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /websocket
-      headers:
-        host: st-fr-1.brocdn.com
-    uuid: 3894cbc1-e06a-11ee-95c9-00505603e70d
-  - name: defaultName_54
-    port: 4009
-    server: 185.119.240.240
-    type: vless
-    network: tcp
-    udp: true
-    uuid: c97861ff-0b79-44df-9019-6f8b5dd796ee
-  - name: defaultName_55
-    port: 8888
-    server: 2a01:4f8:1c1b:26eb::1
-    type: vless
-    network: tcp
-    udp: true
-    uuid: Parsashonam-116
-  - name: defaultName_56
-    port: 80
-    server: arv2ry.fastly80.hosting-ip.com
-    type: vless
-    network: ws
-    udp: true
-    uuid: telegram-id-ArV2ray
-  - name: defaultName_57
-    port: 8443
-    server: 137.116.91.147
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_58
-    port: 8443
-    server: 20.228.249.211
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_59
-    port: 8443
-    server: 4.239.248.70
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_60
-    port: 8443
-    server: 40.123.47.252
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_61
-    port: 2053
-    server: 20.228.249.211
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_62
-    port: 443
-    server: 4.152.146.92
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_63
-    port: 8443
-    server: 40.123.41.147
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_64
-    port: 8443
-    server: 20.151.60.161
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_65
-    port: 8443
-    server: 4.172.225.98
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_66
-    port: 8443
-    server: 40.123.47.252
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_67
-    port: 8443
-    server: 20.228.249.211
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_68
-    port: 443
-    server: 20.246.127.166
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_69
-    port: 8443
-    server: 4.172.225.82
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_70
-    port: 8443
-    server: 20.151.90.208
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_71
-    port: 8443
-    server: 40.123.47.225
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_72
-    port: 8443
-    server: 20.151.238.192
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_73
-    port: 8443
-    server: 20.151.60.161
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_74
-    port: 443
-    server: 20.221.32.145
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_75
-    port: 8443
-    server: 4.172.225.82
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_76
-    port: 8443
-    server: 4.172.225.98
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_77
-    port: 8443
-    server: 4.172.225.82
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_78
-    port: 8443
-    server: 40.123.47.252
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_79
-    port: 8443
-    server: 20.151.90.208
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_80
-    port: 443
-    server: 20.74.223.241
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_81
-    port: 8443
-    server: 20.151.60.161
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_82
-    port: 8443
-    server: 20.151.238.192
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_83
-    port: 8443
-    server: 4.248.47.209
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_84
-    port: 8443
-    server: 4.248.47.209
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_85
-    port: 8443
-    server: 4.248.47.209
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_86
-    port: 443
-    server: 20.221.32.145
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_87
-    port: 443
-    server: 104.18.42.19
-    type: vless
-    network: httpupgrade
-    tls: true
-    udp: true
-    servername: hdfy5persiaserverc1.afsharidempire.uk
-    skip-cert-verify: true
-    alpn:
-      - http/1.1
-    uuid: 251780c1-1501-43b3-be2a-d144a20d479a
-    client-fingerprint: chrome
-  - name: defaultName_88
-    port: 4001
-    server: 89.47.197.123
-    type: vless
-    network: tcp
-    udp: true
-    uuid: 93c02d6d-e210-43bb-90ee-91784b889d0e
-  - name: defaultName_89
-    port: 8080
-    server: 104.18.22.19
-    type: vless
-    network: ws
-    udp: true
-    uuid: 520061ab-e8e3-4325-9272-8e3583094964
-  - name: defaultName_90
-    port: 443
-    server: 45.63.117.50
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: cpanel3.sassanidempire.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /ws
-      headers:
-        host: cpanel3.sassanidempire.com
-    alpn:
-      - http/1.1
-    uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
-  - name: defaultName_91
-    port: 443
-    server: 172.66.46.213
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: speedtest1.svgspeedtest.net
-    skip-cert-verify: true
-    ws-opts:
-      path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy
-      headers:
-        host: speedtest1.svgspeedtest.net
-    uuid: 5104ca9f-1927-44ec-b9e2-c6167609de7b
-  - name: defaultName_92
-    port: 8080
-    server: 104.21.94.168
-    type: vless
-    network: ws
-    udp: true
-    uuid: 40e18e7a-b328-4b85-a452-85de24e60f0a
-  - name: defaultName_93
-    port: 443
-    server: 104.16.60.8
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: st-gb-1.brocdn.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /websocket
-      headers:
-        host: st-gb-1.brocdn.com
-    alpn:
-      - http/1.1
-    uuid: 0de65b37-d62f-11ee-aaa8-00505603e70d
-    client-fingerprint: chrome
-  - name: defaultName_94
-    port: 443
-    server: 104.26.11.137
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: st-gb-1.brocdn.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /websocket
-      headers:
-        host: st-gb-1.brocdn.com
-    uuid: 18cd7434-d639-11ee-aaa8-00505603e70d
-  - name: defaultName_95
-    port: 443
-    server: 151.101.2.133
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: ergwork.web.unc.edu
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn?ed=2048
-      headers:
-        host: sobip.ir
-    uuid: 3fecfaf1-02c1-436d-83b2-d43ddd82fd59
-  - name: defaultName_96
-    port: 2095
-    server: 190.93.247.155
-    type: vless
-    network: ws
-    udp: true
-    uuid: 1f19c0e8-74b5-4cd9-cc59-a6e6d75af944
-  - name: defaultName_97
-    port: 443
-    server: 104.26.11.137
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: st-gb-1.brocdn.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /websocket
-      headers:
-        host: st-gb-1.brocdn.com
-    uuid: 18cd7434-d639-11ee-aaa8-00505603e70d
-  - name: defaultName_98
-    port: 443
-    server: 172.67.73.241
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: st-gb-1.brocdn.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /websocket
-      headers:
-        host: st-gb-1.brocdn.com
-    uuid: 18cd7434-d639-11ee-aaa8-00505603e70d
-  - name: defaultName_99
-    port: 443
-    server: 13.68.186.91
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_100
-    port: 443
-    server: 13.68.186.91
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_101
+        host: indiavideo.sbs
+    cipher: auto
+    uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162
+    alterId: 0
+  - name: defaultName_1
     port: 443
     server: 4.255.56.138
     type: vless
@@ -1310,22 +742,7 @@ proxies:
         host: edgetunnel-free.pages.dev
     uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: defaultName_102
-    port: 443
-    server: 172.191.74.198
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_103
+  - name: defaultName_2
     port: 443
     server: 4.255.56.137
     type: vless
@@ -1340,24 +757,9 @@ proxies:
         host: edgetunnel-free.pages.dev
     uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: defaultName_104
-    port: 8443
-    server: 40.123.42.160
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_105
+  - name: defaultName_3
     port: 443
-    server: 74.249.233.213
+    server: 20.74.223.241
     type: vless
     network: ws
     tls: true
@@ -1370,121 +772,35 @@ proxies:
         host: edgetunnel-free.pages.dev
     uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: defaultName_106
-    port: 443
-    server: 74.249.233.213
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_107
-    port: 443
-    server: 74.249.233.213
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_108
-    port: 8880
-    server: 104.17.148.22
+  - name: defaultName_4
+    port: 8080
+    server: 104.18.165.147
     type: vless
     network: ws
     udp: true
-    uuid: telegram-ArV2ray
-  - name: defaultName_109
+    uuid: c9632b9c-8177-4aca-b569-e274405ba041
+  - name: defaultName_5
     port: 80
-    server: 151.101.2.216
+    server: 151.101.128.155
     type: vless
     network: ws
     udp: true
-    uuid: BLUEV2RAYNG-config-1851
-  - name: defaultName_110
-    port: 1624
-    server: 188.245.163.79
-    type: vless
-    network: tcp
-    udp: true
-    servername: wwww.refersion.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
-      short-id: 3a622700e73c6642
-    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: defaultName_111
-    port: 443
-    server: 104.26.11.137
+    uuid: 4a54fc9e-b717-4815-9d8a-b5bbc401aa56
+  - name: defaultName_6
+    port: 8080
+    server: 104.17.147.22
     type: vless
     network: ws
-    tls: true
     udp: true
-    servername: st-gb-1.brocdn.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /websocket
-      headers:
-        host: st-gb-1.brocdn.com
-    uuid: 18cd7434-d639-11ee-aaa8-00505603e70d
-  - name: defaultName_112
-    port: 443
-    server: 151.101.2.133
+    uuid: b28f0173-6b24-44b6-f0ce-3f831744d634
+  - name: defaultName_7
+    port: 80
+    server: 162.19.228.119
     type: vless
     network: ws
-    tls: true
     udp: true
-    servername: mio.splashthat.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=2048
-      headers:
-        host: barkatc2.ir
-    uuid: ea52c459-86ac-4707-8062-564ca031ae43
-  - name: defaultName_113
-    port: 443
-    server: 2a04:4e42:7d::740
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: zmaoz.faculty.ucdavis.edu
-    skip-cert-verify: true
-    ws-opts:
-      path: /@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
-      headers:
-        host: cinematicket.org
-    uuid: Bia--ZEDMODEON
-  - name: defaultName_114
-    port: 443
-    server: 104.26.11.137
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: st-gb-1.brocdn.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /websocket
-      headers:
-        host: st-gb-1.brocdn.com
-    uuid: 18cd7434-d639-11ee-aaa8-00505603e70d
-  - name: defaultName_115
+    uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
+  - name: defaultName_8
     port: 443
     server: 45.63.117.50
     type: vless
@@ -1499,14 +815,1451 @@ proxies:
         host: cpanel3.sassanidempire.com
     uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
     client-fingerprint: chrome
-  - name: defaultName_116
+  - name: defaultName_9
+    port: 8080
+    server: 104.18.165.203
+    type: vless
+    network: ws
+    udp: true
+    uuid: c9632b9c-8177-4aca-b569-e274405ba041
+  - name: defaultName_10
+    port: 443
+    server: 167.82.103.27
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: default.ssl.fastly.net
+    skip-cert-verify: true
+    ws-opts:
+      path: /TqE6jD0U75tHi0qg6pk11?ed=2560
+      headers:
+        host: mehrjavan.ir
+    alpn:
+      - http/1.1
+    uuid: 879ff051-cba1-4208-87e1-00bff3a9a1c7
+    client-fingerprint: chrome
+  - name: defaultName_11
+    port: 4910
+    server: 62.60.174.99
+    type: vless
+    network: tcp
+    udp: true
+    uuid: 5a33c57e-18a3-4561-a763-f6207fda2677
+  - name: defaultName_12
+    port: 80
+    server: 151.101.64.155
+    type: vless
+    network: ws
+    udp: true
+    uuid: 3d0fdf8b-023c-46b2-92ef-ab117668d1c6
+  - name: defaultName_13
+    port: 443
+    server: 5.188.6.73
+    type: vless
+    network: tcp
+    tls: true
+    udp: true
+    servername: 005188006073.sec1org.com
+    skip-cert-verify: true
+    alpn:
+      - h2,http\1.1
+    uuid: 7582e721-8c32-4fb1-8669-b3fae590f3eb
+  - name: defaultName_14
+    port: 48434
+    server: 150.241.96.228
+    type: vless
+    network: tcp
+    udp: true
+    uuid: c96f93f3-1410-494d-c50c-c5912e46edc4
+  - name: defaultName_15
     port: 2095
     server: 185.146.173.185
     type: vless
     network: httpupgrade
     udp: true
-    uuid: fce9ae11-0fd2-4989-b1d5-c6e1e1d5e2fd
+    uuid: e058cb12-b863-46ab-b8c5-e2dac1f480e8
+  - name: defaultName_16
+    port: 2053
+    server: 185.146.173.185
+    type: vless
+    network: grpc
+    tls: true
+    udp: true
+    servername: Ehhdheh.vshsbsbb-jzjsjb-vdhsh-mahdi-irancel.ir
+    skip-cert-verify: true
+    grpc-opts: {}
+    alpn:
+      - h3,h2,http/1.1
+    uuid: 092babbf-c80d-4a21-be7c-2527d9b6330f
+  - name: defaultName_17
+    port: 8080
+    server: 172.67.199.143
+    type: vless
+    network: ws
+    udp: true
+    uuid: 3a79c97d-4203-4be4-86c9-4eafa52005b2
+  - name: defaultName_18
+    port: 443
+    server: 104.22.79.190
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: presidential-salmon-vz-a587c1b2.koyeb.app
+    skip-cert-verify: true
+    ws-opts:
+      path: /vl
+      headers:
+        host: presidential-salmon-vz-a587c1b2.koyeb.app
+    uuid: 2954224a-13ca-4af7-8e44-1c83622f6ab0
+  - name: defaultName_19
+    port: 8080
+    server: 104.17.234.128
+    type: vless
+    network: ws
+    udp: true
+    uuid: a8041d12-cdb0-4c32-c2c9-d8612fe960f2
+  - name: defaultName_20
+    port: 80
+    server: 151.101.130.219
+    type: vless
+    network: ws
+    udp: true
+    uuid: bc65abda-c6a2-4fbe-b368-c741906a381f
+  - name: defaultName_21
+    port: 8080
+    server: 173.245.59.132
+    type: vless
+    network: ws
+    udp: true
+    uuid: 53d748ed-46be-4e36-89f6-e2e00b56d64d
+  - name: defaultName_22
+    port: 8080
+    server: 190.93.247.56
+    type: vless
+    network: ws
+    udp: true
+    uuid: 974f5231-0196-46ec-938e-4a5f11a534ce
+  - name: defaultName_23
+    port: 443
+    server: 104.22.78.190
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: presidential-salmon-vz-a587c1b2.koyeb.app
+    skip-cert-verify: true
+    ws-opts:
+      path: /vl
+      headers:
+        host: presidential-salmon-vz-a587c1b2.koyeb.app
+    uuid: 2954224a-13ca-4af7-8e44-1c83622f6ab0
+  - name: defaultName_24
+    port: 8443
+    server: 198.41.209.2
+    type: vless
+    network: grpc
+    tls: true
+    udp: true
+    servername: gard.starmc.ir
+    skip-cert-verify: true
+    grpc-opts: {}
+    alpn:
+      - h2,http/1.1
+    uuid: 77256e7a-c55d-404f-a64c-76ac5a101579
+    client-fingerprint: firefox
+  - name: defaultName_25
+    port: 443
+    server: 104.26.11.137
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: st-fr-1.brocdn.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /websocket
+      headers:
+        host: st-fr-1.brocdn.com
+    uuid: 827625b9-e06a-11ee-95c9-00505603e70d
+  - name: defaultName_26
+    port: 8080
+    server: 104.18.165.78
+    type: vless
+    network: ws
+    udp: true
+    uuid: c9632b9c-8177-4aca-b569-e274405ba041
+  - name: defaultName_27
+    port: 8080
+    server: 172.67.138.69
+    type: vless
+    network: ws
+    udp: true
+    uuid: e2afc104-fc04-4e33-87a5-c5175a5b4c17
+  - name: defaultName_28
+    port: 443
+    server: 172.67.73.241
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: st-fr-1.brocdn.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /websocket
+      headers:
+        host: st-fr-1.brocdn.com
+    uuid: 827625b9-e06a-11ee-95c9-00505603e70d
+  - name: defaultName_29
+    port: 2053
+    server: 104.18.8.209
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: EDGETunnel-AMl.pages.DEV
+    skip-cert-verify: true
+    ws-opts:
+      path: /REvilxXx?ed=2560@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi
+      headers:
+        host: EDGETunnel-AMl.pages.DEV
+    alpn:
+      - http/1.1
+    uuid: 1af8b2d6-213d-49ce-9bc9-ffbdc5830c35
+    client-fingerprint: safari
+  - name: defaultName_30
+    port: 443
+    server: 5.75.199.126
+    type: vless
+    network: tcp
+    tls: true
+    udp: true
+    servername: cli.octarp.ir
+    skip-cert-verify: true
+    reality-opts:
+      public-key: 7K7mnQqR43DN4AuxNmxRToTIplkSTyl2lWB2kYX_EX8
+      short-id: af9d05
+    uuid: d3ec0333-a520-40dc-89d5-d15967e3bf49
+    client-fingerprint: chrome
+  - name: defaultName_31
+    port: 8080
+    server: 195.201.43.13
+    type: vless
+    network: tcp
+    udp: true
+    servername: www.speedtest.net
+    skip-cert-verify: true
+    reality-opts:
+      public-key: N1xJbYygWegPafW4UECVjpq9N-oSqpGphrWLMLK_8gM
+    uuid: 439a15a5-e1b0-4379-fb02-ac86e6fad0f4
+    client-fingerprint: chrome
+  - name: defaultName_32
+    port: 6543
+    server: 188.245.162.16
+    type: vless
+    network: tcp
+    udp: true
+    servername: www.speedtest.net
+    skip-cert-verify: true
+    reality-opts:
+      public-key: T80OrhSLwBQrXvbS8fh97IXOu37wRXT0ZEfVYu-FEDo
+      short-id: ddb79eb6fb
+    uuid: bfed7c40-7878-4ee5-a8db-8b9d0c546bea
+    client-fingerprint: chrome
+  - name: defaultName_33
+    port: 80
+    server: 151.101.64.155
+    type: vless
+    network: ws
+    udp: true
+    uuid: 3d0fdf8b-023c-46b2-92ef-ab117668d1c6
+  - name: defaultName_34
+    port: 80
+    server: 151.101.2.133
+    type: vless
+    network: ws
+    udp: true
+    uuid: 6398dd44-9540-4b24-b0fb-3a98baad8d04
+  - name: defaultName_35
+    port: 22934
+    server: 179.61.219.170
+    type: vless
+    network: tcp
+    udp: true
+    uuid: 0cd276a5-4501-413a-acf8-b51c54894f02
+  - name: defaultName_36
+    port: 80
+    server: 151.101.128.155
+    type: vless
+    network: ws
+    udp: true
+    uuid: 3d0fdf8b-023c-46b2-92ef-ab117668d1c6
+  - name: defaultName_37
+    port: 8080
+    server: 104.18.165.78
+    type: vless
+    network: ws
+    udp: true
+    uuid: c9632b9c-8177-4aca-b569-e274405ba041
+  - name: defaultName_38
+    port: 8082
+    server: 93.185.163.238
+    type: vless
+    network: http
+    udp: true
+    servername: use.fontawesome.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: 1wsuGvwHBl4upMnlmg3ehyqL-CgRpK9g4XZXkUX-B3k
+      short-id: 6a69d0c3821da542
+    uuid: feb6f54a-1c99-4281-b0d4-113765e70c61
+    client-fingerprint: chrome
+  - name: defaultName_39
+    port: 2060
+    server: 185.247.184.147
+    type: vless
+    network: grpc
+    udp: true
+    servername: dash.cloudflare.com
+    skip-cert-verify: true
+    grpc-opts: {}
+    reality-opts:
+      public-key: 1k5jM49Bx5DEAfS5Vpqz93t2XOXk-kwXl0V5Q9jn_WY
+      short-id: f77e5398
+    alpn:
+      - h2,http/1.1
+    uuid: 4a60a8e0-b51d-41ae-8500-1b0b6724c6e6
+    client-fingerprint: chrome
+  - name: defaultName_40
+    port: 80
+    server: 151.101.64.155
+    type: vless
+    network: ws
+    udp: true
+    uuid: 0cda2421-8ea5-46e6-98ce-f2bdc057f532
+  - name: defaultName_41
+    port: 443
+    server: 89.187.169.71
+    type: vless
+    network: tcp
+    tls: true
+    udp: true
+    servername: www.cloudflare.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: B5i03yc1WUTOQD8v_N0UrCUaR4AgMJ40rEl8tXUJY0g
+      short-id: 01b200e90e250221
+    uuid: 6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: defaultName_42
+    port: 48434
+    server: 150.241.96.228
+    type: vless
+    network: tcp
+    udp: true
+    uuid: c96f93f3-1410-494d-c50c-c5912e46edc4
+  - name: defaultName_43
+    port: 2095
+    server: 185.146.173.185
+    type: vless
+    network: httpupgrade
+    udp: true
+    uuid: e058cb12-b863-46ab-b8c5-e2dac1f480e8
+  - name: defaultName_44
+    port: 443
+    server: 45.63.117.50
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cpanel3.sassanidempire.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /ws
+      headers:
+        host: cpanel3.sassanidempire.com
+    uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
+    client-fingerprint: chrome
+  - name: defaultName_45
+    port: 443
+    server: 167.82.103.27
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: default.ssl.fastly.net
+    skip-cert-verify: true
+    ws-opts:
+      path: /TqE6jD0U75tHi0qg6pk11?ed=2560
+      headers:
+        host: mehrjavan.ir
+    alpn:
+      - http/1.1
+    uuid: 879ff051-cba1-4208-87e1-00bff3a9a1c7
+    client-fingerprint: chrome
+  - name: defaultName_46
+    port: 443
+    server: 5.188.6.73
+    type: vless
+    network: tcp
+    tls: true
+    udp: true
+    servername: 005188006073.sec1org.com
+    skip-cert-verify: true
+    alpn:
+      - h2,http\1.1
+    uuid: 7582e721-8c32-4fb1-8669-b3fae590f3eb
+  - name: defaultName_47
+    port: 443
+    server: 151.101.130.228
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: forestbiology.ucdavis.edu
+    skip-cert-verify: true
+    ws-opts:
+      path: /@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420?ed=2560
+      headers:
+        host: speedtest.net.ladgn.ir
+    alpn:
+      - h2,http/1.1
+    uuid: 98d15952-07aa-5331-b67f-0c2f8a60d0a6
+    client-fingerprint: android
+  - name: defaultName_48
+    port: 80
+    server: 151.101.194.165
+    type: vless
+    network: ws
+    udp: true
+    uuid: b4e15570-90e0-43a0-82e0-b355e4aab137
+  - name: defaultName_49
+    port: 8080
+    server: 172.67.199.143
+    type: vless
+    network: ws
+    udp: true
+    uuid: 3a79c97d-4203-4be4-86c9-4eafa52005b2
+  - name: defaultName_50
+    port: 1210
+    server: 51.77.111.91
+    type: vless
+    network: grpc
+    udp: true
+    servername: ubuntu.com
+    skip-cert-verify: true
+    grpc-opts: {}
+    reality-opts:
+      public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
+      short-id: 7fe29733
+    uuid: a8f149d7-edef-404d-8764-92a4b78c15e5
+    client-fingerprint: chrome
+  - name: defaultName_51
+    port: 80
+    server: 199.232.79.51
+    type: vless
+    network: ws
+    udp: true
+    uuid: 8cecedef-f088-5419-913d-c4c8b24c651d
+  - name: defaultName_52
+    port: 443
+    server: 162.159.153.80
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gogogo.CMLiussss.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /Join_my_telegram_channel_CMLiussss_to_unlock_more_premium_nodes?ed=2560
+      headers:
+        host: gogogo.CMLiussss.us.kg
+    alpn:
+      - http/1.1
+    uuid: a38c731b-7dd5-43e4-92ff-16b72457b5a5
+    client-fingerprint: random
+  - name: defaultName_53
+    port: 2053
+    server: 104.18.8.209
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: EDGETunnel-AMl.pages.DEV
+    skip-cert-verify: true
+    ws-opts:
+      path: /REvilxXx?ed=2560
+      headers:
+        host: EDGETunnel-AMl.pages.DEV
+    alpn:
+      - http/1.1
+    uuid: 1af8b2d6-213d-49ce-9bc9-ffbdc5830c35
+    client-fingerprint: safari
+  - name: defaultName_54
+    port: 443
+    server: 104.22.79.190
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: presidential-salmon-vz-a587c1b2.koyeb.app
+    skip-cert-verify: true
+    ws-opts:
+      path: /vl
+      headers:
+        host: presidential-salmon-vz-a587c1b2.koyeb.app
+    uuid: 2954224a-13ca-4af7-8e44-1c83622f6ab0
+  - name: defaultName_55
+    port: 443
+    server: 104.26.11.137
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: st-fr-1.brocdn.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /websocket
+      headers:
+        host: st-fr-1.brocdn.com
+    uuid: 827625b9-e06a-11ee-95c9-00505603e70d
+  - name: defaultName_56
+    port: 80
+    server: 162.19.228.119
+    type: vless
+    network: ws
+    udp: true
+    uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
+  - name: defaultName_57
+    port: 80
+    server: 162.19.228.119
+    type: vless
+    network: ws
+    udp: true
+    uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
+  - name: defaultName_58
+    port: 443
+    server: 45.63.117.50
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cpanel3.sassanidempire.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /ws
+      headers:
+        host: cpanel3.sassanidempire.com
+    uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
+    client-fingerprint: chrome
+  - name: defaultName_59
+    port: 2060
+    server: 185.247.184.147
+    type: vless
+    network: grpc
+    udp: true
+    servername: dash.cloudflare.com
+    skip-cert-verify: true
+    grpc-opts: {}
+    reality-opts:
+      public-key: 1k5jM49Bx5DEAfS5Vpqz93t2XOXk-kwXl0V5Q9jn_WY
+      short-id: f77e5398
+    alpn:
+      - h2,http/1.1
+    uuid: 4a60a8e0-b51d-41ae-8500-1b0b6724c6e6
+    client-fingerprint: chrome
+  - name: defaultName_60
+    port: 80
+    server: 162.19.228.119
+    type: vless
+    network: ws
+    udp: true
+    uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
+  - name: defaultName_61
+    port: 80
+    server: 162.19.228.119
+    type: vless
+    network: ws
+    udp: true
+    uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
+  - name: defaultName_62
+    port: 2060
+    server: 185.247.184.147
+    type: vless
+    network: grpc
+    udp: true
+    servername: dash.cloudflare.com
+    skip-cert-verify: true
+    grpc-opts: {}
+    reality-opts:
+      public-key: 1k5jM49Bx5DEAfS5Vpqz93t2XOXk-kwXl0V5Q9jn_WY
+      short-id: f77e5398
+    alpn:
+      - h2,http/1.1
+    uuid: 4a60a8e0-b51d-41ae-8500-1b0b6724c6e6
+    client-fingerprint: chrome
+  - name: defaultName_63
+    port: 6543
+    server: 188.245.162.16
+    type: vless
+    network: tcp
+    udp: true
+    servername: www.speedtest.net
+    skip-cert-verify: true
+    reality-opts:
+      public-key: T80OrhSLwBQrXvbS8fh97IXOu37wRXT0ZEfVYu-FEDo
+      short-id: ddb79eb6fb
+    uuid: bfed7c40-7878-4ee5-a8db-8b9d0c546bea
+  - name: defaultName_64
+    port: 80
+    server: 162.19.228.119
+    type: vless
+    network: ws
+    udp: true
+    uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
+  - name: defaultName_65
+    port: 22934
+    server: 179.61.219.170
+    type: vless
+    network: tcp
+    udp: true
+    uuid: 0cd276a5-4501-413a-acf8-b51c54894f02
+  - name: defaultName_66
+    port: 2087
+    server: 45.63.117.50
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cpanel3.sassanidempire.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /ws
+      headers:
+        host: cpanel3.sassanidempire.com
+    uuid: 85e741b8-8233-4b38-e89a-2d2658119f27
+    client-fingerprint: chrome
+  - name: defaultName_67
+    port: 8082
+    server: 93.185.163.238
+    type: vless
+    network: http
+    udp: true
+    servername: use.fontawesome.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: 1wsuGvwHBl4upMnlmg3ehyqL-CgRpK9g4XZXkUX-B3k
+      short-id: 6a69d0c3821da542
+    uuid: feb6f54a-1c99-4281-b0d4-113765e70c61
+    client-fingerprint: chrome
+  - name: defaultName_68
+    port: 80
+    server: 151.101.64.155
+    type: vless
+    network: ws
+    udp: true
+    uuid: 9a9764f8-3d59-4500-b1c5-7dfb433ad8e1
+  - name: defaultName_69
+    port: 443
+    server: 151.101.2.133
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: mio.splashthat.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=2048
+      headers:
+        host: barkatc1.ir
+    uuid: 3a6ea2e7-e181-4595-9812-7faccf4955f6
+  - name: defaultName_70
+    port: 80
+    server: 51.75.30.8
+    type: vless
+    network: ws
+    udp: true
+    uuid: 1949f066-bcb0-49be-88e9-74abd940f80e
+  - name: defaultName_71
+    port: 443
+    server: 151.101.2.133
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: mio.splashthat.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=2048
+      headers:
+        host: barkatc1.ir
+    uuid: 3a6ea2e7-e181-4595-9812-7faccf4955f6
+  - name: defaultName_72
+    port: 443
+    server: 151.101.2.133
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: mio.splashthat.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=2048
+      headers:
+        host: barkatc2.ir
+    uuid: 6398dd44-9540-4b24-b0fb-3a98baad8d04
+  - name: defaultName_73
+    port: 2087
+    server: 45.63.117.50
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cpanel3.sassanidempire.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /ws
+      headers:
+        host: cpanel3.sassanidempire.com
+    uuid: 85e741b8-8233-4b38-e89a-2d2658119f27
+    client-fingerprint: chrome
+  - name: defaultName_74
+    port: 8443
+    server: 198.41.209.2
+    type: vless
+    network: grpc
+    tls: true
+    udp: true
+    servername: gard.starmc.ir
+    skip-cert-verify: true
+    grpc-opts: {}
+    alpn:
+      - h2,http/1.1
+    uuid: 77256e7a-c55d-404f-a64c-76ac5a101579
+    client-fingerprint: firefox
+  - name: defaultName_75
+    port: 443
+    server: 45.63.117.50
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cpanel3.sassanidempire.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /ws
+      headers:
+        host: cpanel3.sassanidempire.com
+    uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
+    client-fingerprint: chrome
+  - name: defaultName_76
+    port: 80
+    server: 151.101.2.216
+    type: vless
+    network: ws
+    udp: true
+    uuid: f7705548-b6d1-4abe-af87-9ebba4805bb6
+  - name: defaultName_77
+    port: 80
+    server: 151.101.2.216
+    type: vless
+    network: ws
+    udp: true
+    uuid: f7705548-b6d1-4abe-af87-9ebba4805bb6
+  - name: defaultName_78
+    port: 80
+    server: 162.19.228.119
+    type: vless
+    network: ws
+    udp: true
+    uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
+  - name: defaultName_79
+    port: 443
+    server: 146.75.54.133
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: live.skornorth.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048
+      headers:
+        host: gooshishop.com
+    uuid: Joinin--ZEDMODEON
+  - name: defaultName_80
+    port: 80
+    server: 151.101.3.8
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=2048
+      headers:
+        host: barkatc3.ir
+    uuid: f9fd0cf4-0915-48bd-b9f5-2c4d27f7420e
+  - name: defaultName_81
+    port: 443
+    server: 151.101.194.228
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: forestbiology.ucdavis.edu
+    skip-cert-verify: true
+    ws-opts:
+      path: /@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420?ed=2560
+      headers:
+        host: speedtest.net.ladgn.ir
+    alpn:
+      - h2,http/1.1
+    uuid: 98d15952-07aa-5331-b67f-0c2f8a60d0a6
+    client-fingerprint: android
+  - name: defaultName_82
+    port: 443
+    server: 151.101.2.133
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: mio.splashthat.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=2048
+      headers:
+        host: barkatc1.ir
+    uuid: 3a6ea2e7-e181-4595-9812-7faccf4955f6
+  - name: defaultName_83
+    port: 6543
+    server: 188.245.162.16
+    type: vless
+    network: tcp
+    udp: true
+    servername: www.speedtest.net
+    skip-cert-verify: true
+    reality-opts:
+      public-key: T80OrhSLwBQrXvbS8fh97IXOu37wRXT0ZEfVYu-FEDo
+      short-id: ddb79eb6fb
+    uuid: bfed7c40-7878-4ee5-a8db-8b9d0c546bea
+    client-fingerprint: chrome
+  - name: defaultName_84
+    port: 80
+    server: 151.101.3.8
+    type: vless
+    network: ws
+    udp: true
+    uuid: f9fd0cf4-0915-48bd-b9f5-2c4d27f7420e
+  - name: defaultName_85
+    port: 443
+    server: "2a06:98c1:3123::"
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: st-pl-1.brocdn.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /websocket
+      headers:
+        host: st-pl-1.brocdn.com
+    uuid: dd563276-d5f9-11ee-aaa8-00505603e70d
+  - name: defaultName_86
+    port: 80
+    server: 151.101.192.155
+    type: vless
+    network: ws
+    udp: true
+    uuid: 4a54fc9e-b717-4815-9d8a-b5bbc401aa56
+  - name: defaultName_87
+    port: 80
+    server: 151.101.128.155
+    type: vless
+    network: ws
+    udp: true
+    uuid: SVNTEAM
+  - name: defaultName_88
+    port: 80
+    server: 151.101.192.155
+    type: vless
+    network: ws
+    udp: true
+    uuid: 4a54fc9e-b717-4815-9d8a-b5bbc401aa56
+  - name: defaultName_89
+    port: 80
+    server: 199.232.79.51
+    type: vless
+    network: ws
+    udp: true
+    uuid: 8cecedef-f088-5419-913d-c4c8b24c651d
+  - name: defaultName_90
+    port: 80
+    server: 162.19.228.119
+    type: vless
+    network: ws
+    udp: true
+    uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
+  - name: defaultName_91
+    port: 443
+    server: 151.101.2.133
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: mio.splashthat.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=2048
+      headers:
+        host: barkatc1.ir
+    uuid: 3a6ea2e7-e181-4595-9812-7faccf4955f6
+  - name: defaultName_92
+    port: 2087
+    server: 85.159.229.88
+    type: vless
+    network: grpc
+    udp: true
+    servername: dash.cloudflare.com
+    skip-cert-verify: true
+    grpc-opts: {}
+    reality-opts:
+      public-key: GicA8fPbS9LksttApqa8gzOstomRFncKNoYGLCOqQF8
+      short-id: fc805835
+    uuid: e4527384-4f20-4378-95dc-403996f12588
+    client-fingerprint: firefox
+  - name: defaultName_93
+    port: 80
+    server: 151.101.128.155
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: "@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@Un\
+        limitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@Unlim\
+        itedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480"
+      headers:
+        host: UNLIMITEDDEV.channel-telegram-1.ir
+    uuid: 3d0fdf8b-023c-46b2-92ef-ab117668d1c6
+  - name: defaultName_94
+    port: 80
+    server: 151.101.194.165
+    type: vless
+    network: ws
+    udp: true
+    uuid: TELEGRAM-NUFiLTER
+  - name: defaultName_95
+    port: 2060
+    server: 185.247.184.147
+    type: vless
+    network: grpc
+    udp: true
+    servername: dash.cloudflare.com
+    skip-cert-verify: true
+    grpc-opts: {}
+    reality-opts:
+      public-key: 1k5jM49Bx5DEAfS5Vpqz93t2XOXk-kwXl0V5Q9jn_WY
+      short-id: f77e5398
+    alpn:
+      - h2,http/1.1
+    uuid: 4a60a8e0-b51d-41ae-8500-1b0b6724c6e6
+    client-fingerprint: chrome
+  - name: defaultName_96
+    port: 80
+    server: 140.248.139.207
+    type: vless
+    network: ws
+    udp: true
+    uuid: cfe1723e-887f-5184-a2de-3d23cc1ac09a
+  - name: defaultName_97
+    port: 80
+    server: 151.101.2.133
+    type: vless
+    network: ws
+    udp: true
+    uuid: 6398dd44-9540-4b24-b0fb-3a98baad8d04
+  - name: defaultName_98
+    port: 80
+    server: 151.101.3.8
+    type: vless
+    network: ws
+    udp: true
+    uuid: 5ce378ac-cd0b-4817-9561-3c5c85b7c7c9
+  - name: defaultName_99
+    port: 2096
+    server: 104.20.25.57
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: sany0116p.ljqza.WorKErs.dEv
+    skip-cert-verify: true
+    ws-opts:
+      path: vless-ws/?ed=2048
+      headers:
+        host: sany0116p.ljqza.WorKErs.dEv
+    uuid: 2c4cd186-9e28-51b0-8ecb-43e65fa718d6
+    client-fingerprint: qq
+  - name: defaultName_100
+    port: 80
+    server: 172.233.190.5
+    type: vless
+    network: tcp
+    udp: true
+    servername: zula.ir
+    skip-cert-verify: true
+    reality-opts:
+      public-key: BVimgXtKkQ2Q6EpG8uKYTpySrNxEeIqVhdsxi5U5qRU
+      short-id: 94aa1bdc
+    uuid: ef27e62d-91bd-4676-b9ce-8743a73eda07
+    client-fingerprint: chrome
+  - name: defaultName_101
+    port: 443
+    server: 151.101.2.133
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: mio.splashthat.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=2048
+      headers:
+        host: barkatc2.ir
+    uuid: 6398dd44-9540-4b24-b0fb-3a98baad8d04
+  - name: defaultName_102
+    port: 8880
+    server: 104.17.148.22
+    type: vless
+    network: ws
+    udp: true
+    uuid: 80ed1903-c6eb-4b7a-b3bd-c41fb189e7c0
+  - name: defaultName_103
+    port: 443
+    server: 2a04:4e42:8d::645
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ergwork.web.unc.edu
+    skip-cert-verify: true
+    ws-opts:
+      path: /@ZEDMODEON-ZEDMODEON@ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
+      headers:
+        host: snapp.taxi
+    uuid: Join--ZEDMODEON
+  - name: defaultName_104
+    port: 443
+    server: 104.22.79.190
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: presidential-salmon-vz-a587c1b2.koyeb.app
+    skip-cert-verify: true
+    ws-opts:
+      path: /vl
+      headers:
+        host: presidential-salmon-vz-a587c1b2.koyeb.app
+    uuid: 2954224a-13ca-4af7-8e44-1c83622f6ab0
+  - name: defaultName_105
+    port: 443
+    server: 2606:4700:10::6816:4ebe
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: presidential-salmon-vz-a587c1b2.koyeb.app
+    skip-cert-verify: true
+    ws-opts:
+      path: /vl
+      headers:
+        host: presidential-salmon-vz-a587c1b2.koyeb.app
+    uuid: 2954224a-13ca-4af7-8e44-1c83622f6ab0
+  - name: defaultName_106
+    port: 2087
+    server: 85.159.229.88
+    type: vless
+    network: grpc
+    udp: true
+    servername: dash.cloudflare.com
+    skip-cert-verify: true
+    grpc-opts: {}
+    reality-opts:
+      public-key: GicA8fPbS9LksttApqa8gzOstomRFncKNoYGLCOqQF8
+      short-id: fc805835
+    uuid: e4527384-4f20-4378-95dc-403996f12588
+    client-fingerprint: firefox
+  - name: defaultName_107
+    port: 80
+    server: 185.146.173.58
+    type: vless
+    network: ws
+    udp: true
+    uuid: f151bde4-6981-4ad9-bd01-dd34ad792a3e
+  - name: defaultName_108
+    port: 8080
+    server: 104.22.2.218
+    type: vless
+    network: ws
+    udp: true
+    uuid: 88cdfbf6-352d-4731-9e46-2ad40b130e29
+  - name: defaultName_109
+    port: 443
+    server: 005188006073.sec1org.com
+    type: vless
+    network: tcp
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    alpn:
+      - h2,http\1.1
+    uuid: 7582e721-8c32-4fb1-8669-b3fae590f3eb
+  - name: defaultName_110
+    port: 443
+    server: 151.101.2.133
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ergwork.web.unc.edu
+    skip-cert-verify: true
+    ws-opts:
+      path: /telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn?ed=2048
+      headers:
+        host: sobip.ir
+    uuid: 3fecfaf1-02c1-436d-83b2-d43ddd82fd59
+  - name: defaultName_111
+    port: 443
+    server: 162.159.153.80
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gogogo.CMLiussss.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /Join_my_telegram_channel_CMLiussss_to_unlock_more_premium_nodes?ed=2560fp=random
+      headers:
+        host: gogogo.CMLiussss.us.kg
+    alpn:
+      - http/1.1
+    uuid: a38c731b-7dd5-43e4-92ff-16b72457b5a5
+  - name: defaultName_112
+    port: 8080
+    server: 173.245.59.132
+    type: vless
+    network: ws
+    udp: true
+    uuid: 53d748ed-46be-4e36-89f6-e2e00b56d64d
+  - name: defaultName_113
+    port: 443
+    server: 104.22.78.190
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: presidential-salmon-vz-a587c1b2.koyeb.app
+    skip-cert-verify: true
+    ws-opts:
+      path: /vl
+      headers:
+        host: presidential-salmon-vz-a587c1b2.koyeb.app
+    uuid: 2954224a-13ca-4af7-8e44-1c83622f6ab0
+  - name: defaultName_114
+    port: 1620
+    server: 188.245.163.79
+    type: vless
+    network: tcp
+    udp: true
+    servername: wwww.refersion.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
+      short-id: 3a622700e73c6642
+    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: defaultName_115
+    port: 10443
+    server: 20.243.85.49
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_116
+    port: 80
+    server: 104.21.30.29
+    type: vless
+    network: ws
+    udp: true
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   - name: defaultName_117
+    port: 2053
+    server: 45.12.134.129
+    type: vless
+    network: tcp
+    udp: true
+    servername: apple.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: jpS_UPS4HEJApIV1DRW6omCRG8d2XuJXjj2FW7iT-mg
+      short-id: cc87
+    uuid: 5957ca33-d8d9-4c2c-aadc-203270e33422
+    client-fingerprint: chrome
+  - name: defaultName_118
+    port: 80
+    server: 104.21.30.21
+    type: vless
+    network: ws
+    udp: true
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  - name: defaultName_119
+    port: 80
+    server: 151.101.194.219
+    type: vless
+    network: ws
+    udp: true
+    uuid: ad9ae42c-6858-4635-b93d-8bec2169e569
+  - name: defaultName_120
+    port: 443
+    server: 104.26.10.137
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: st-pl-1.brocdn.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /websocket
+      headers:
+        host: st-pl-1.brocdn.com
+    uuid: 44ce1a7d-d5fc-11ee-aaa8-00505603e70d
+    client-fingerprint: chrome
+  - name: defaultName_121
+    port: 443
+    server: 172.66.46.213
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: speedtest1.svgspeedtest.net
+    skip-cert-verify: true
+    ws-opts:
+      path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy
+      headers:
+        host: speedtest1.svgspeedtest.net
+    uuid: 78f34fa6-e5bf-4ad4-aa51-2bb50850ca7c
+  - name: defaultName_122
+    port: 80
+    server: 151.101.66.219
+    type: vless
+    network: ws
+    udp: true
+    uuid: ad9ae42c-6858-4635-b93d-8bec2169e569
+  - name: defaultName_123
+    port: 443
+    server: 162.159.153.80
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gogogo.CMLiussss.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /Join_my_telegram_channel_CMLiussss_to_unlock_more_premium_nodes?ed=2560
+      headers:
+        host: gogogo.CMLiussss.us.kg
+    alpn:
+      - http/1.1
+    uuid: a38c731b-7dd5-43e4-92ff-16b72457b5a5
+    client-fingerprint: random
+  - name: defaultName_124
+    port: 10443
+    server: 20.243.85.49
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_125
+    port: 443
+    server: 172.67.24.44
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: presidential-salmon-vz-a587c1b2.koyeb.app
+    skip-cert-verify: true
+    ws-opts:
+      path: /vl
+      headers:
+        host: presidential-salmon-vz-a587c1b2.koyeb.app
+    uuid: 2954224a-13ca-4af7-8e44-1c83622f6ab0
+  - name: defaultName_126
+    port: 443
+    server: 104.16.61.8
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: st-fr-1.brocdn.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /websocket
+      headers:
+        host: st-fr-1.brocdn.com
+    alpn:
+      - http/1.1
+    uuid: f0604697-d602-11ee-aaa8-00505603e70d
+    client-fingerprint: chrome
+  - name: defaultName_127
+    port: 80
+    server: 151.101.2.216
+    type: vless
+    network: ws
+    udp: true
+    uuid: f7705548-b6d1-4abe-af87-9ebba4805bb6
+  - name: defaultName_128
+    port: 80
+    server: 151.101.2.216
+    type: vless
+    network: ws
+    udp: true
+    uuid: f7705548-b6d1-4abe-af87-9ebba4805bb6
+  - name: defaultName_129
+    port: 443
+    server: 146.75.118.133
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: live.wkrq.com
+    skip-cert-verify: true
+    ws-opts:
+      path: ws/?ed=2048
+      headers:
+        host: jhbveiyghn65.com
+    uuid: 602aac6b-20bb-4256-84d2-52d70cbfb926
+  - name: defaultName_130
+    port: 443
+    server: 151.101.66.228
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: hajlab.ucdavis.edu
+    skip-cert-verify: true
+    ws-opts:
+      path: "@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--\
+        @Maznet--@MAZNET?ed=2560"
+      headers:
+        host: loye.ir
+    uuid: 90493ff7-bf09-4814-bd6f-ee639f1bfab3
+  - name: defaultName_131
+    port: 80
+    server: 140.248.139.207
+    type: vless
+    network: ws
+    udp: true
+    uuid: cfe1723e-887f-5184-a2de-3d23cc1ac09a
+  - name: defaultName_132
+    port: 443
+    server: 151.101.2.133
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: mio.splashthat.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=2048
+      headers:
+        host: barkatc1.ir
+    uuid: 3a6ea2e7-e181-4595-9812-7faccf4955f6
+  - name: defaultName_133
+    port: 443
+    server: 151.101.2.133
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ergwork.web.unc.edu
+    skip-cert-verify: true
+    ws-opts:
+      path: /telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn?ed=2048
+      headers:
+        host: sobip.ir
+    uuid: 3fecfaf1-02c1-436d-83b2-d43ddd82fd59
+  - name: defaultName_134
+    port: 443
+    server: 2a04:4e42:8d::645
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: connectcarolina.sites.unc.edu
+    skip-cert-verify: true
+    ws-opts:
+      path: /@ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
+      headers:
+        host: porsline.ir
+    uuid: tel--ZEDMODEON
+  - name: defaultName_135
+    port: 443
+    server: 104.21.49.18
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: st-fr-1.brocdn.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /websocket
+      headers:
+        host: st-fr-1.brocdn.com
+    uuid: 6d154bf6-d60c-11ee-aaa8-00505603e70d
+    client-fingerprint: chrome
+  - name: defaultName_136
+    port: 443
+    server: 181.215.205.104
+    type: vless
+    network: tcp
+    tls: true
+    udp: true
+    servername: adobe.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: ljzfoaXVBSNu3tw58-B0WNViso1aA9JSCX9GUcMDu0k
+      short-id: 4048A3da
+    uuid: 414df689-dc19-418b-849c-f0f15967d71e
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: defaultName_137
+    port: 80
+    server: 151.101.3.8
+    type: vless
+    network: ws
+    udp: true
+    uuid: telegram-id-ArV2ray
+  - name: defaultName_138
     port: 443
     server: 2a04:4e42:7d::740
     type: vless
@@ -1520,404 +2273,196 @@ proxies:
       headers:
         host: gisheh7.ir
     uuid: tel--ZEDMODEON
-  - name: defaultName_118
-    port: 38971
-    server: 2a01:4f8:c17:1cd7::1
-    type: vless
-    network: tcp
-    udp: true
-    uuid: TELEGRAM-ServerNett
-  - name: defaultName_119
-    port: 80
-    server: 151.101.3.8
-    type: vless
-    network: ws
-    udp: true
-    uuid: telegram-id-ArV2ray
-  - name: defaultName_120
+    client-fingerprint: chrome
+  - name: defaultName_139
     port: 443
-    server: 104.26.10.137
+    server: 4.255.56.138
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: st-fr-1.brocdn.com
+    servername: edgetunnel-free.pages.dev
     skip-cert-verify: true
     ws-opts:
-      path: /websocket
+      path: /
       headers:
-        host: st-fr-1.brocdn.com
-    uuid: 3894cbc1-e06a-11ee-95c9-00505603e70d
-  - name: 🇩🇪_1
-    port: 6543
-    server: 188.245.162.16
-    type: vless
-    network: tcp
-    udp: true
-    servername: www.speedtest.net
-    skip-cert-verify: true
-    reality-opts:
-      public-key: T80OrhSLwBQrXvbS8fh97IXOu37wRXT0ZEfVYu-FEDo
-      short-id: ddb79eb6fb
-    uuid: bfed7c40-7878-4ee5-a8db-8b9d0c546bea
-    client-fingerprint: chrome
-  - name: 🇮🇹_1
-    port: 2096
-    server: 147.45.51.16
-    type: vless
-    network: grpc
-    udp: true
-    servername: dash.cloudflare.com
-    skip-cert-verify: true
-    grpc-opts: {}
-    reality-opts:
-      public-key: c3R5_lORnQd1X3A2E0ulHJn396G2X_ZYIs66ldEVQWI
-      short-id: 28f58957
-    uuid: 16747acc-95c8-44ba-9b66-3d8a0c035347
-    client-fingerprint: firefox
-  - name: 🇩🇪_2
-    port: 46951
-    server: 49.12.232.18
-    type: vless
-    network: grpc
-    udp: true
-    servername: microsoft.com
-    skip-cert-verify: true
-    grpc-opts: {}
-    reality-opts:
-      public-key: rQYwLzPwYJblfCzt58-6YXpWgPYauFACkMNsFc_4A3c
-      short-id: 0b89b513
-    uuid: 92ff8e9c-cd7c-4e44-bdf5-734b3153a096
-    client-fingerprint: firefox
-  - name: 🇳🇱_1
-    port: 8082
-    server: 93.185.163.238
-    type: vless
-    network: http
-    udp: true
-    servername: use.fontawesome.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: 1wsuGvwHBl4upMnlmg3ehyqL-CgRpK9g4XZXkUX-B3k
-      short-id: 6a69d0c3821da542
-    uuid: feb6f54a-1c99-4281-b0d4-113765e70c61
-    client-fingerprint: chrome
-  - name: 🇫🇷_1
-    port: 1210
-    server: 51.77.111.91
-    type: vless
-    network: grpc
-    udp: true
-    servername: ubuntu.com
-    skip-cert-verify: true
-    grpc-opts: {}
-    reality-opts:
-      public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
-      short-id: 7fe29733
-    uuid: 3f3fb01d-ad7c-498d-9434-a636fed64d8f
-    client-fingerprint: chrome
-  - name: 🇫🇮_1
-    port: 8495
-    server: 45.91.193.247
-    type: vless
-    network: http
-    udp: true
-    servername: icloud.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: bJ7kNh4nOLMQjV737Rud9sDqdNE2vYx_hlYFD82-1Qc
-      short-id: acbc173b1eef54b5
-    uuid: b6067899-8c64-4e83-8ec9-b0abeef1596f
-    client-fingerprint: chrome
-  - name: 🇩🇪_3
-    port: 1621
-    server: 188.245.163.79
-    type: vless
-    network: tcp
-    udp: true
-    servername: wwww.refersion.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
-      short-id: 3a622700e73c6642
-    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 🇭🇰_1
-    port: 19280
-    server: 103.17.99.54
-    type: vless
-    network: tcp
-    udp: true
-    servername: cdn-dynmedia-1.microsoft.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: F5_aTQFA2QRCig3L-qT0Qth76JdewSHK5MgEt_p8Dlo
-      short-id: a8bd783f
-    uuid: 89b90001-4206-4871-a99d-1744d48f215b
-    flow: xtls-rprx-vision
-    client-fingerprint: edge
-  - name: 🇩🇪_4
-    port: 1616
-    server: 188.245.163.79
-    type: vless
-    network: tcp
-    udp: true
-    servername: refersion.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
-      short-id: 3a622700e73c6642
-    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 🇩🇪_5
-    port: 1624
-    server: 188.245.163.79
-    type: vless
-    network: tcp
-    udp: true
-    servername: wwww.refersion.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
-      short-id: 3a622700e73c6642
-    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 🇩🇪_6
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_140
     port: 443
-    server: 89.187.169.71
+    server: 4.255.56.137
     type: vless
-    network: tcp
+    network: ws
     tls: true
     udp: true
-    servername: www.cloudflare.com
+    servername: edgetunnel-free.pages.dev
     skip-cert-verify: true
-    reality-opts:
-      public-key: B5i03yc1WUTOQD8v_N0UrCUaR4AgMJ40rEl8tXUJY0g
-      short-id: 01b200e90e250221
-    uuid: 6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 🇩🇪_7
-    port: 1620
-    server: 188.245.163.79
-    type: vless
-    network: tcp
-    udp: true
-    servername: wwww.refersion.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
-      short-id: 3a622700e73c6642
-    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 🇮🇹_2
-    port: 2060
-    server: 185.247.184.147
-    type: vless
-    network: grpc
-    udp: true
-    servername: dash.cloudflare.com
-    skip-cert-verify: true
-    grpc-opts: {}
-    reality-opts:
-      public-key: 1k5jM49Bx5DEAfS5Vpqz93t2XOXk-kwXl0V5Q9jn_WY
-      short-id: f77e5398
-    alpn:
-      - h2,http/1.1
-    uuid: 4a60a8e0-b51d-41ae-8500-1b0b6724c6e6
-    client-fingerprint: chrome
-  - name: 🇩🇪_8
-    port: 6543
-    server: 188.245.162.16
-    type: vless
-    network: tcp
-    udp: true
-    servername: www.speedtest.net
-    skip-cert-verify: true
-    reality-opts:
-      public-key: T80OrhSLwBQrXvbS8fh97IXOu37wRXT0ZEfVYu-FEDo
-      short-id: ddb79eb6fb
-    uuid: bfed7c40-7878-4ee5-a8db-8b9d0c546bea
-    client-fingerprint: chrome
-  - name: 🇮🇹_3
-    port: 2096
-    server: 147.45.51.16
-    type: vless
-    network: grpc
-    udp: true
-    servername: dash.cloudflare.com
-    skip-cert-verify: true
-    grpc-opts: {}
-    reality-opts:
-      public-key: c3R5_lORnQd1X3A2E0ulHJn396G2X_ZYIs66ldEVQWI
-      short-id: 28f58957
-    uuid: 16747acc-95c8-44ba-9b66-3d8a0c035347
-    client-fingerprint: firefox
-  - name: 🇩🇪_9
-    port: 46951
-    server: 49.12.232.18
-    type: vless
-    network: grpc
-    udp: true
-    servername: microsoft.com
-    skip-cert-verify: true
-    grpc-opts: {}
-    reality-opts:
-      public-key: rQYwLzPwYJblfCzt58-6YXpWgPYauFACkMNsFc_4A3c
-      short-id: 0b89b513
-    uuid: 92ff8e9c-cd7c-4e44-bdf5-734b3153a096
-    client-fingerprint: firefox
-  - name: 🇳🇱_2
-    port: 8082
-    server: 93.185.163.238
-    type: vless
-    network: http
-    udp: true
-    servername: use.fontawesome.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: 1wsuGvwHBl4upMnlmg3ehyqL-CgRpK9g4XZXkUX-B3k
-      short-id: 6a69d0c3821da542
-    uuid: feb6f54a-1c99-4281-b0d4-113765e70c61
-    client-fingerprint: chrome
-  - name: 🇫🇷_2
-    port: 1210
-    server: 51.77.111.91
-    type: vless
-    network: grpc
-    udp: true
-    servername: ubuntu.com
-    skip-cert-verify: true
-    grpc-opts: {}
-    reality-opts:
-      public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
-      short-id: 7fe29733
-    uuid: 3f3fb01d-ad7c-498d-9434-a636fed64d8f
-    client-fingerprint: chrome
-  - name: 🇫🇮_2
-    port: 8495
-    server: 45.91.193.247
-    type: vless
-    network: http
-    udp: true
-    servername: icloud.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: bJ7kNh4nOLMQjV737Rud9sDqdNE2vYx_hlYFD82-1Qc
-      short-id: acbc173b1eef54b5
-    uuid: b6067899-8c64-4e83-8ec9-b0abeef1596f
-    client-fingerprint: chrome
-  - name: 🇩🇪_10
-    port: 1621
-    server: 188.245.163.79
-    type: vless
-    network: tcp
-    udp: true
-    servername: wwww.refersion.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
-      short-id: 3a622700e73c6642
-    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 🇭🇰_2
-    port: 19280
-    server: 103.17.99.54
-    type: vless
-    network: tcp
-    udp: true
-    servername: cdn-dynmedia-1.microsoft.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: F5_aTQFA2QRCig3L-qT0Qth76JdewSHK5MgEt_p8Dlo
-      short-id: a8bd783f
-    uuid: 89b90001-4206-4871-a99d-1744d48f215b
-    flow: xtls-rprx-vision
-    client-fingerprint: edge
-  - name: 🇩🇪_11
-    port: 1616
-    server: 188.245.163.79
-    type: vless
-    network: tcp
-    udp: true
-    servername: refersion.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
-      short-id: 3a622700e73c6642
-    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 🇩🇪_12
-    port: 1624
-    server: 188.245.163.79
-    type: vless
-    network: tcp
-    udp: true
-    servername: wwww.refersion.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
-      short-id: 3a622700e73c6642
-    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 🇩🇪_13
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_141
     port: 443
-    server: 89.187.169.71
+    server: 20.74.223.241
     type: vless
-    network: tcp
+    network: ws
     tls: true
     udp: true
-    servername: www.cloudflare.com
+    servername: edgetunnel-free.pages.dev
     skip-cert-verify: true
-    reality-opts:
-      public-key: B5i03yc1WUTOQD8v_N0UrCUaR4AgMJ40rEl8tXUJY0g
-      short-id: 01b200e90e250221
-    uuid: 6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1
-    flow: xtls-rprx-vision
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_142
+    port: 8080
+    server: 104.18.165.147
+    type: vless
+    network: ws
+    udp: true
+    uuid: c9632b9c-8177-4aca-b569-e274405ba041
+  - name: defaultName_143
+    port: 80
+    server: 151.101.128.155
+    type: vless
+    network: ws
+    udp: true
+    uuid: 4a54fc9e-b717-4815-9d8a-b5bbc401aa56
+  - name: defaultName_144
+    port: 8080
+    server: 104.17.147.22
+    type: vless
+    network: ws
+    udp: true
+    uuid: b28f0173-6b24-44b6-f0ce-3f831744d634
+  - name: defaultName_145
+    port: 80
+    server: 162.19.228.119
+    type: vless
+    network: ws
+    udp: true
+    uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
+  - name: defaultName_146
+    port: 443
+    server: 45.63.117.50
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cpanel3.sassanidempire.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /ws
+      headers:
+        host: cpanel3.sassanidempire.com
+    uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
     client-fingerprint: chrome
-  - name: 🇩🇪_14
-    port: 1620
-    server: 188.245.163.79
+  - name: defaultName_147
+    port: 8080
+    server: 104.18.165.203
+    type: vless
+    network: ws
+    udp: true
+    uuid: c9632b9c-8177-4aca-b569-e274405ba041
+  - name: defaultName_148
+    port: 443
+    server: 167.82.103.27
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: default.ssl.fastly.net
+    skip-cert-verify: true
+    ws-opts:
+      path: /TqE6jD0U75tHi0qg6pk11?ed=2560
+      headers:
+        host: mehrjavan.ir
+    alpn:
+      - http/1.1
+    uuid: 879ff051-cba1-4208-87e1-00bff3a9a1c7
+    client-fingerprint: chrome
+  - name: defaultName_149
+    port: 4910
+    server: 62.60.174.99
     type: vless
     network: tcp
     udp: true
-    servername: wwww.refersion.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
-      short-id: 3a622700e73c6642
-    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 🇮🇹_4
-    port: 2060
-    server: 185.247.184.147
+    uuid: 5a33c57e-18a3-4561-a763-f6207fda2677
+  - name: defaultName_150
+    port: 80
+    server: 151.101.64.155
     type: vless
-    network: grpc
+    network: ws
     udp: true
-    servername: dash.cloudflare.com
-    skip-cert-verify: true
-    grpc-opts: {}
-    reality-opts:
-      public-key: 1k5jM49Bx5DEAfS5Vpqz93t2XOXk-kwXl0V5Q9jn_WY
-      short-id: f77e5398
-    alpn:
-      - h2,http/1.1
-    uuid: 4a60a8e0-b51d-41ae-8500-1b0b6724c6e6
-    client-fingerprint: chrome
+    uuid: 3d0fdf8b-023c-46b2-92ef-ab117668d1c6
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - Telegram+:+@tv2rayrr🐎_1
+      - Telegram+:+@tv2rayrr🐎_2
+      - Telegram+:+@tv2rayrr🐎_3
+      - Telegram+:+@tv2rayrr🐎_4
+      - Telegram+:+@tv2rayrr🐎_5
+      - Telegram+:+@tv2rayrr🐎_6
+      - Telegram+:+@tv2rayrr🐎_7
+      - Telegram+:+@tv2rayrr🐎_8
+      - Telegram+:+@tv2rayrr🐎_9
+      - Telegram+:+@tv2rayrr🐎_10
+      - Telegram+:+@tv2rayrr🐎_11
+      - Telegram+:+@tv2rayrr🐎_12
+      - "Telegram+:+@tv2rayrr🐎v2ray:"
+      - Telegram+:+@tv2rayrr🎲🔥❤️_1
+      - Telegram+:+@tv2rayrr🎲🔥❤️_2
+      - Telegram+:+@tv2rayrr🎲🔥❤️_3
+      - Telegram+:+@tv2rayrr🎲🔥❤️_4
+      - Telegram+:+@tv2rayrr🎲🔥❤️_5
+      - Telegram+:+@tv2rayrr🎲🔥❤️_6
+      - Telegram+:+@tv2rayrr🎲🔥❤️_7
+      - Telegram+:+@tv2rayrr🎲🔥❤️_8
+      - Telegram+:+@tv2rayrr🎲🔥❤️_9
+      - Telegram+:+@tv2rayrr🎲🔥❤️_10
+      - Telegram+:+@tv2rayrr🎲🔥❤️_11
+      - Telegram+:+@tv2rayrr🎲🔥❤️_12
+      - Telegram+:+@tv2rayrr🎲🔥❤️_13
+      - Telegram+:+@tv2rayrr🎲🔥❤️_14
+      - 🍋15@oneclickvpnkeys
+      - 🍋14@oneclickvpnkeys
+      - 🍋5@oneclickvpnkeys
+      - 🍋13@oneclickvpnkeys
+      - 🍋6@oneclickvpnkeys
+      - 🍋7@oneclickvpnkeys
+      - 🍋8@oneclickvpnkeys
+      - 🍋9@oneclickvpnkeys
+      - 🍋11@oneclickvpnkeys
+      - 🍋10@oneclickvpnkeys
+      - 🍋12@oneclickvpnkeys
+      - 🍋4@oneclickvpnkeys
+      - 🍋16@oneclickvpnkeys
+      - 🍋3@oneclickvpnkeys
+      - 🍋1@oneclickvpnkeys
+      - 🍋2@oneclickvpnkeys
+      - 🍎11@oneclickvpnkeys
+      - 🍎10@oneclickvpnkeys
+      - 🍎14@oneclickvpnkeys
+      - 🍒5@oneclickvpnkeys
+      - ⚱️8@oneclickvpnkeys
+      - 🍓52@oneclickvpnkeys
+      - 🍉23@oneclickvpnkeys
+      - 🍉22@oneclickvpnkeys
+      - 🍉88@oneclickvpnkeys
+      - 🍎38@oneclickvpnkeys
+      - 🍎29@oneclickvpnkeys
+      - 🍎44@oneclickvpnkeys
+      - 🍎77@oneclickvpnkeys
+      - 🍎78@oneclickvpnkeys
       - defaultName_1
       - defaultName_2
       - defaultName_3
@@ -2038,38 +2583,99 @@ proxy-groups:
       - defaultName_118
       - defaultName_119
       - defaultName_120
-      - 🇩🇪_1
-      - 🇮🇹_1
-      - 🇩🇪_2
-      - 🇳🇱_1
-      - 🇫🇷_1
-      - 🇫🇮_1
-      - 🇩🇪_3
-      - 🇭🇰_1
-      - 🇩🇪_4
-      - 🇩🇪_5
-      - 🇩🇪_6
-      - 🇩🇪_7
-      - 🇮🇹_2
-      - 🇩🇪_8
-      - 🇮🇹_3
-      - 🇩🇪_9
-      - 🇳🇱_2
-      - 🇫🇷_2
-      - 🇫🇮_2
-      - 🇩🇪_10
-      - 🇭🇰_2
-      - 🇩🇪_11
-      - 🇩🇪_12
-      - 🇩🇪_13
-      - 🇩🇪_14
-      - 🇮🇹_4
+      - defaultName_121
+      - defaultName_122
+      - defaultName_123
+      - defaultName_124
+      - defaultName_125
+      - defaultName_126
+      - defaultName_127
+      - defaultName_128
+      - defaultName_129
+      - defaultName_130
+      - defaultName_131
+      - defaultName_132
+      - defaultName_133
+      - defaultName_134
+      - defaultName_135
+      - defaultName_136
+      - defaultName_137
+      - defaultName_138
+      - defaultName_139
+      - defaultName_140
+      - defaultName_141
+      - defaultName_142
+      - defaultName_143
+      - defaultName_144
+      - defaultName_145
+      - defaultName_146
+      - defaultName_147
+      - defaultName_148
+      - defaultName_149
+      - defaultName_150
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - Telegram+:+@tv2rayrr🐎_1
+      - Telegram+:+@tv2rayrr🐎_2
+      - Telegram+:+@tv2rayrr🐎_3
+      - Telegram+:+@tv2rayrr🐎_4
+      - Telegram+:+@tv2rayrr🐎_5
+      - Telegram+:+@tv2rayrr🐎_6
+      - Telegram+:+@tv2rayrr🐎_7
+      - Telegram+:+@tv2rayrr🐎_8
+      - Telegram+:+@tv2rayrr🐎_9
+      - Telegram+:+@tv2rayrr🐎_10
+      - Telegram+:+@tv2rayrr🐎_11
+      - Telegram+:+@tv2rayrr🐎_12
+      - "Telegram+:+@tv2rayrr🐎v2ray:"
+      - Telegram+:+@tv2rayrr🎲🔥❤️_1
+      - Telegram+:+@tv2rayrr🎲🔥❤️_2
+      - Telegram+:+@tv2rayrr🎲🔥❤️_3
+      - Telegram+:+@tv2rayrr🎲🔥❤️_4
+      - Telegram+:+@tv2rayrr🎲🔥❤️_5
+      - Telegram+:+@tv2rayrr🎲🔥❤️_6
+      - Telegram+:+@tv2rayrr🎲🔥❤️_7
+      - Telegram+:+@tv2rayrr🎲🔥❤️_8
+      - Telegram+:+@tv2rayrr🎲🔥❤️_9
+      - Telegram+:+@tv2rayrr🎲🔥❤️_10
+      - Telegram+:+@tv2rayrr🎲🔥❤️_11
+      - Telegram+:+@tv2rayrr🎲🔥❤️_12
+      - Telegram+:+@tv2rayrr🎲🔥❤️_13
+      - Telegram+:+@tv2rayrr🎲🔥❤️_14
+      - 🍋15@oneclickvpnkeys
+      - 🍋14@oneclickvpnkeys
+      - 🍋5@oneclickvpnkeys
+      - 🍋13@oneclickvpnkeys
+      - 🍋6@oneclickvpnkeys
+      - 🍋7@oneclickvpnkeys
+      - 🍋8@oneclickvpnkeys
+      - 🍋9@oneclickvpnkeys
+      - 🍋11@oneclickvpnkeys
+      - 🍋10@oneclickvpnkeys
+      - 🍋12@oneclickvpnkeys
+      - 🍋4@oneclickvpnkeys
+      - 🍋16@oneclickvpnkeys
+      - 🍋3@oneclickvpnkeys
+      - 🍋1@oneclickvpnkeys
+      - 🍋2@oneclickvpnkeys
+      - 🍎11@oneclickvpnkeys
+      - 🍎10@oneclickvpnkeys
+      - 🍎14@oneclickvpnkeys
+      - 🍒5@oneclickvpnkeys
+      - ⚱️8@oneclickvpnkeys
+      - 🍓52@oneclickvpnkeys
+      - 🍉23@oneclickvpnkeys
+      - 🍉22@oneclickvpnkeys
+      - 🍉88@oneclickvpnkeys
+      - 🍎38@oneclickvpnkeys
+      - 🍎29@oneclickvpnkeys
+      - 🍎44@oneclickvpnkeys
+      - 🍎77@oneclickvpnkeys
+      - 🍎78@oneclickvpnkeys
       - defaultName_1
       - defaultName_2
       - defaultName_3
@@ -2190,38 +2796,99 @@ proxy-groups:
       - defaultName_118
       - defaultName_119
       - defaultName_120
-      - 🇩🇪_1
-      - 🇮🇹_1
-      - 🇩🇪_2
-      - 🇳🇱_1
-      - 🇫🇷_1
-      - 🇫🇮_1
-      - 🇩🇪_3
-      - 🇭🇰_1
-      - 🇩🇪_4
-      - 🇩🇪_5
-      - 🇩🇪_6
-      - 🇩🇪_7
-      - 🇮🇹_2
-      - 🇩🇪_8
-      - 🇮🇹_3
-      - 🇩🇪_9
-      - 🇳🇱_2
-      - 🇫🇷_2
-      - 🇫🇮_2
-      - 🇩🇪_10
-      - 🇭🇰_2
-      - 🇩🇪_11
-      - 🇩🇪_12
-      - 🇩🇪_13
-      - 🇩🇪_14
-      - 🇮🇹_4
+      - defaultName_121
+      - defaultName_122
+      - defaultName_123
+      - defaultName_124
+      - defaultName_125
+      - defaultName_126
+      - defaultName_127
+      - defaultName_128
+      - defaultName_129
+      - defaultName_130
+      - defaultName_131
+      - defaultName_132
+      - defaultName_133
+      - defaultName_134
+      - defaultName_135
+      - defaultName_136
+      - defaultName_137
+      - defaultName_138
+      - defaultName_139
+      - defaultName_140
+      - defaultName_141
+      - defaultName_142
+      - defaultName_143
+      - defaultName_144
+      - defaultName_145
+      - defaultName_146
+      - defaultName_147
+      - defaultName_148
+      - defaultName_149
+      - defaultName_150
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Telegram+:+@tv2rayrr🐎_1
+      - Telegram+:+@tv2rayrr🐎_2
+      - Telegram+:+@tv2rayrr🐎_3
+      - Telegram+:+@tv2rayrr🐎_4
+      - Telegram+:+@tv2rayrr🐎_5
+      - Telegram+:+@tv2rayrr🐎_6
+      - Telegram+:+@tv2rayrr🐎_7
+      - Telegram+:+@tv2rayrr🐎_8
+      - Telegram+:+@tv2rayrr🐎_9
+      - Telegram+:+@tv2rayrr🐎_10
+      - Telegram+:+@tv2rayrr🐎_11
+      - Telegram+:+@tv2rayrr🐎_12
+      - "Telegram+:+@tv2rayrr🐎v2ray:"
+      - Telegram+:+@tv2rayrr🎲🔥❤️_1
+      - Telegram+:+@tv2rayrr🎲🔥❤️_2
+      - Telegram+:+@tv2rayrr🎲🔥❤️_3
+      - Telegram+:+@tv2rayrr🎲🔥❤️_4
+      - Telegram+:+@tv2rayrr🎲🔥❤️_5
+      - Telegram+:+@tv2rayrr🎲🔥❤️_6
+      - Telegram+:+@tv2rayrr🎲🔥❤️_7
+      - Telegram+:+@tv2rayrr🎲🔥❤️_8
+      - Telegram+:+@tv2rayrr🎲🔥❤️_9
+      - Telegram+:+@tv2rayrr🎲🔥❤️_10
+      - Telegram+:+@tv2rayrr🎲🔥❤️_11
+      - Telegram+:+@tv2rayrr🎲🔥❤️_12
+      - Telegram+:+@tv2rayrr🎲🔥❤️_13
+      - Telegram+:+@tv2rayrr🎲🔥❤️_14
+      - 🍋15@oneclickvpnkeys
+      - 🍋14@oneclickvpnkeys
+      - 🍋5@oneclickvpnkeys
+      - 🍋13@oneclickvpnkeys
+      - 🍋6@oneclickvpnkeys
+      - 🍋7@oneclickvpnkeys
+      - 🍋8@oneclickvpnkeys
+      - 🍋9@oneclickvpnkeys
+      - 🍋11@oneclickvpnkeys
+      - 🍋10@oneclickvpnkeys
+      - 🍋12@oneclickvpnkeys
+      - 🍋4@oneclickvpnkeys
+      - 🍋16@oneclickvpnkeys
+      - 🍋3@oneclickvpnkeys
+      - 🍋1@oneclickvpnkeys
+      - 🍋2@oneclickvpnkeys
+      - 🍎11@oneclickvpnkeys
+      - 🍎10@oneclickvpnkeys
+      - 🍎14@oneclickvpnkeys
+      - 🍒5@oneclickvpnkeys
+      - ⚱️8@oneclickvpnkeys
+      - 🍓52@oneclickvpnkeys
+      - 🍉23@oneclickvpnkeys
+      - 🍉22@oneclickvpnkeys
+      - 🍉88@oneclickvpnkeys
+      - 🍎38@oneclickvpnkeys
+      - 🍎29@oneclickvpnkeys
+      - 🍎44@oneclickvpnkeys
+      - 🍎77@oneclickvpnkeys
+      - 🍎78@oneclickvpnkeys
       - defaultName_1
       - defaultName_2
       - defaultName_3
@@ -2342,37 +3009,98 @@ proxy-groups:
       - defaultName_118
       - defaultName_119
       - defaultName_120
-      - 🇩🇪_1
-      - 🇮🇹_1
-      - 🇩🇪_2
-      - 🇳🇱_1
-      - 🇫🇷_1
-      - 🇫🇮_1
-      - 🇩🇪_3
-      - 🇭🇰_1
-      - 🇩🇪_4
-      - 🇩🇪_5
-      - 🇩🇪_6
-      - 🇩🇪_7
-      - 🇮🇹_2
-      - 🇩🇪_8
-      - 🇮🇹_3
-      - 🇩🇪_9
-      - 🇳🇱_2
-      - 🇫🇷_2
-      - 🇫🇮_2
-      - 🇩🇪_10
-      - 🇭🇰_2
-      - 🇩🇪_11
-      - 🇩🇪_12
-      - 🇩🇪_13
-      - 🇩🇪_14
-      - 🇮🇹_4
+      - defaultName_121
+      - defaultName_122
+      - defaultName_123
+      - defaultName_124
+      - defaultName_125
+      - defaultName_126
+      - defaultName_127
+      - defaultName_128
+      - defaultName_129
+      - defaultName_130
+      - defaultName_131
+      - defaultName_132
+      - defaultName_133
+      - defaultName_134
+      - defaultName_135
+      - defaultName_136
+      - defaultName_137
+      - defaultName_138
+      - defaultName_139
+      - defaultName_140
+      - defaultName_141
+      - defaultName_142
+      - defaultName_143
+      - defaultName_144
+      - defaultName_145
+      - defaultName_146
+      - defaultName_147
+      - defaultName_148
+      - defaultName_149
+      - defaultName_150
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - Telegram+:+@tv2rayrr🐎_1
+      - Telegram+:+@tv2rayrr🐎_2
+      - Telegram+:+@tv2rayrr🐎_3
+      - Telegram+:+@tv2rayrr🐎_4
+      - Telegram+:+@tv2rayrr🐎_5
+      - Telegram+:+@tv2rayrr🐎_6
+      - Telegram+:+@tv2rayrr🐎_7
+      - Telegram+:+@tv2rayrr🐎_8
+      - Telegram+:+@tv2rayrr🐎_9
+      - Telegram+:+@tv2rayrr🐎_10
+      - Telegram+:+@tv2rayrr🐎_11
+      - Telegram+:+@tv2rayrr🐎_12
+      - "Telegram+:+@tv2rayrr🐎v2ray:"
+      - Telegram+:+@tv2rayrr🎲🔥❤️_1
+      - Telegram+:+@tv2rayrr🎲🔥❤️_2
+      - Telegram+:+@tv2rayrr🎲🔥❤️_3
+      - Telegram+:+@tv2rayrr🎲🔥❤️_4
+      - Telegram+:+@tv2rayrr🎲🔥❤️_5
+      - Telegram+:+@tv2rayrr🎲🔥❤️_6
+      - Telegram+:+@tv2rayrr🎲🔥❤️_7
+      - Telegram+:+@tv2rayrr🎲🔥❤️_8
+      - Telegram+:+@tv2rayrr🎲🔥❤️_9
+      - Telegram+:+@tv2rayrr🎲🔥❤️_10
+      - Telegram+:+@tv2rayrr🎲🔥❤️_11
+      - Telegram+:+@tv2rayrr🎲🔥❤️_12
+      - Telegram+:+@tv2rayrr🎲🔥❤️_13
+      - Telegram+:+@tv2rayrr🎲🔥❤️_14
+      - 🍋15@oneclickvpnkeys
+      - 🍋14@oneclickvpnkeys
+      - 🍋5@oneclickvpnkeys
+      - 🍋13@oneclickvpnkeys
+      - 🍋6@oneclickvpnkeys
+      - 🍋7@oneclickvpnkeys
+      - 🍋8@oneclickvpnkeys
+      - 🍋9@oneclickvpnkeys
+      - 🍋11@oneclickvpnkeys
+      - 🍋10@oneclickvpnkeys
+      - 🍋12@oneclickvpnkeys
+      - 🍋4@oneclickvpnkeys
+      - 🍋16@oneclickvpnkeys
+      - 🍋3@oneclickvpnkeys
+      - 🍋1@oneclickvpnkeys
+      - 🍋2@oneclickvpnkeys
+      - 🍎11@oneclickvpnkeys
+      - 🍎10@oneclickvpnkeys
+      - 🍎14@oneclickvpnkeys
+      - 🍒5@oneclickvpnkeys
+      - ⚱️8@oneclickvpnkeys
+      - 🍓52@oneclickvpnkeys
+      - 🍉23@oneclickvpnkeys
+      - 🍉22@oneclickvpnkeys
+      - 🍉88@oneclickvpnkeys
+      - 🍎38@oneclickvpnkeys
+      - 🍎29@oneclickvpnkeys
+      - 🍎44@oneclickvpnkeys
+      - 🍎77@oneclickvpnkeys
+      - 🍎78@oneclickvpnkeys
       - defaultName_1
       - defaultName_2
       - defaultName_3
@@ -2493,37 +3221,98 @@ proxy-groups:
       - defaultName_118
       - defaultName_119
       - defaultName_120
-      - 🇩🇪_1
-      - 🇮🇹_1
-      - 🇩🇪_2
-      - 🇳🇱_1
-      - 🇫🇷_1
-      - 🇫🇮_1
-      - 🇩🇪_3
-      - 🇭🇰_1
-      - 🇩🇪_4
-      - 🇩🇪_5
-      - 🇩🇪_6
-      - 🇩🇪_7
-      - 🇮🇹_2
-      - 🇩🇪_8
-      - 🇮🇹_3
-      - 🇩🇪_9
-      - 🇳🇱_2
-      - 🇫🇷_2
-      - 🇫🇮_2
-      - 🇩🇪_10
-      - 🇭🇰_2
-      - 🇩🇪_11
-      - 🇩🇪_12
-      - 🇩🇪_13
-      - 🇩🇪_14
-      - 🇮🇹_4
+      - defaultName_121
+      - defaultName_122
+      - defaultName_123
+      - defaultName_124
+      - defaultName_125
+      - defaultName_126
+      - defaultName_127
+      - defaultName_128
+      - defaultName_129
+      - defaultName_130
+      - defaultName_131
+      - defaultName_132
+      - defaultName_133
+      - defaultName_134
+      - defaultName_135
+      - defaultName_136
+      - defaultName_137
+      - defaultName_138
+      - defaultName_139
+      - defaultName_140
+      - defaultName_141
+      - defaultName_142
+      - defaultName_143
+      - defaultName_144
+      - defaultName_145
+      - defaultName_146
+      - defaultName_147
+      - defaultName_148
+      - defaultName_149
+      - defaultName_150
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - Telegram+:+@tv2rayrr🐎_1
+      - Telegram+:+@tv2rayrr🐎_2
+      - Telegram+:+@tv2rayrr🐎_3
+      - Telegram+:+@tv2rayrr🐎_4
+      - Telegram+:+@tv2rayrr🐎_5
+      - Telegram+:+@tv2rayrr🐎_6
+      - Telegram+:+@tv2rayrr🐎_7
+      - Telegram+:+@tv2rayrr🐎_8
+      - Telegram+:+@tv2rayrr🐎_9
+      - Telegram+:+@tv2rayrr🐎_10
+      - Telegram+:+@tv2rayrr🐎_11
+      - Telegram+:+@tv2rayrr🐎_12
+      - "Telegram+:+@tv2rayrr🐎v2ray:"
+      - Telegram+:+@tv2rayrr🎲🔥❤️_1
+      - Telegram+:+@tv2rayrr🎲🔥❤️_2
+      - Telegram+:+@tv2rayrr🎲🔥❤️_3
+      - Telegram+:+@tv2rayrr🎲🔥❤️_4
+      - Telegram+:+@tv2rayrr🎲🔥❤️_5
+      - Telegram+:+@tv2rayrr🎲🔥❤️_6
+      - Telegram+:+@tv2rayrr🎲🔥❤️_7
+      - Telegram+:+@tv2rayrr🎲🔥❤️_8
+      - Telegram+:+@tv2rayrr🎲🔥❤️_9
+      - Telegram+:+@tv2rayrr🎲🔥❤️_10
+      - Telegram+:+@tv2rayrr🎲🔥❤️_11
+      - Telegram+:+@tv2rayrr🎲🔥❤️_12
+      - Telegram+:+@tv2rayrr🎲🔥❤️_13
+      - Telegram+:+@tv2rayrr🎲🔥❤️_14
+      - 🍋15@oneclickvpnkeys
+      - 🍋14@oneclickvpnkeys
+      - 🍋5@oneclickvpnkeys
+      - 🍋13@oneclickvpnkeys
+      - 🍋6@oneclickvpnkeys
+      - 🍋7@oneclickvpnkeys
+      - 🍋8@oneclickvpnkeys
+      - 🍋9@oneclickvpnkeys
+      - 🍋11@oneclickvpnkeys
+      - 🍋10@oneclickvpnkeys
+      - 🍋12@oneclickvpnkeys
+      - 🍋4@oneclickvpnkeys
+      - 🍋16@oneclickvpnkeys
+      - 🍋3@oneclickvpnkeys
+      - 🍋1@oneclickvpnkeys
+      - 🍋2@oneclickvpnkeys
+      - 🍎11@oneclickvpnkeys
+      - 🍎10@oneclickvpnkeys
+      - 🍎14@oneclickvpnkeys
+      - 🍒5@oneclickvpnkeys
+      - ⚱️8@oneclickvpnkeys
+      - 🍓52@oneclickvpnkeys
+      - 🍉23@oneclickvpnkeys
+      - 🍉22@oneclickvpnkeys
+      - 🍉88@oneclickvpnkeys
+      - 🍎38@oneclickvpnkeys
+      - 🍎29@oneclickvpnkeys
+      - 🍎44@oneclickvpnkeys
+      - 🍎77@oneclickvpnkeys
+      - 🍎78@oneclickvpnkeys
       - defaultName_1
       - defaultName_2
       - defaultName_3
@@ -2644,37 +3433,98 @@ proxy-groups:
       - defaultName_118
       - defaultName_119
       - defaultName_120
-      - 🇩🇪_1
-      - 🇮🇹_1
-      - 🇩🇪_2
-      - 🇳🇱_1
-      - 🇫🇷_1
-      - 🇫🇮_1
-      - 🇩🇪_3
-      - 🇭🇰_1
-      - 🇩🇪_4
-      - 🇩🇪_5
-      - 🇩🇪_6
-      - 🇩🇪_7
-      - 🇮🇹_2
-      - 🇩🇪_8
-      - 🇮🇹_3
-      - 🇩🇪_9
-      - 🇳🇱_2
-      - 🇫🇷_2
-      - 🇫🇮_2
-      - 🇩🇪_10
-      - 🇭🇰_2
-      - 🇩🇪_11
-      - 🇩🇪_12
-      - 🇩🇪_13
-      - 🇩🇪_14
-      - 🇮🇹_4
+      - defaultName_121
+      - defaultName_122
+      - defaultName_123
+      - defaultName_124
+      - defaultName_125
+      - defaultName_126
+      - defaultName_127
+      - defaultName_128
+      - defaultName_129
+      - defaultName_130
+      - defaultName_131
+      - defaultName_132
+      - defaultName_133
+      - defaultName_134
+      - defaultName_135
+      - defaultName_136
+      - defaultName_137
+      - defaultName_138
+      - defaultName_139
+      - defaultName_140
+      - defaultName_141
+      - defaultName_142
+      - defaultName_143
+      - defaultName_144
+      - defaultName_145
+      - defaultName_146
+      - defaultName_147
+      - defaultName_148
+      - defaultName_149
+      - defaultName_150
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - Telegram+:+@tv2rayrr🐎_1
+      - Telegram+:+@tv2rayrr🐎_2
+      - Telegram+:+@tv2rayrr🐎_3
+      - Telegram+:+@tv2rayrr🐎_4
+      - Telegram+:+@tv2rayrr🐎_5
+      - Telegram+:+@tv2rayrr🐎_6
+      - Telegram+:+@tv2rayrr🐎_7
+      - Telegram+:+@tv2rayrr🐎_8
+      - Telegram+:+@tv2rayrr🐎_9
+      - Telegram+:+@tv2rayrr🐎_10
+      - Telegram+:+@tv2rayrr🐎_11
+      - Telegram+:+@tv2rayrr🐎_12
+      - "Telegram+:+@tv2rayrr🐎v2ray:"
+      - Telegram+:+@tv2rayrr🎲🔥❤️_1
+      - Telegram+:+@tv2rayrr🎲🔥❤️_2
+      - Telegram+:+@tv2rayrr🎲🔥❤️_3
+      - Telegram+:+@tv2rayrr🎲🔥❤️_4
+      - Telegram+:+@tv2rayrr🎲🔥❤️_5
+      - Telegram+:+@tv2rayrr🎲🔥❤️_6
+      - Telegram+:+@tv2rayrr🎲🔥❤️_7
+      - Telegram+:+@tv2rayrr🎲🔥❤️_8
+      - Telegram+:+@tv2rayrr🎲🔥❤️_9
+      - Telegram+:+@tv2rayrr🎲🔥❤️_10
+      - Telegram+:+@tv2rayrr🎲🔥❤️_11
+      - Telegram+:+@tv2rayrr🎲🔥❤️_12
+      - Telegram+:+@tv2rayrr🎲🔥❤️_13
+      - Telegram+:+@tv2rayrr🎲🔥❤️_14
+      - 🍋15@oneclickvpnkeys
+      - 🍋14@oneclickvpnkeys
+      - 🍋5@oneclickvpnkeys
+      - 🍋13@oneclickvpnkeys
+      - 🍋6@oneclickvpnkeys
+      - 🍋7@oneclickvpnkeys
+      - 🍋8@oneclickvpnkeys
+      - 🍋9@oneclickvpnkeys
+      - 🍋11@oneclickvpnkeys
+      - 🍋10@oneclickvpnkeys
+      - 🍋12@oneclickvpnkeys
+      - 🍋4@oneclickvpnkeys
+      - 🍋16@oneclickvpnkeys
+      - 🍋3@oneclickvpnkeys
+      - 🍋1@oneclickvpnkeys
+      - 🍋2@oneclickvpnkeys
+      - 🍎11@oneclickvpnkeys
+      - 🍎10@oneclickvpnkeys
+      - 🍎14@oneclickvpnkeys
+      - 🍒5@oneclickvpnkeys
+      - ⚱️8@oneclickvpnkeys
+      - 🍓52@oneclickvpnkeys
+      - 🍉23@oneclickvpnkeys
+      - 🍉22@oneclickvpnkeys
+      - 🍉88@oneclickvpnkeys
+      - 🍎38@oneclickvpnkeys
+      - 🍎29@oneclickvpnkeys
+      - 🍎44@oneclickvpnkeys
+      - 🍎77@oneclickvpnkeys
+      - 🍎78@oneclickvpnkeys
       - defaultName_1
       - defaultName_2
       - defaultName_3
@@ -2795,32 +3645,36 @@ proxy-groups:
       - defaultName_118
       - defaultName_119
       - defaultName_120
-      - 🇩🇪_1
-      - 🇮🇹_1
-      - 🇩🇪_2
-      - 🇳🇱_1
-      - 🇫🇷_1
-      - 🇫🇮_1
-      - 🇩🇪_3
-      - 🇭🇰_1
-      - 🇩🇪_4
-      - 🇩🇪_5
-      - 🇩🇪_6
-      - 🇩🇪_7
-      - 🇮🇹_2
-      - 🇩🇪_8
-      - 🇮🇹_3
-      - 🇩🇪_9
-      - 🇳🇱_2
-      - 🇫🇷_2
-      - 🇫🇮_2
-      - 🇩🇪_10
-      - 🇭🇰_2
-      - 🇩🇪_11
-      - 🇩🇪_12
-      - 🇩🇪_13
-      - 🇩🇪_14
-      - 🇮🇹_4
+      - defaultName_121
+      - defaultName_122
+      - defaultName_123
+      - defaultName_124
+      - defaultName_125
+      - defaultName_126
+      - defaultName_127
+      - defaultName_128
+      - defaultName_129
+      - defaultName_130
+      - defaultName_131
+      - defaultName_132
+      - defaultName_133
+      - defaultName_134
+      - defaultName_135
+      - defaultName_136
+      - defaultName_137
+      - defaultName_138
+      - defaultName_139
+      - defaultName_140
+      - defaultName_141
+      - defaultName_142
+      - defaultName_143
+      - defaultName_144
+      - defaultName_145
+      - defaultName_146
+      - defaultName_147
+      - defaultName_148
+      - defaultName_149
+      - defaultName_150
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2843,6 +3697,63 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Telegram+:+@tv2rayrr🐎_1
+      - Telegram+:+@tv2rayrr🐎_2
+      - Telegram+:+@tv2rayrr🐎_3
+      - Telegram+:+@tv2rayrr🐎_4
+      - Telegram+:+@tv2rayrr🐎_5
+      - Telegram+:+@tv2rayrr🐎_6
+      - Telegram+:+@tv2rayrr🐎_7
+      - Telegram+:+@tv2rayrr🐎_8
+      - Telegram+:+@tv2rayrr🐎_9
+      - Telegram+:+@tv2rayrr🐎_10
+      - Telegram+:+@tv2rayrr🐎_11
+      - Telegram+:+@tv2rayrr🐎_12
+      - "Telegram+:+@tv2rayrr🐎v2ray:"
+      - Telegram+:+@tv2rayrr🎲🔥❤️_1
+      - Telegram+:+@tv2rayrr🎲🔥❤️_2
+      - Telegram+:+@tv2rayrr🎲🔥❤️_3
+      - Telegram+:+@tv2rayrr🎲🔥❤️_4
+      - Telegram+:+@tv2rayrr🎲🔥❤️_5
+      - Telegram+:+@tv2rayrr🎲🔥❤️_6
+      - Telegram+:+@tv2rayrr🎲🔥❤️_7
+      - Telegram+:+@tv2rayrr🎲🔥❤️_8
+      - Telegram+:+@tv2rayrr🎲🔥❤️_9
+      - Telegram+:+@tv2rayrr🎲🔥❤️_10
+      - Telegram+:+@tv2rayrr🎲🔥❤️_11
+      - Telegram+:+@tv2rayrr🎲🔥❤️_12
+      - Telegram+:+@tv2rayrr🎲🔥❤️_13
+      - Telegram+:+@tv2rayrr🎲🔥❤️_14
+      - 🍋15@oneclickvpnkeys
+      - 🍋14@oneclickvpnkeys
+      - 🍋5@oneclickvpnkeys
+      - 🍋13@oneclickvpnkeys
+      - 🍋6@oneclickvpnkeys
+      - 🍋7@oneclickvpnkeys
+      - 🍋8@oneclickvpnkeys
+      - 🍋9@oneclickvpnkeys
+      - 🍋11@oneclickvpnkeys
+      - 🍋10@oneclickvpnkeys
+      - 🍋12@oneclickvpnkeys
+      - 🍋4@oneclickvpnkeys
+      - 🍋16@oneclickvpnkeys
+      - 🍋3@oneclickvpnkeys
+      - 🍋1@oneclickvpnkeys
+      - 🍋2@oneclickvpnkeys
+      - 🍎11@oneclickvpnkeys
+      - 🍎10@oneclickvpnkeys
+      - 🍎14@oneclickvpnkeys
+      - 🍒5@oneclickvpnkeys
+      - ⚱️8@oneclickvpnkeys
+      - 🍓52@oneclickvpnkeys
+      - 🍉23@oneclickvpnkeys
+      - 🍉22@oneclickvpnkeys
+      - 🍉88@oneclickvpnkeys
+      - 🍎38@oneclickvpnkeys
+      - 🍎29@oneclickvpnkeys
+      - 🍎44@oneclickvpnkeys
+      - 🍎77@oneclickvpnkeys
+      - 🍎78@oneclickvpnkeys
       - defaultName_1
       - defaultName_2
       - defaultName_3
@@ -2963,32 +3874,36 @@ proxy-groups:
       - defaultName_118
       - defaultName_119
       - defaultName_120
-      - 🇩🇪_1
-      - 🇮🇹_1
-      - 🇩🇪_2
-      - 🇳🇱_1
-      - 🇫🇷_1
-      - 🇫🇮_1
-      - 🇩🇪_3
-      - 🇭🇰_1
-      - 🇩🇪_4
-      - 🇩🇪_5
-      - 🇩🇪_6
-      - 🇩🇪_7
-      - 🇮🇹_2
-      - 🇩🇪_8
-      - 🇮🇹_3
-      - 🇩🇪_9
-      - 🇳🇱_2
-      - 🇫🇷_2
-      - 🇫🇮_2
-      - 🇩🇪_10
-      - 🇭🇰_2
-      - 🇩🇪_11
-      - 🇩🇪_12
-      - 🇩🇪_13
-      - 🇩🇪_14
-      - 🇮🇹_4
+      - defaultName_121
+      - defaultName_122
+      - defaultName_123
+      - defaultName_124
+      - defaultName_125
+      - defaultName_126
+      - defaultName_127
+      - defaultName_128
+      - defaultName_129
+      - defaultName_130
+      - defaultName_131
+      - defaultName_132
+      - defaultName_133
+      - defaultName_134
+      - defaultName_135
+      - defaultName_136
+      - defaultName_137
+      - defaultName_138
+      - defaultName_139
+      - defaultName_140
+      - defaultName_141
+      - defaultName_142
+      - defaultName_143
+      - defaultName_144
+      - defaultName_145
+      - defaultName_146
+      - defaultName_147
+      - defaultName_148
+      - defaultName_149
+      - defaultName_150
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

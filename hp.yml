@@ -46,3009 +46,2781 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: "💦 1 - VLESS - Domain : 443"
+  - name: defaultName_1
+    port: 2095
+    server: 185.146.173.185
+    type: vless
+    network: httpupgrade
+    udp: true
+    uuid: fce9ae11-0fd2-4989-b1d5-c6e1e1d5e2fd
+  - name: defaultName_2
+    port: 80
+    server: 162.19.228.119
+    type: vless
+    network: ws
+    udp: true
+    uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
+  - name: defaultName_3
+    port: 8880
+    server: "2a06:98c1:3123::"
+    type: vless
+    network: ws
+    udp: true
+    uuid: Bos
+  - name: defaultName_4
     port: 443
-    server: games-fullg1.pages.dev
+    server: 45.63.117.50
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: gAmes-fulLG1.pageS.dEV
+    servername: cpanel3.sassanidempire.com
     skip-cert-verify: true
     ws-opts:
-      path: /F0GXIKZaPkhiFSGU/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /ws
       headers:
-        host: games-fullg1.pages.dev
+        host: cpanel3.sassanidempire.com
     alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 2 - VLESS - Domain : 443"
+      - http/1.1
+    uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
+    client-fingerprint: chrome
+  - name: defaultName_5
+    port: 80
+    server: 151.101.3.8
+    type: vless
+    network: ws
+    udp: true
+    uuid: telegram-id-ArV2ray
+  - name: defaultName_6
+    port: 80
+    server: 151.101.3.8
+    type: vless
+    network: ws
+    udp: true
+    uuid: telegram-id-ArV2ray
+  - name: defaultName_7
+    port: 2096
+    server: 147.45.51.16
+    type: vless
+    network: grpc
+    udp: true
+    servername: dash.cloudflare.com
+    skip-cert-verify: true
+    grpc-opts: {}
+    reality-opts:
+      public-key: c3R5_lORnQd1X3A2E0ulHJn396G2X_ZYIs66ldEVQWI
+      short-id: 28f58957
+    uuid: 16747acc-95c8-44ba-9b66-3d8a0c035347
+    client-fingerprint: firefox
+  - name: defaultName_8
     port: 443
-    server: www.speedtest.net
+    server: 45.63.117.50
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: GaMES-fUllG1.PAgEs.dEV
+    servername: cpanel3.sassanidempire.com
     skip-cert-verify: true
     ws-opts:
-      path: /MUza7KWqJVZnIZ8N/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /ws
       headers:
-        host: games-fullg1.pages.dev
+        host: cpanel3.sassanidempire.com
+    alpn:
+      - http/1.1
+    uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
+  - name: defaultName_9
+    port: 2060
+    server: 185.247.184.147
+    type: vless
+    network: grpc
+    udp: true
+    servername: dash.cloudflare.com
+    skip-cert-verify: true
+    grpc-opts: {}
+    reality-opts:
+      public-key: 1k5jM49Bx5DEAfS5Vpqz93t2XOXk-kwXl0V5Q9jn_WY
+      short-id: f77e5398
     alpn:
       - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 3 - VLESS - IPv4 : 443"
+    uuid: 4a60a8e0-b51d-41ae-8500-1b0b6724c6e6
+    client-fingerprint: chrome
+  - name: defaultName_10
+    port: 80
+    server: 151.101.3.8
+    type: vless
+    network: ws
+    udp: true
+    uuid: telegram-id-ArV2ray
+  - name: defaultName_11
+    port: 2052
+    server: 104.17.148.22
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=2052
+      headers:
+        host: www.speedtest.net.B.5.dnschecker.Tech.
+    uuid: telegram-id-ArV2ray
+  - name: defaultName_12
     port: 443
-    server: 188.114.97.2
+    server: 151.101.2.133
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: GaMeS-FUlLg1.PaGeS.dEv
+    servername: mio.splashthat.com
     skip-cert-verify: true
     ws-opts:
-      path: /zLiQrT0Rdu5vRYjV/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=2048
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 4 - VLESS - IPv4 : 443"
+        host: barkatc2.ir
+    uuid: ea52c459-86ac-4707-8062-564ca031ae43
+  - name: defaultName_13
     port: 443
-    server: 188.114.96.2
+    server: 146.75.118.133
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: gamEs-Fullg1.pagEs.DEV
+    servername: live.989bull.com
     skip-cert-verify: true
     ws-opts:
-      path: /z4a7gCaXolQX5NPo/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam?ed=443
       headers:
-        host: games-fullg1.pages.dev
+        host: Savteam.CI
     alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 5 - VLESS - IPv6 : 443"
+      - http/1.1
+    uuid: SAVTEAM14
+    client-fingerprint: chrome
+  - name: defaultName_14
     port: 443
-    server: 2a06:98c1:3121::2
+    server: 89.187.169.71
     type: vless
-    network: ws
+    network: tcp
     tls: true
     udp: true
-    servername: GAmEs-fUllg1.PaGEs.Dev
+    servername: www.cloudflare.com
     skip-cert-verify: true
-    ws-opts:
-      path: /GMiKSl8DFyr2PIIA/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 6 - VLESS - IPv6 : 443"
+    reality-opts:
+      public-key: B5i03yc1WUTOQD8v_N0UrCUaR4AgMJ40rEl8tXUJY0g
+      short-id: 01b200e90e250221
+    uuid: 6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: defaultName_15
     port: 443
-    server: 2a06:98c1:3120::2
+    server: 151.101.130.228
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: GAmEs-fulLG1.pAgEs.dEv
+    servername: hajlab.ucdavis.edu
     skip-cert-verify: true
     ws-opts:
-      path: /CtKq97XnASOf2W2W/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: "@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--\
+        @Maznet--@MAZNET?ed=2560"
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 7 - VLESS - Clean IP : 443"
+        host: loye.ir
+    uuid: dac2e369-da14-496a-87ce-eee67acfdecf
+  - name: defaultName_16
     port: 443
-    server: www.gov.ua
+    server: 45.63.117.50
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: gamEs-FUllg1.pAGES.Dev
+    servername: cpanel3.sassanidempire.com
     skip-cert-verify: true
     ws-opts:
-      path: /to36p215USx2ePGD/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /ws
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 8 - VLESS - Clean IP : 443"
+        host: cpanel3.sassanidempire.com
+    uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
+    client-fingerprint: chrome
+  - name: defaultName_17
+    port: 38971
+    server: 2a01:4f8:c17:1cd7::1
+    type: vless
+    network: tcp
+    udp: true
+    uuid: TELEGRAM-ServerNett
+  - name: defaultName_18
+    port: 35321
+    server: 2a01:4f9:c011:337b::1
+    type: vless
+    network: tcp
+    udp: true
+    uuid: d5cad95d-821d-4557-a758-6a985b85a08c
+  - name: defaultName_19
+    port: 8880
+    server: "2a06:98c1:3123::"
+    type: vless
+    network: ws
+    udp: true
+    uuid: Bos
+  - name: defaultName_20
+    port: 80
+    server: 151.101.128.155
+    type: vless
+    network: ws
+    udp: true
+    uuid: 43e585a6-4369-4502-c459-ac933f70c495
+  - name: defaultName_21
     port: 443
-    server: www.zsu.gov.ua
+    server: 2a05:541:124:19::1
     type: vless
-    network: ws
+    network: tcp
     tls: true
     udp: true
-    servername: GAmes-FULlG1.PaGes.Dev
+    uuid: v2rayng__76
+  - name: defaultName_22
+    port: 33000
+    server: 2a0b:4140:659a:6::6
+    type: vless
+    network: grpc
+    udp: true
+    servername: www.speedtest.net
     skip-cert-verify: true
-    ws-opts:
-      path: /GPvQSPI5UFC8LlcW/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 9 - VLESS - Clean IP : 443"
+    grpc-opts: {}
+    reality-opts:
+      public-key: JrN7nZEbUeBJFHTAKwtz5Dmd10SGgA8UCHEMLA2xOg0
+      short-id: be7f13dd
+    uuid: b106570b-6b5f-40c1-8081-03093fbe8fa5
+    client-fingerprint: chrome
+  - name: defaultName_23
     port: 443
-    server: malaysia.com
+    server: "2a06:98c1:3123::"
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: gAMeS-FullG1.PaGEs.DEv
+    servername: st-pl-1.brocdn.com
     skip-cert-verify: true
     ws-opts:
-      path: /JFIZPG1hS87jTzqc/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /websocket
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 10 - VLESS - Clean IP : 443"
+        host: st-pl-1.brocdn.com
+    uuid: dd563276-d5f9-11ee-aaa8-00505603e70d
+  - name: defaultName_24
     port: 443
-    server: www.visa.co.jp
+    server: 2a04:4e42:7d::740
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: gaMeS-fUllG1.PAGES.DeV
+    servername: zmaoz.faculty.ucdavis.edu
     skip-cert-verify: true
     ws-opts:
-      path: /oN7hfIrbzojCDHZe/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 11 - VLESS - Clean IP : 443"
+        host: gisheh7.ir
+    uuid: tel--ZEDMODEON
+  - name: defaultName_25
     port: 443
-    server: www.csgo.com
+    server: 2a04:4e42:7d::740
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: GAMes-FULLG1.PAgEs.DEV
+    servername: zmaoz.faculty.ucdavis.edu
     skip-cert-verify: true
     ws-opts:
-      path: /DfvM5D0BebnWt16y/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 12 - VLESS - Clean IP : 443"
+        host: snappshop.ir
+    uuid: tel--ZEDMODEON
+    client-fingerprint: chrome
+  - name: defaultName_26
     port: 443
-    server: www.visa.com.hk
+    server: 2a04:4e42:7d::645
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: GAmeS-fUlLG1.PageS.dEV
+    servername: ergwork.web.unc.edu
     skip-cert-verify: true
     ws-opts:
-      path: /4h3AkPJLw2sYufff/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /@ZEDMODEON-ZEDMODEON@ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 13 - VLESS - Clean IP : 443"
+        host: snapp.taxi
+    uuid: Join--ZEDMODEON
+  - name: defaultName_27
     port: 443
-    server: sky.rethinkdns.com
+    server: 104.26.11.137
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: GAmEs-FulLg1.PAGes.dev
+    servername: st-fr-1.brocdn.com
     skip-cert-verify: true
     ws-opts:
-      path: /S8HAU26c7njT35kY/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /websocket
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 14 - VLESS - Clean IP : 443"
+        host: st-fr-1.brocdn.com
+    uuid: e2b0ddf8-dcbc-11ee-b67b-00505603e70d
+  - name: defaultName_28
     port: 443
-    server: fbi.gov
+    server: 2a04:4e42:7d::645
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: GAMes-fuLlg1.pages.DEV
+    servername: ergwork.web.unc.edu
     skip-cert-verify: true
     ws-opts:
-      path: /AV36PpTfEYKMUVib/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /@ZEDMODEON-ZEDMODEON@ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 15 - VLESS - Clean IP : 443"
+        host: snapp.taxi
+    uuid: Join--ZEDMODEON
+  - name: defaultName_29
     port: 443
-    server: time.is
+    server: 2a04:4e42:400::645
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: gAMes-fulLG1.PaGES.dev
+    servername: connectcarolina.sites.unc.edu
     skip-cert-verify: true
     ws-opts:
-      path: /8Wa5Mj81KwosH5tM/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
       headers:
-        host: games-fullg1.pages.dev
+        host: tapsi.shop
+    uuid: tel--ZEDMODEON
+  - name: defaultName_30
+    port: 2060
+    server: 185.247.184.147
+    type: vless
+    network: grpc
+    udp: true
+    servername: dash.cloudflare.com
+    skip-cert-verify: true
+    grpc-opts: {}
+    reality-opts:
+      public-key: 1k5jM49Bx5DEAfS5Vpqz93t2XOXk-kwXl0V5Q9jn_WY
+      short-id: f77e5398
     alpn:
       - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
+    uuid: 4a60a8e0-b51d-41ae-8500-1b0b6724c6e6
+    client-fingerprint: chrome
+  - name: defaultName_31
+    port: 2053
+    server: 40.160.11.136
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: test.mrkian.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /Gcore.com?ed=443
+    uuid: 0e921714-b28c-4ffd-a371-eb486bc5a1ce
+  - name: defaultName_32
+    port: 4009
+    server: 185.119.240.34
+    type: vless
+    network: tcp
+    udp: true
+    uuid: c97861ff-0b79-44df-9019-6f8b5dd796ee
+  - name: defaultName_33
+    port: 8443
+    server: 20.151.63.165
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: "💦 16 - VLESS - Clean IP : 443"
+  - name: defaultName_34
     port: 443
-    server: ipw.nscl.ir
+    server: 151.101.130.228
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: GAmes-FuLLg1.pages.DEv
+    servername: hajlab.ucdavis.edu
     skip-cert-verify: true
     ws-opts:
-      path: /uGfv5s1oYuc8eBRr/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 17 - VLESS - Clean IP : 443"
+        host: joinshhproxybedeeeee.ir
+    uuid: f65869de-5d70-4267-ac2b-87a278d0c8be
+  - name: defaultName_35
+    port: 80
+    server: 151.101.194.219
+    type: vless
+    network: ws
+    udp: true
+    uuid: b44d981a-0ecb-43db-8eb6-2f7001aeb2d4
+  - name: defaultName_36
+    port: 4009
+    server: 185.119.240.240
+    type: vless
+    network: tcp
+    udp: true
+    uuid: c97861ff-0b79-44df-9019-6f8b5dd796ee
+  - name: defaultName_37
+    port: 8080
+    server: 104.18.23.19
+    type: vless
+    network: ws
+    udp: true
+    uuid: 520061ab-e8e3-4325-9272-8e3583094964
+  - name: defaultName_38
     port: 443
-    server: www.wto.org
+    server: 104.26.10.137
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: gAMEs-FuLlG1.PageS.dev
+    servername: st-fr-1.brocdn.com
     skip-cert-verify: true
     ws-opts:
-      path: /WLcTwoj4yuIZ3Cr7/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /websocket
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 18 - VLESS - Clean IP : 443"
+        host: st-fr-1.brocdn.com
+    uuid: 3894cbc1-e06a-11ee-95c9-00505603e70d
+  - name: defaultName_39
+    port: 4001
+    server: 89.47.197.123
+    type: vless
+    network: tcp
+    udp: true
+    uuid: 93c02d6d-e210-43bb-90ee-91784b889d0e
+  - name: defaultName_40
+    port: 8080
+    server: 172.67.69.236
+    type: vless
+    network: httpupgrade
+    udp: true
+    uuid: 3cff1332-9020-4a58-8dbf-3ff31bd271a4
+  - name: defaultName_41
+    port: 80
+    server: 162.19.228.119
+    type: vless
+    network: ws
+    udp: true
+    uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
+  - name: defaultName_42
+    port: 1620
+    server: 188.245.163.79
+    type: vless
+    network: tcp
+    udp: true
+    servername: wwww.refersion.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
+      short-id: 3a622700e73c6642
+    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: defaultName_43
+    port: 1616
+    server: 188.245.163.79
+    type: vless
+    network: tcp
+    udp: true
+    servername: refersion.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
+      short-id: 3a622700e73c6642
+    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: defaultName_44
+    port: 45948
+    server: 49.12.232.18
+    type: vless
+    network: tcp
+    udp: true
+    servername: microsoft.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: 6uXONnLC5qft2TiBpMDRcBLVE8C0_gNlDCf00r0U_QI
+      short-id: e9db424f
+    uuid: a1f048d5-55eb-4f1b-99ff-8b6d4fa38512
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+  - name: defaultName_45
+    port: 2095
+    server: 185.146.173.185
+    type: vless
+    network: httpupgrade
+    udp: true
+    uuid: fce9ae11-0fd2-4989-b1d5-c6e1e1d5e2fd
+  - name: defaultName_46
+    port: 46951
+    server: 49.12.232.18
+    type: vless
+    network: grpc
+    udp: true
+    servername: microsoft.com
+    skip-cert-verify: true
+    grpc-opts: {}
+    reality-opts:
+      public-key: rQYwLzPwYJblfCzt58-6YXpWgPYauFACkMNsFc_4A3c
+      short-id: ffd6166f
+    uuid: 92ff8e9c-cd7c-4e44-bdf5-734b3153a096
+    client-fingerprint: firefox
+  - name: defaultName_47
+    port: 4009
+    server: 185.119.240.34
+    type: vless
+    network: tcp
+    udp: true
+    uuid: c97861ff-0b79-44df-9019-6f8b5dd796ee
+  - name: defaultName_48
+    port: 8080
+    server: 104.18.23.19
+    type: vless
+    network: ws
+    udp: true
+    uuid: 520061ab-e8e3-4325-9272-8e3583094964
+  - name: defaultName_49
     port: 443
-    server: ip.sb
+    server: 45.63.117.50
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: Games-FuLlg1.PAGeS.DEV
+    servername: cpanel3.sassanidempire.com
     skip-cert-verify: true
     ws-opts:
-      path: /rGH10e6kphCfmN8a/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /ws
       headers:
-        host: games-fullg1.pages.dev
+        host: cpanel3.sassanidempire.com
     alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
+      - http/1.1
+    uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
+  - name: defaultName_50
+    port: 8443
+    server: 20.151.63.165
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: "💦 19 - VLESS - Clean IP : 443"
+  - name: defaultName_51
+    port: 80
+    server: 92.38.145.145
+    type: vless
+    network: httpupgrade
+    udp: true
+    uuid: 3e91d67b-44c8-40bd-9479-748f85e3f20c
+  - name: defaultName_52
+    port: 17534
+    server: 1.168.172.13
+    type: vless
+    network: tcp
+    udp: true
+    servername: icloud.cdn-apple.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: 9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc
+    uuid: 8392b0ac-b196-4529-ea35-b9111eed41c5
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: defaultName_53
     port: 443
-    server: zula.ir
+    server: 172.67.73.241
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: gAmeS-FULLG1.PAGeS.dEV
+    servername: st-fr-1.brocdn.com
     skip-cert-verify: true
     ws-opts:
-      path: /T3Gm0GZuAdHkSuu3/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /websocket
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
+        host: st-fr-1.brocdn.com
+    uuid: 3894cbc1-e06a-11ee-95c9-00505603e70d
+  - name: defaultName_54
+    port: 4009
+    server: 185.119.240.240
+    type: vless
+    network: tcp
+    udp: true
+    uuid: c97861ff-0b79-44df-9019-6f8b5dd796ee
+  - name: defaultName_55
+    port: 8888
+    server: 2a01:4f8:1c1b:26eb::1
+    type: vless
+    network: tcp
+    udp: true
+    uuid: Parsashonam-116
+  - name: defaultName_56
+    port: 80
+    server: arv2ry.fastly80.hosting-ip.com
+    type: vless
+    network: ws
+    udp: true
+    uuid: telegram-id-ArV2ray
+  - name: defaultName_57
+    port: 8443
+    server: 137.116.91.147
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: "💦 20 - VLESS - Clean IP : 443"
+  - name: defaultName_58
+    port: 8443
+    server: 20.228.249.211
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_59
+    port: 8443
+    server: 4.239.248.70
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_60
+    port: 8443
+    server: 40.123.47.252
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_61
+    port: 2053
+    server: 20.228.249.211
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_62
     port: 443
-    server: creativecommons.org
+    server: 4.152.146.92
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: gAmES-fULLG1.pAGES.DEV
+    servername: edgetunnel-free.pages.dev
     skip-cert-verify: true
     ws-opts:
-      path: /tRiIRNQtdXaoGivD/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: "💦 21 - VLESS - Clean IP : 443"
+  - name: defaultName_63
+    port: 8443
+    server: 40.123.41.147
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_64
+    port: 8443
+    server: 20.151.60.161
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_65
+    port: 8443
+    server: 4.172.225.98
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_66
+    port: 8443
+    server: 40.123.47.252
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_67
+    port: 8443
+    server: 20.228.249.211
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_68
     port: 443
-    server: go.inmobi.com
+    server: 20.246.127.166
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: gAMeS-Fullg1.PAGeS.Dev
+    servername: edgetunnel-free.pages.dev
     skip-cert-verify: true
     ws-opts:
-      path: /H69OycNHwXtJqYbv/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: "💦 22 - VLESS - Clean IP : 443"
+  - name: defaultName_69
+    port: 8443
+    server: 4.172.225.82
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_70
+    port: 8443
+    server: 20.151.90.208
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_71
+    port: 8443
+    server: 40.123.47.225
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_72
+    port: 8443
+    server: 20.151.238.192
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_73
+    port: 8443
+    server: 20.151.60.161
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_74
     port: 443
-    server: cdnjs.com
+    server: 20.221.32.145
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: gAMes-Fullg1.pAGeS.dEv
+    servername: edgetunnel-free.pages.dev
     skip-cert-verify: true
     ws-opts:
-      path: /t4dnlfHaSr1Pd9Ar/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: "💦 23 - VLESS - Domain : 8443"
+  - name: defaultName_75
     port: 8443
-    server: games-fullg1.pages.dev
+    server: 4.172.225.82
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: gAmES-fulLG1.pages.DEv
+    servername: edgetunnel-free.pages.dev
     skip-cert-verify: true
     ws-opts:
-      path: /9mKtM6xdOxJ58Xqy/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: "💦 24 - VLESS - Domain : 8443"
+  - name: defaultName_76
     port: 8443
-    server: www.speedtest.net
+    server: 4.172.225.98
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: gaMeS-FulLg1.pAgeS.DEV
+    servername: edgetunnel-free.pages.dev
     skip-cert-verify: true
     ws-opts:
-      path: /xo2NNe2DVBq2cwHI/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: "💦 25 - VLESS - IPv4 : 8443"
+  - name: defaultName_77
     port: 8443
-    server: 188.114.97.2
+    server: 4.172.225.82
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: GaMEs-FUlLg1.PAGEs.dev
+    servername: edgetunnel-free.pages.dev
     skip-cert-verify: true
     ws-opts:
-      path: /hIoZcADHgV3flTSK/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: "💦 26 - VLESS - IPv4 : 8443"
+  - name: defaultName_78
     port: 8443
-    server: 188.114.96.2
+    server: 40.123.47.252
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: gAMeS-fULlg1.PagEs.Dev
+    servername: edgetunnel-free.pages.dev
     skip-cert-verify: true
     ws-opts:
-      path: /XFdXfWnXiZaSvIwH/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: "💦 27 - VLESS - IPv6 : 8443"
+  - name: defaultName_79
     port: 8443
-    server: 2a06:98c1:3121::2
+    server: 20.151.90.208
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: GAMES-FullG1.PAGES.Dev
+    servername: edgetunnel-free.pages.dev
     skip-cert-verify: true
     ws-opts:
-      path: /Y73LZD5lo0KJYbBQ/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: "💦 28 - VLESS - IPv6 : 8443"
-    port: 8443
-    server: 2a06:98c1:3120::2
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gAmes-fuLlG1.pAGES.DeV
-    skip-cert-verify: true
-    ws-opts:
-      path: /hLPb8qqGGUjBNQxV/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 29 - VLESS - Clean IP : 8443"
-    port: 8443
-    server: www.gov.ua
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaMES-fullG1.PAgEs.dEv
-    skip-cert-verify: true
-    ws-opts:
-      path: /4iE9yZ601cIZQRxf/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 30 - VLESS - Clean IP : 8443"
-    port: 8443
-    server: www.zsu.gov.ua
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gAmES-FullG1.PagEs.deV
-    skip-cert-verify: true
-    ws-opts:
-      path: /JZNYBmS9IxfCgO7f/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 31 - VLESS - Clean IP : 8443"
-    port: 8443
-    server: malaysia.com
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: GAmes-FULLg1.pAGES.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /s76QLamPratIibDO/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 32 - VLESS - Clean IP : 8443"
-    port: 8443
-    server: www.visa.co.jp
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: GaMes-fUllG1.pAGeS.DEV
-    skip-cert-verify: true
-    ws-opts:
-      path: /OoexEU1NyivXzsp2/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 33 - VLESS - Clean IP : 8443"
-    port: 8443
-    server: www.csgo.com
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gAmES-fuLLG1.paGes.DEV
-    skip-cert-verify: true
-    ws-opts:
-      path: /27ROpkNFR5E8DZSU/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 34 - VLESS - Clean IP : 8443"
-    port: 8443
-    server: www.visa.com.hk
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaMeS-fullg1.pageS.dEV
-    skip-cert-verify: true
-    ws-opts:
-      path: /YlshSTBLqbDCIEKa/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 35 - VLESS - Clean IP : 8443"
-    port: 8443
-    server: sky.rethinkdns.com
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaMeS-fulLg1.pagEs.dEv
-    skip-cert-verify: true
-    ws-opts:
-      path: /f8zpZsWebT52TiY4/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 36 - VLESS - Clean IP : 8443"
-    port: 8443
-    server: fbi.gov
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gAmeS-fULLG1.pAgeS.dEV
-    skip-cert-verify: true
-    ws-opts:
-      path: /ayRZ1z4L8HOpEliH/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 37 - VLESS - Clean IP : 8443"
-    port: 8443
-    server: time.is
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gAmEs-fulLG1.PAgEs.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /5xpL9OLDGweYx3vD/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 38 - VLESS - Clean IP : 8443"
-    port: 8443
-    server: ipw.nscl.ir
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: GAmeS-fulLg1.pagEs.DEV
-    skip-cert-verify: true
-    ws-opts:
-      path: /QEzzL1qplnv2dL7R/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 39 - VLESS - Clean IP : 8443"
-    port: 8443
-    server: www.wto.org
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gAMEs-fUllg1.PAGEs.DEv
-    skip-cert-verify: true
-    ws-opts:
-      path: /kLUpid6MplPOXbng/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 40 - VLESS - Clean IP : 8443"
-    port: 8443
-    server: ip.sb
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: GAmes-FULLG1.paGES.DEv
-    skip-cert-verify: true
-    ws-opts:
-      path: /LnBGdPFPoX1C6bJI/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 41 - VLESS - Clean IP : 8443"
-    port: 8443
-    server: zula.ir
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gAmeS-fuLLG1.pAGEs.deV
-    skip-cert-verify: true
-    ws-opts:
-      path: /4OL1VhUFlzzcgksr/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 42 - VLESS - Clean IP : 8443"
-    port: 8443
-    server: creativecommons.org
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: GAmEs-fUllG1.pAgEs.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /tCZMCn7tSiVjsKIe/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 43 - VLESS - Clean IP : 8443"
-    port: 8443
-    server: go.inmobi.com
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: GamEs-FUlLg1.PAgeS.dEV
-    skip-cert-verify: true
-    ws-opts:
-      path: /0aegscCpXHvFr0pt/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 44 - VLESS - Clean IP : 8443"
-    port: 8443
-    server: cdnjs.com
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: GaMeS-FulLG1.Pages.DEV
-    skip-cert-verify: true
-    ws-opts:
-      path: /wvbJurLSFe6SIw2i/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 45 - VLESS - Domain : 2053"
-    port: 2053
-    server: games-fullg1.pages.dev
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: GaMes-fulLg1.pAGES.DEV
-    skip-cert-verify: true
-    ws-opts:
-      path: /dkrpLq0tW8unQwux/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 46 - VLESS - Domain : 2053"
-    port: 2053
-    server: www.speedtest.net
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gAmES-fuLlG1.PAGes.Dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /meWF2JPGTUfrzFuZ/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 47 - VLESS - IPv4 : 2053"
-    port: 2053
-    server: 188.114.97.2
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: GAmeS-fULLg1.paGEs.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /Rxszhc5o7vP3rIeL/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 48 - VLESS - IPv4 : 2053"
-    port: 2053
-    server: 188.114.96.2
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gAMes-FulLg1.paGEs.DEV
-    skip-cert-verify: true
-    ws-opts:
-      path: /ZOLcqumjRCTOSS88/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 49 - VLESS - IPv6 : 2053"
-    port: 2053
-    server: 2a06:98c1:3121::2
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaMES-fULLg1.pAgeS.dEv
-    skip-cert-verify: true
-    ws-opts:
-      path: /e0c9m4RaeIuL5w0B/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 50 - VLESS - IPv6 : 2053"
-    port: 2053
-    server: 2a06:98c1:3120::2
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: GAMES-fULLG1.paGes.DEv
-    skip-cert-verify: true
-    ws-opts:
-      path: /UIclciawbVK4ReeV/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 51 - VLESS - Clean IP : 2053"
-    port: 2053
-    server: www.gov.ua
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: GaMEs-fULlG1.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /W2cXxXtcsdXH7Yyi/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 52 - VLESS - Clean IP : 2053"
-    port: 2053
-    server: www.zsu.gov.ua
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gAmES-fulLG1.PAGES.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /DvswS7NBAVHsDhYS/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 53 - VLESS - Clean IP : 2053"
-    port: 2053
-    server: malaysia.com
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gAmeS-fulLg1.pages.dEV
-    skip-cert-verify: true
-    ws-opts:
-      path: /1IHpH2akmnoBQEt5/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 54 - VLESS - Clean IP : 2053"
-    port: 2053
-    server: www.visa.co.jp
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaMes-fUlLG1.PAGEs.dEV
-    skip-cert-verify: true
-    ws-opts:
-      path: /a1mM7TXF7Hp6r1s8/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 55 - VLESS - Clean IP : 2053"
-    port: 2053
-    server: www.csgo.com
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: GaMeS-fUlLG1.pAges.Dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /rrbAzU3dLs82qqL4/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 56 - VLESS - Clean IP : 2053"
-    port: 2053
-    server: www.visa.com.hk
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gAmes-FulLg1.PagES.DEv
-    skip-cert-verify: true
-    ws-opts:
-      path: /dDSrphZ2EC9T52K4/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 57 - VLESS - Clean IP : 2053"
-    port: 2053
-    server: sky.rethinkdns.com
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: GamES-FUlLG1.pAges.DEV
-    skip-cert-verify: true
-    ws-opts:
-      path: /8lYC9j3qqN53rSop/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 58 - VLESS - Clean IP : 2053"
-    port: 2053
-    server: fbi.gov
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gAMES-FulLG1.pAgES.deV
-    skip-cert-verify: true
-    ws-opts:
-      path: /JBZR4CawRzz2J2E2/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 59 - VLESS - Clean IP : 2053"
-    port: 2053
-    server: time.is
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gameS-fUlLg1.PAgES.dEV
-    skip-cert-verify: true
-    ws-opts:
-      path: /YsKZt7AGVWGMH4T7/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 60 - VLESS - Clean IP : 2053"
-    port: 2053
-    server: ipw.nscl.ir
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: GAmes-fuLlg1.PaGeS.dEV
-    skip-cert-verify: true
-    ws-opts:
-      path: /NW6xTpWuhfkexoLY/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 61 - VLESS - Clean IP : 2053"
-    port: 2053
-    server: www.wto.org
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: GAmes-FullG1.PAgEs.dEv
-    skip-cert-verify: true
-    ws-opts:
-      path: /0YgJax305PxxmHob/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 62 - VLESS - Clean IP : 2053"
-    port: 2053
-    server: ip.sb
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: GaMES-FullG1.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /aCq0CWuDccsXOOSL/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 63 - VLESS - Clean IP : 2053"
-    port: 2053
-    server: zula.ir
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: GaMes-fulLG1.pAGES.DeV
-    skip-cert-verify: true
-    ws-opts:
-      path: /Hj3NgkY5xwQd5qwy/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 64 - VLESS - Clean IP : 2053"
-    port: 2053
-    server: creativecommons.org
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: GamES-Fullg1.pAgeS.deV
-    skip-cert-verify: true
-    ws-opts:
-      path: /vfbkDIaf2hn3YNpo/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 65 - VLESS - Clean IP : 2053"
-    port: 2053
-    server: go.inmobi.com
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaMes-fULlg1.pAGes.deV
-    skip-cert-verify: true
-    ws-opts:
-      path: /dkOY9iSXVbar0zdQ/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 66 - VLESS - Clean IP : 2053"
-    port: 2053
-    server: cdnjs.com
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: GamES-FUllG1.pagEs.DEV
-    skip-cert-verify: true
-    ws-opts:
-      path: /8SIF6Xu1pEt6cZ00/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    uuid: 6a502fef-7f2d-4dca-9a97-fcd9a387e34f
-    client-fingerprint: randomized
-  - name: "💦 1 - Trojan - Domain : 443"
+  - name: defaultName_80
     port: 443
-    server: games-fullg1.pages.dev
-    type: trojan
+    server: 20.74.223.241
+    type: vless
     network: ws
+    tls: true
     udp: true
-    sni: gAmes-fulLG1.pageS.dEV
-    password: h123456h
-    skip-cert-verify: false
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
     ws-opts:
-      path: /trF0GXIKZaPkhiFSGU/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: "💦 2 - Trojan - Domain : 443"
+  - name: defaultName_81
+    port: 8443
+    server: 20.151.60.161
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_82
+    port: 8443
+    server: 20.151.238.192
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_83
+    port: 8443
+    server: 4.248.47.209
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_84
+    port: 8443
+    server: 4.248.47.209
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_85
+    port: 8443
+    server: 4.248.47.209
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_86
     port: 443
-    server: www.speedtest.net
-    type: trojan
+    server: 20.221.32.145
+    type: vless
     network: ws
+    tls: true
     udp: true
-    sni: GaMES-fUllG1.PAgEs.dEV
-    password: h123456h
-    skip-cert-verify: false
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
     ws-opts:
-      path: /trMUza7KWqJVZnIZ8N/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: "💦 3 - Trojan - IPv4 : 443"
+  - name: defaultName_87
     port: 443
-    server: 188.114.97.2
-    type: trojan
+    server: 104.18.42.19
+    type: vless
+    network: httpupgrade
+    tls: true
+    udp: true
+    servername: hdfy5persiaserverc1.afsharidempire.uk
+    skip-cert-verify: true
+    alpn:
+      - http/1.1
+    uuid: 251780c1-1501-43b3-be2a-d144a20d479a
+    client-fingerprint: chrome
+  - name: defaultName_88
+    port: 4001
+    server: 89.47.197.123
+    type: vless
+    network: tcp
+    udp: true
+    uuid: 93c02d6d-e210-43bb-90ee-91784b889d0e
+  - name: defaultName_89
+    port: 8080
+    server: 104.18.22.19
+    type: vless
     network: ws
     udp: true
-    sni: GaMeS-FUlLg1.PaGeS.dEv
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trzLiQrT0Rdu5vRYjV/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 4 - Trojan - IPv4 : 443"
+    uuid: 520061ab-e8e3-4325-9272-8e3583094964
+  - name: defaultName_90
     port: 443
-    server: 188.114.96.2
-    type: trojan
+    server: 45.63.117.50
+    type: vless
     network: ws
+    tls: true
     udp: true
-    sni: gamEs-Fullg1.pagEs.DEV
-    password: h123456h
-    skip-cert-verify: false
+    servername: cpanel3.sassanidempire.com
+    skip-cert-verify: true
     ws-opts:
-      path: /trz4a7gCaXolQX5NPo/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /ws
       headers:
-        host: games-fullg1.pages.dev
+        host: cpanel3.sassanidempire.com
     alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 5 - Trojan - IPv6 : 443"
+      - http/1.1
+    uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
+  - name: defaultName_91
     port: 443
-    server: "[2a06:98c1:3121::2]"
-    type: trojan
+    server: 172.66.46.213
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: speedtest1.svgspeedtest.net
+    skip-cert-verify: true
+    ws-opts:
+      path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy
+      headers:
+        host: speedtest1.svgspeedtest.net
+    uuid: 5104ca9f-1927-44ec-b9e2-c6167609de7b
+  - name: defaultName_92
+    port: 8080
+    server: 104.21.94.168
+    type: vless
     network: ws
     udp: true
-    sni: GAmEs-fUllg1.PaGEs.Dev
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trGMiKSl8DFyr2PIIA/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 6 - Trojan - IPv6 : 443"
+    uuid: 40e18e7a-b328-4b85-a452-85de24e60f0a
+  - name: defaultName_93
     port: 443
-    server: "[2a06:98c1:3120::2]"
-    type: trojan
+    server: 104.16.60.8
+    type: vless
     network: ws
+    tls: true
     udp: true
-    sni: GAmEs-fulLG1.pAgEs.dEv
-    password: h123456h
-    skip-cert-verify: false
+    servername: st-gb-1.brocdn.com
+    skip-cert-verify: true
     ws-opts:
-      path: /trCtKq97XnASOf2W2W/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /websocket
       headers:
-        host: games-fullg1.pages.dev
+        host: st-gb-1.brocdn.com
     alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 7 - Trojan - Clean IP : 443"
+      - http/1.1
+    uuid: 0de65b37-d62f-11ee-aaa8-00505603e70d
+    client-fingerprint: chrome
+  - name: defaultName_94
     port: 443
-    server: www.gov.ua
-    type: trojan
+    server: 104.26.11.137
+    type: vless
     network: ws
+    tls: true
     udp: true
-    sni: gamEs-FUllg1.pAGES.Dev
-    password: h123456h
-    skip-cert-verify: false
+    servername: st-gb-1.brocdn.com
+    skip-cert-verify: true
     ws-opts:
-      path: /trto36p215USx2ePGD/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /websocket
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 8 - Trojan - Clean IP : 443"
+        host: st-gb-1.brocdn.com
+    uuid: 18cd7434-d639-11ee-aaa8-00505603e70d
+  - name: defaultName_95
     port: 443
-    server: www.zsu.gov.ua
-    type: trojan
+    server: 151.101.2.133
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ergwork.web.unc.edu
+    skip-cert-verify: true
+    ws-opts:
+      path: /telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn?ed=2048
+      headers:
+        host: sobip.ir
+    uuid: 3fecfaf1-02c1-436d-83b2-d43ddd82fd59
+  - name: defaultName_96
+    port: 2095
+    server: 190.93.247.155
+    type: vless
     network: ws
     udp: true
-    sni: GAmes-FULlG1.PaGes.Dev
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trGPvQSPI5UFC8LlcW/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 9 - Trojan - Clean IP : 443"
+    uuid: 1f19c0e8-74b5-4cd9-cc59-a6e6d75af944
+  - name: defaultName_97
     port: 443
-    server: malaysia.com
-    type: trojan
+    server: 104.26.11.137
+    type: vless
     network: ws
+    tls: true
     udp: true
-    sni: gAMeS-FullG1.PaGEs.DEv
-    password: h123456h
-    skip-cert-verify: false
+    servername: st-gb-1.brocdn.com
+    skip-cert-verify: true
     ws-opts:
-      path: /trJFIZPG1hS87jTzqc/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /websocket
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 10 - Trojan - Clean IP : 443"
+        host: st-gb-1.brocdn.com
+    uuid: 18cd7434-d639-11ee-aaa8-00505603e70d
+  - name: defaultName_98
     port: 443
-    server: www.visa.co.jp
-    type: trojan
+    server: 172.67.73.241
+    type: vless
     network: ws
+    tls: true
     udp: true
-    sni: gaMeS-fUllG1.PAGES.DeV
-    password: h123456h
-    skip-cert-verify: false
+    servername: st-gb-1.brocdn.com
+    skip-cert-verify: true
     ws-opts:
-      path: /troN7hfIrbzojCDHZe/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /websocket
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 11 - Trojan - Clean IP : 443"
+        host: st-gb-1.brocdn.com
+    uuid: 18cd7434-d639-11ee-aaa8-00505603e70d
+  - name: defaultName_99
     port: 443
-    server: www.csgo.com
-    type: trojan
+    server: 13.68.186.91
+    type: vless
     network: ws
+    tls: true
     udp: true
-    sni: GAMes-FULLG1.PAgEs.DEV
-    password: h123456h
-    skip-cert-verify: false
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
     ws-opts:
-      path: /trDfvM5D0BebnWt16y/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: "💦 12 - Trojan - Clean IP : 443"
+  - name: defaultName_100
     port: 443
-    server: www.visa.com.hk
-    type: trojan
+    server: 13.68.186.91
+    type: vless
     network: ws
+    tls: true
     udp: true
-    sni: GAmeS-fUlLG1.PageS.dEV
-    password: h123456h
-    skip-cert-verify: false
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
     ws-opts:
-      path: /tr4h3AkPJLw2sYufff/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: "💦 13 - Trojan - Clean IP : 443"
+  - name: defaultName_101
     port: 443
-    server: sky.rethinkdns.com
-    type: trojan
+    server: 4.255.56.138
+    type: vless
     network: ws
+    tls: true
     udp: true
-    sni: GAmEs-FulLg1.PAGes.dev
-    password: h123456h
-    skip-cert-verify: false
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
     ws-opts:
-      path: /trS8HAU26c7njT35kY/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: "💦 14 - Trojan - Clean IP : 443"
+  - name: defaultName_102
     port: 443
-    server: fbi.gov
-    type: trojan
+    server: 172.191.74.198
+    type: vless
     network: ws
+    tls: true
     udp: true
-    sni: GAMes-fuLlg1.pages.DEV
-    password: h123456h
-    skip-cert-verify: false
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
     ws-opts:
-      path: /trAV36PpTfEYKMUVib/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: "💦 15 - Trojan - Clean IP : 443"
+  - name: defaultName_103
     port: 443
-    server: time.is
-    type: trojan
+    server: 4.255.56.137
+    type: vless
     network: ws
+    tls: true
     udp: true
-    sni: gAMes-fulLG1.PaGES.dev
-    password: h123456h
-    skip-cert-verify: false
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
     ws-opts:
-      path: /tr8Wa5Mj81KwosH5tM/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: "💦 16 - Trojan - Clean IP : 443"
+  - name: defaultName_104
+    port: 8443
+    server: 40.123.42.160
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_105
     port: 443
-    server: ipw.nscl.ir
-    type: trojan
+    server: 74.249.233.213
+    type: vless
     network: ws
+    tls: true
     udp: true
-    sni: GAmes-FuLLg1.pages.DEv
-    password: h123456h
-    skip-cert-verify: false
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
     ws-opts:
-      path: /truGfv5s1oYuc8eBRr/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: "💦 17 - Trojan - Clean IP : 443"
+  - name: defaultName_106
     port: 443
-    server: www.wto.org
-    type: trojan
+    server: 74.249.233.213
+    type: vless
     network: ws
+    tls: true
     udp: true
-    sni: gAMEs-FuLlG1.PageS.dev
-    password: h123456h
-    skip-cert-verify: false
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
     ws-opts:
-      path: /trWLcTwoj4yuIZ3Cr7/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
     client-fingerprint: randomized
-  - name: "💦 18 - Trojan - Clean IP : 443"
+  - name: defaultName_107
     port: 443
-    server: ip.sb
-    type: trojan
+    server: 74.249.233.213
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edgetunnel-free.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edgetunnel-free.pages.dev
+    uuid: de44b044-8f90-4e18-b742-16591667ff96
+    client-fingerprint: randomized
+  - name: defaultName_108
+    port: 8880
+    server: 104.17.148.22
+    type: vless
     network: ws
     udp: true
-    sni: Games-FuLlg1.PAGeS.DEV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trrGH10e6kphCfmN8a/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 19 - Trojan - Clean IP : 443"
+    uuid: telegram-ArV2ray
+  - name: defaultName_109
+    port: 80
+    server: 151.101.2.216
+    type: vless
+    network: ws
+    udp: true
+    uuid: BLUEV2RAYNG-config-1851
+  - name: defaultName_110
+    port: 1624
+    server: 188.245.163.79
+    type: vless
+    network: tcp
+    udp: true
+    servername: wwww.refersion.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
+      short-id: 3a622700e73c6642
+    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: defaultName_111
     port: 443
-    server: zula.ir
-    type: trojan
+    server: 104.26.11.137
+    type: vless
     network: ws
+    tls: true
     udp: true
-    sni: gAmeS-FULLG1.PAGeS.dEV
-    password: h123456h
-    skip-cert-verify: false
+    servername: st-gb-1.brocdn.com
+    skip-cert-verify: true
     ws-opts:
-      path: /trT3Gm0GZuAdHkSuu3/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /websocket
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 20 - Trojan - Clean IP : 443"
+        host: st-gb-1.brocdn.com
+    uuid: 18cd7434-d639-11ee-aaa8-00505603e70d
+  - name: defaultName_112
     port: 443
-    server: creativecommons.org
-    type: trojan
+    server: 151.101.2.133
+    type: vless
     network: ws
+    tls: true
     udp: true
-    sni: gAmES-fULLG1.pAGES.DEV
-    password: h123456h
-    skip-cert-verify: false
+    servername: mio.splashthat.com
+    skip-cert-verify: true
     ws-opts:
-      path: /trtRiIRNQtdXaoGivD/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=2048
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 21 - Trojan - Clean IP : 443"
+        host: barkatc2.ir
+    uuid: ea52c459-86ac-4707-8062-564ca031ae43
+  - name: defaultName_113
     port: 443
-    server: go.inmobi.com
-    type: trojan
+    server: 2a04:4e42:7d::740
+    type: vless
     network: ws
+    tls: true
     udp: true
-    sni: gAMeS-Fullg1.PAGeS.Dev
-    password: h123456h
-    skip-cert-verify: false
+    servername: zmaoz.faculty.ucdavis.edu
+    skip-cert-verify: true
     ws-opts:
-      path: /trH69OycNHwXtJqYbv/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
       headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 22 - Trojan - Clean IP : 443"
+        host: cinematicket.org
+    uuid: Bia--ZEDMODEON
+  - name: defaultName_114
     port: 443
-    server: cdnjs.com
-    type: trojan
+    server: 104.26.11.137
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: st-gb-1.brocdn.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /websocket
+      headers:
+        host: st-gb-1.brocdn.com
+    uuid: 18cd7434-d639-11ee-aaa8-00505603e70d
+  - name: defaultName_115
+    port: 443
+    server: 45.63.117.50
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cpanel3.sassanidempire.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /ws
+      headers:
+        host: cpanel3.sassanidempire.com
+    uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
+    client-fingerprint: chrome
+  - name: defaultName_116
+    port: 2095
+    server: 185.146.173.185
+    type: vless
+    network: httpupgrade
+    udp: true
+    uuid: fce9ae11-0fd2-4989-b1d5-c6e1e1d5e2fd
+  - name: defaultName_117
+    port: 443
+    server: 2a04:4e42:7d::740
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: zmaoz.faculty.ucdavis.edu
+    skip-cert-verify: true
+    ws-opts:
+      path: /@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
+      headers:
+        host: gisheh7.ir
+    uuid: tel--ZEDMODEON
+  - name: defaultName_118
+    port: 38971
+    server: 2a01:4f8:c17:1cd7::1
+    type: vless
+    network: tcp
+    udp: true
+    uuid: TELEGRAM-ServerNett
+  - name: defaultName_119
+    port: 80
+    server: 151.101.3.8
+    type: vless
     network: ws
     udp: true
-    sni: gAMes-Fullg1.pAGeS.dEv
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trt4dnlfHaSr1Pd9Ar/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 23 - Trojan - Domain : 8443"
-    port: 8443
-    server: games-fullg1.pages.dev
-    type: trojan
+    uuid: telegram-id-ArV2ray
+  - name: defaultName_120
+    port: 443
+    server: 104.26.10.137
+    type: vless
     network: ws
+    tls: true
     udp: true
-    sni: gAmES-fulLG1.pages.DEv
-    password: h123456h
-    skip-cert-verify: false
+    servername: st-fr-1.brocdn.com
+    skip-cert-verify: true
     ws-opts:
-      path: /tr9mKtM6xdOxJ58Xqy/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
+      path: /websocket
       headers:
-        host: games-fullg1.pages.dev
+        host: st-fr-1.brocdn.com
+    uuid: 3894cbc1-e06a-11ee-95c9-00505603e70d
+  - name: 🇩🇪_1
+    port: 6543
+    server: 188.245.162.16
+    type: vless
+    network: tcp
+    udp: true
+    servername: www.speedtest.net
+    skip-cert-verify: true
+    reality-opts:
+      public-key: T80OrhSLwBQrXvbS8fh97IXOu37wRXT0ZEfVYu-FEDo
+      short-id: ddb79eb6fb
+    uuid: bfed7c40-7878-4ee5-a8db-8b9d0c546bea
+    client-fingerprint: chrome
+  - name: 🇮🇹_1
+    port: 2096
+    server: 147.45.51.16
+    type: vless
+    network: grpc
+    udp: true
+    servername: dash.cloudflare.com
+    skip-cert-verify: true
+    grpc-opts: {}
+    reality-opts:
+      public-key: c3R5_lORnQd1X3A2E0ulHJn396G2X_ZYIs66ldEVQWI
+      short-id: 28f58957
+    uuid: 16747acc-95c8-44ba-9b66-3d8a0c035347
+    client-fingerprint: firefox
+  - name: 🇩🇪_2
+    port: 46951
+    server: 49.12.232.18
+    type: vless
+    network: grpc
+    udp: true
+    servername: microsoft.com
+    skip-cert-verify: true
+    grpc-opts: {}
+    reality-opts:
+      public-key: rQYwLzPwYJblfCzt58-6YXpWgPYauFACkMNsFc_4A3c
+      short-id: 0b89b513
+    uuid: 92ff8e9c-cd7c-4e44-bdf5-734b3153a096
+    client-fingerprint: firefox
+  - name: 🇳🇱_1
+    port: 8082
+    server: 93.185.163.238
+    type: vless
+    network: http
+    udp: true
+    servername: use.fontawesome.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: 1wsuGvwHBl4upMnlmg3ehyqL-CgRpK9g4XZXkUX-B3k
+      short-id: 6a69d0c3821da542
+    uuid: feb6f54a-1c99-4281-b0d4-113765e70c61
+    client-fingerprint: chrome
+  - name: 🇫🇷_1
+    port: 1210
+    server: 51.77.111.91
+    type: vless
+    network: grpc
+    udp: true
+    servername: ubuntu.com
+    skip-cert-verify: true
+    grpc-opts: {}
+    reality-opts:
+      public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
+      short-id: 7fe29733
+    uuid: 3f3fb01d-ad7c-498d-9434-a636fed64d8f
+    client-fingerprint: chrome
+  - name: 🇫🇮_1
+    port: 8495
+    server: 45.91.193.247
+    type: vless
+    network: http
+    udp: true
+    servername: icloud.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: bJ7kNh4nOLMQjV737Rud9sDqdNE2vYx_hlYFD82-1Qc
+      short-id: acbc173b1eef54b5
+    uuid: b6067899-8c64-4e83-8ec9-b0abeef1596f
+    client-fingerprint: chrome
+  - name: 🇩🇪_3
+    port: 1621
+    server: 188.245.163.79
+    type: vless
+    network: tcp
+    udp: true
+    servername: wwww.refersion.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
+      short-id: 3a622700e73c6642
+    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: 🇭🇰_1
+    port: 19280
+    server: 103.17.99.54
+    type: vless
+    network: tcp
+    udp: true
+    servername: cdn-dynmedia-1.microsoft.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: F5_aTQFA2QRCig3L-qT0Qth76JdewSHK5MgEt_p8Dlo
+      short-id: a8bd783f
+    uuid: 89b90001-4206-4871-a99d-1744d48f215b
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+  - name: 🇩🇪_4
+    port: 1616
+    server: 188.245.163.79
+    type: vless
+    network: tcp
+    udp: true
+    servername: refersion.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
+      short-id: 3a622700e73c6642
+    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: 🇩🇪_5
+    port: 1624
+    server: 188.245.163.79
+    type: vless
+    network: tcp
+    udp: true
+    servername: wwww.refersion.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
+      short-id: 3a622700e73c6642
+    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: 🇩🇪_6
+    port: 443
+    server: 89.187.169.71
+    type: vless
+    network: tcp
+    tls: true
+    udp: true
+    servername: www.cloudflare.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: B5i03yc1WUTOQD8v_N0UrCUaR4AgMJ40rEl8tXUJY0g
+      short-id: 01b200e90e250221
+    uuid: 6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: 🇩🇪_7
+    port: 1620
+    server: 188.245.163.79
+    type: vless
+    network: tcp
+    udp: true
+    servername: wwww.refersion.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
+      short-id: 3a622700e73c6642
+    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: 🇮🇹_2
+    port: 2060
+    server: 185.247.184.147
+    type: vless
+    network: grpc
+    udp: true
+    servername: dash.cloudflare.com
+    skip-cert-verify: true
+    grpc-opts: {}
+    reality-opts:
+      public-key: 1k5jM49Bx5DEAfS5Vpqz93t2XOXk-kwXl0V5Q9jn_WY
+      short-id: f77e5398
     alpn:
       - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 24 - Trojan - Domain : 8443"
-    port: 8443
-    server: www.speedtest.net
-    type: trojan
-    network: ws
+    uuid: 4a60a8e0-b51d-41ae-8500-1b0b6724c6e6
+    client-fingerprint: chrome
+  - name: 🇩🇪_8
+    port: 6543
+    server: 188.245.162.16
+    type: vless
+    network: tcp
     udp: true
-    sni: gaMeS-FulLg1.pAgeS.DEV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trxo2NNe2DVBq2cwHI/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
+    servername: www.speedtest.net
+    skip-cert-verify: true
+    reality-opts:
+      public-key: T80OrhSLwBQrXvbS8fh97IXOu37wRXT0ZEfVYu-FEDo
+      short-id: ddb79eb6fb
+    uuid: bfed7c40-7878-4ee5-a8db-8b9d0c546bea
+    client-fingerprint: chrome
+  - name: 🇮🇹_3
+    port: 2096
+    server: 147.45.51.16
+    type: vless
+    network: grpc
+    udp: true
+    servername: dash.cloudflare.com
+    skip-cert-verify: true
+    grpc-opts: {}
+    reality-opts:
+      public-key: c3R5_lORnQd1X3A2E0ulHJn396G2X_ZYIs66ldEVQWI
+      short-id: 28f58957
+    uuid: 16747acc-95c8-44ba-9b66-3d8a0c035347
+    client-fingerprint: firefox
+  - name: 🇩🇪_9
+    port: 46951
+    server: 49.12.232.18
+    type: vless
+    network: grpc
+    udp: true
+    servername: microsoft.com
+    skip-cert-verify: true
+    grpc-opts: {}
+    reality-opts:
+      public-key: rQYwLzPwYJblfCzt58-6YXpWgPYauFACkMNsFc_4A3c
+      short-id: 0b89b513
+    uuid: 92ff8e9c-cd7c-4e44-bdf5-734b3153a096
+    client-fingerprint: firefox
+  - name: 🇳🇱_2
+    port: 8082
+    server: 93.185.163.238
+    type: vless
+    network: http
+    udp: true
+    servername: use.fontawesome.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: 1wsuGvwHBl4upMnlmg3ehyqL-CgRpK9g4XZXkUX-B3k
+      short-id: 6a69d0c3821da542
+    uuid: feb6f54a-1c99-4281-b0d4-113765e70c61
+    client-fingerprint: chrome
+  - name: 🇫🇷_2
+    port: 1210
+    server: 51.77.111.91
+    type: vless
+    network: grpc
+    udp: true
+    servername: ubuntu.com
+    skip-cert-verify: true
+    grpc-opts: {}
+    reality-opts:
+      public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
+      short-id: 7fe29733
+    uuid: 3f3fb01d-ad7c-498d-9434-a636fed64d8f
+    client-fingerprint: chrome
+  - name: 🇫🇮_2
+    port: 8495
+    server: 45.91.193.247
+    type: vless
+    network: http
+    udp: true
+    servername: icloud.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: bJ7kNh4nOLMQjV737Rud9sDqdNE2vYx_hlYFD82-1Qc
+      short-id: acbc173b1eef54b5
+    uuid: b6067899-8c64-4e83-8ec9-b0abeef1596f
+    client-fingerprint: chrome
+  - name: 🇩🇪_10
+    port: 1621
+    server: 188.245.163.79
+    type: vless
+    network: tcp
+    udp: true
+    servername: wwww.refersion.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
+      short-id: 3a622700e73c6642
+    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: 🇭🇰_2
+    port: 19280
+    server: 103.17.99.54
+    type: vless
+    network: tcp
+    udp: true
+    servername: cdn-dynmedia-1.microsoft.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: F5_aTQFA2QRCig3L-qT0Qth76JdewSHK5MgEt_p8Dlo
+      short-id: a8bd783f
+    uuid: 89b90001-4206-4871-a99d-1744d48f215b
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+  - name: 🇩🇪_11
+    port: 1616
+    server: 188.245.163.79
+    type: vless
+    network: tcp
+    udp: true
+    servername: refersion.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
+      short-id: 3a622700e73c6642
+    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: 🇩🇪_12
+    port: 1624
+    server: 188.245.163.79
+    type: vless
+    network: tcp
+    udp: true
+    servername: wwww.refersion.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
+      short-id: 3a622700e73c6642
+    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: 🇩🇪_13
+    port: 443
+    server: 89.187.169.71
+    type: vless
+    network: tcp
+    tls: true
+    udp: true
+    servername: www.cloudflare.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: B5i03yc1WUTOQD8v_N0UrCUaR4AgMJ40rEl8tXUJY0g
+      short-id: 01b200e90e250221
+    uuid: 6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: 🇩🇪_14
+    port: 1620
+    server: 188.245.163.79
+    type: vless
+    network: tcp
+    udp: true
+    servername: wwww.refersion.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
+      short-id: 3a622700e73c6642
+    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: 🇮🇹_4
+    port: 2060
+    server: 185.247.184.147
+    type: vless
+    network: grpc
+    udp: true
+    servername: dash.cloudflare.com
+    skip-cert-verify: true
+    grpc-opts: {}
+    reality-opts:
+      public-key: 1k5jM49Bx5DEAfS5Vpqz93t2XOXk-kwXl0V5Q9jn_WY
+      short-id: f77e5398
     alpn:
       - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 25 - Trojan - IPv4 : 8443"
-    port: 8443
-    server: 188.114.97.2
-    type: trojan
-    network: ws
-    udp: true
-    sni: GaMEs-FUlLg1.PAGEs.dev
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trhIoZcADHgV3flTSK/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 26 - Trojan - IPv4 : 8443"
-    port: 8443
-    server: 188.114.96.2
-    type: trojan
-    network: ws
-    udp: true
-    sni: gAMeS-fULlg1.PagEs.Dev
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trXFdXfWnXiZaSvIwH/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 27 - Trojan - IPv6 : 8443"
-    port: 8443
-    server: "[2a06:98c1:3121::2]"
-    type: trojan
-    network: ws
-    udp: true
-    sni: GAMES-FullG1.PAGES.Dev
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trY73LZD5lo0KJYbBQ/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 28 - Trojan - IPv6 : 8443"
-    port: 8443
-    server: "[2a06:98c1:3120::2]"
-    type: trojan
-    network: ws
-    udp: true
-    sni: gAmes-fuLlG1.pAGES.DeV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trhLPb8qqGGUjBNQxV/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 29 - Trojan - Clean IP : 8443"
-    port: 8443
-    server: www.gov.ua
-    type: trojan
-    network: ws
-    udp: true
-    sni: gaMES-fullG1.PAgEs.dEv
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /tr4iE9yZ601cIZQRxf/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 30 - Trojan - Clean IP : 8443"
-    port: 8443
-    server: www.zsu.gov.ua
-    type: trojan
-    network: ws
-    udp: true
-    sni: gAmES-FullG1.PagEs.deV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trJZNYBmS9IxfCgO7f/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 31 - Trojan - Clean IP : 8443"
-    port: 8443
-    server: malaysia.com
-    type: trojan
-    network: ws
-    udp: true
-    sni: GAmes-FULLg1.pAGES.dev
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trs76QLamPratIibDO/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 32 - Trojan - Clean IP : 8443"
-    port: 8443
-    server: www.visa.co.jp
-    type: trojan
-    network: ws
-    udp: true
-    sni: GaMes-fUllG1.pAGeS.DEV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trOoexEU1NyivXzsp2/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 33 - Trojan - Clean IP : 8443"
-    port: 8443
-    server: www.csgo.com
-    type: trojan
-    network: ws
-    udp: true
-    sni: gAmES-fuLLG1.paGes.DEV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /tr27ROpkNFR5E8DZSU/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 34 - Trojan - Clean IP : 8443"
-    port: 8443
-    server: www.visa.com.hk
-    type: trojan
-    network: ws
-    udp: true
-    sni: gaMeS-fullg1.pageS.dEV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trYlshSTBLqbDCIEKa/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 35 - Trojan - Clean IP : 8443"
-    port: 8443
-    server: sky.rethinkdns.com
-    type: trojan
-    network: ws
-    udp: true
-    sni: gaMeS-fulLg1.pagEs.dEv
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trf8zpZsWebT52TiY4/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 36 - Trojan - Clean IP : 8443"
-    port: 8443
-    server: fbi.gov
-    type: trojan
-    network: ws
-    udp: true
-    sni: gAmeS-fULLG1.pAgeS.dEV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trayRZ1z4L8HOpEliH/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 37 - Trojan - Clean IP : 8443"
-    port: 8443
-    server: time.is
-    type: trojan
-    network: ws
-    udp: true
-    sni: gAmEs-fulLG1.PAgEs.dev
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /tr5xpL9OLDGweYx3vD/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 38 - Trojan - Clean IP : 8443"
-    port: 8443
-    server: ipw.nscl.ir
-    type: trojan
-    network: ws
-    udp: true
-    sni: GAmeS-fulLg1.pagEs.DEV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trQEzzL1qplnv2dL7R/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 39 - Trojan - Clean IP : 8443"
-    port: 8443
-    server: www.wto.org
-    type: trojan
-    network: ws
-    udp: true
-    sni: gAMEs-fUllg1.PAGEs.DEv
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trkLUpid6MplPOXbng/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 40 - Trojan - Clean IP : 8443"
-    port: 8443
-    server: ip.sb
-    type: trojan
-    network: ws
-    udp: true
-    sni: GAmes-FULLG1.paGES.DEv
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trLnBGdPFPoX1C6bJI/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 41 - Trojan - Clean IP : 8443"
-    port: 8443
-    server: zula.ir
-    type: trojan
-    network: ws
-    udp: true
-    sni: gAmeS-fuLLG1.pAGEs.deV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /tr4OL1VhUFlzzcgksr/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 42 - Trojan - Clean IP : 8443"
-    port: 8443
-    server: creativecommons.org
-    type: trojan
-    network: ws
-    udp: true
-    sni: GAmEs-fUllG1.pAgEs.dev
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trtCZMCn7tSiVjsKIe/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 43 - Trojan - Clean IP : 8443"
-    port: 8443
-    server: go.inmobi.com
-    type: trojan
-    network: ws
-    udp: true
-    sni: GamEs-FUlLg1.PAgeS.dEV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /tr0aegscCpXHvFr0pt/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 44 - Trojan - Clean IP : 8443"
-    port: 8443
-    server: cdnjs.com
-    type: trojan
-    network: ws
-    udp: true
-    sni: GaMeS-FulLG1.Pages.DEV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trwvbJurLSFe6SIw2i/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 45 - Trojan - Domain : 2053"
-    port: 2053
-    server: games-fullg1.pages.dev
-    type: trojan
-    network: ws
-    udp: true
-    sni: GaMes-fulLg1.pAGES.DEV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trdkrpLq0tW8unQwux/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 46 - Trojan - Domain : 2053"
-    port: 2053
-    server: www.speedtest.net
-    type: trojan
-    network: ws
-    udp: true
-    sni: gAmES-fuLlG1.PAGes.Dev
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trmeWF2JPGTUfrzFuZ/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 47 - Trojan - IPv4 : 2053"
-    port: 2053
-    server: 188.114.97.2
-    type: trojan
-    network: ws
-    udp: true
-    sni: GAmeS-fULLg1.paGEs.dev
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trRxszhc5o7vP3rIeL/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 48 - Trojan - IPv4 : 2053"
-    port: 2053
-    server: 188.114.96.2
-    type: trojan
-    network: ws
-    udp: true
-    sni: gAMes-FulLg1.paGEs.DEV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trZOLcqumjRCTOSS88/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 49 - Trojan - IPv6 : 2053"
-    port: 2053
-    server: "[2a06:98c1:3121::2]"
-    type: trojan
-    network: ws
-    udp: true
-    sni: gaMES-fULLg1.pAgeS.dEv
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /tre0c9m4RaeIuL5w0B/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 50 - Trojan - IPv6 : 2053"
-    port: 2053
-    server: "[2a06:98c1:3120::2]"
-    type: trojan
-    network: ws
-    udp: true
-    sni: GAMES-fULLG1.paGes.DEv
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trUIclciawbVK4ReeV/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 51 - Trojan - Clean IP : 2053"
-    port: 2053
-    server: www.gov.ua
-    type: trojan
-    network: ws
-    udp: true
-    sni: GaMEs-fULlG1.pages.dev
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trW2cXxXtcsdXH7Yyi/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 52 - Trojan - Clean IP : 2053"
-    port: 2053
-    server: www.zsu.gov.ua
-    type: trojan
-    network: ws
-    udp: true
-    sni: gAmES-fulLG1.PAGES.dev
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trDvswS7NBAVHsDhYS/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 53 - Trojan - Clean IP : 2053"
-    port: 2053
-    server: malaysia.com
-    type: trojan
-    network: ws
-    udp: true
-    sni: gAmeS-fulLg1.pages.dEV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /tr1IHpH2akmnoBQEt5/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 54 - Trojan - Clean IP : 2053"
-    port: 2053
-    server: www.visa.co.jp
-    type: trojan
-    network: ws
-    udp: true
-    sni: gaMes-fUlLG1.PAGEs.dEV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /tra1mM7TXF7Hp6r1s8/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 55 - Trojan - Clean IP : 2053"
-    port: 2053
-    server: www.csgo.com
-    type: trojan
-    network: ws
-    udp: true
-    sni: GaMeS-fUlLG1.pAges.Dev
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trrrbAzU3dLs82qqL4/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 56 - Trojan - Clean IP : 2053"
-    port: 2053
-    server: www.visa.com.hk
-    type: trojan
-    network: ws
-    udp: true
-    sni: gAmes-FulLg1.PagES.DEv
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trdDSrphZ2EC9T52K4/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 57 - Trojan - Clean IP : 2053"
-    port: 2053
-    server: sky.rethinkdns.com
-    type: trojan
-    network: ws
-    udp: true
-    sni: GamES-FUlLG1.pAges.DEV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /tr8lYC9j3qqN53rSop/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 58 - Trojan - Clean IP : 2053"
-    port: 2053
-    server: fbi.gov
-    type: trojan
-    network: ws
-    udp: true
-    sni: gAMES-FulLG1.pAgES.deV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trJBZR4CawRzz2J2E2/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 59 - Trojan - Clean IP : 2053"
-    port: 2053
-    server: time.is
-    type: trojan
-    network: ws
-    udp: true
-    sni: gameS-fUlLg1.PAgES.dEV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trYsKZt7AGVWGMH4T7/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 60 - Trojan - Clean IP : 2053"
-    port: 2053
-    server: ipw.nscl.ir
-    type: trojan
-    network: ws
-    udp: true
-    sni: GAmes-fuLlg1.PaGeS.dEV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trNW6xTpWuhfkexoLY/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 61 - Trojan - Clean IP : 2053"
-    port: 2053
-    server: www.wto.org
-    type: trojan
-    network: ws
-    udp: true
-    sni: GAmes-FullG1.PAgEs.dEv
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /tr0YgJax305PxxmHob/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 62 - Trojan - Clean IP : 2053"
-    port: 2053
-    server: ip.sb
-    type: trojan
-    network: ws
-    udp: true
-    sni: GaMES-FullG1.pages.dev
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /traCq0CWuDccsXOOSL/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 63 - Trojan - Clean IP : 2053"
-    port: 2053
-    server: zula.ir
-    type: trojan
-    network: ws
-    udp: true
-    sni: GaMes-fulLG1.pAGES.DeV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trHj3NgkY5xwQd5qwy/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 64 - Trojan - Clean IP : 2053"
-    port: 2053
-    server: creativecommons.org
-    type: trojan
-    network: ws
-    udp: true
-    sni: GamES-Fullg1.pAgeS.deV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trvfbkDIaf2hn3YNpo/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 65 - Trojan - Clean IP : 2053"
-    port: 2053
-    server: go.inmobi.com
-    type: trojan
-    network: ws
-    udp: true
-    sni: gaMes-fULlg1.pAGes.deV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /trdkOY9iSXVbar0zdQ/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
-  - name: "💦 66 - Trojan - Clean IP : 2053"
-    port: 2053
-    server: cdnjs.com
-    type: trojan
-    network: ws
-    udp: true
-    sni: GamES-FUllG1.pagEs.DEV
-    password: h123456h
-    skip-cert-verify: false
-    ws-opts:
-      path: /tr8SIF6Xu1pEt6cZ00/ZGUucmFkaWNhbGx5LnBybw==?ed=2560
-      headers:
-        host: games-fullg1.pages.dev
-    alpn:
-      - h2,http/1.1
-    client-fingerprint: randomized
+    uuid: 4a60a8e0-b51d-41ae-8500-1b0b6724c6e6
+    client-fingerprint: chrome
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "💦 1 - VLESS - Domain : 443"
-      - "💦 2 - VLESS - Domain : 443"
-      - "💦 3 - VLESS - IPv4 : 443"
-      - "💦 4 - VLESS - IPv4 : 443"
-      - "💦 5 - VLESS - IPv6 : 443"
-      - "💦 6 - VLESS - IPv6 : 443"
-      - "💦 7 - VLESS - Clean IP : 443"
-      - "💦 8 - VLESS - Clean IP : 443"
-      - "💦 9 - VLESS - Clean IP : 443"
-      - "💦 10 - VLESS - Clean IP : 443"
-      - "💦 11 - VLESS - Clean IP : 443"
-      - "💦 12 - VLESS - Clean IP : 443"
-      - "💦 13 - VLESS - Clean IP : 443"
-      - "💦 14 - VLESS - Clean IP : 443"
-      - "💦 15 - VLESS - Clean IP : 443"
-      - "💦 16 - VLESS - Clean IP : 443"
-      - "💦 17 - VLESS - Clean IP : 443"
-      - "💦 18 - VLESS - Clean IP : 443"
-      - "💦 19 - VLESS - Clean IP : 443"
-      - "💦 20 - VLESS - Clean IP : 443"
-      - "💦 21 - VLESS - Clean IP : 443"
-      - "💦 22 - VLESS - Clean IP : 443"
-      - "💦 23 - VLESS - Domain : 8443"
-      - "💦 24 - VLESS - Domain : 8443"
-      - "💦 25 - VLESS - IPv4 : 8443"
-      - "💦 26 - VLESS - IPv4 : 8443"
-      - "💦 27 - VLESS - IPv6 : 8443"
-      - "💦 28 - VLESS - IPv6 : 8443"
-      - "💦 29 - VLESS - Clean IP : 8443"
-      - "💦 30 - VLESS - Clean IP : 8443"
-      - "💦 31 - VLESS - Clean IP : 8443"
-      - "💦 32 - VLESS - Clean IP : 8443"
-      - "💦 33 - VLESS - Clean IP : 8443"
-      - "💦 34 - VLESS - Clean IP : 8443"
-      - "💦 35 - VLESS - Clean IP : 8443"
-      - "💦 36 - VLESS - Clean IP : 8443"
-      - "💦 37 - VLESS - Clean IP : 8443"
-      - "💦 38 - VLESS - Clean IP : 8443"
-      - "💦 39 - VLESS - Clean IP : 8443"
-      - "💦 40 - VLESS - Clean IP : 8443"
-      - "💦 41 - VLESS - Clean IP : 8443"
-      - "💦 42 - VLESS - Clean IP : 8443"
-      - "💦 43 - VLESS - Clean IP : 8443"
-      - "💦 44 - VLESS - Clean IP : 8443"
-      - "💦 45 - VLESS - Domain : 2053"
-      - "💦 46 - VLESS - Domain : 2053"
-      - "💦 47 - VLESS - IPv4 : 2053"
-      - "💦 48 - VLESS - IPv4 : 2053"
-      - "💦 49 - VLESS - IPv6 : 2053"
-      - "💦 50 - VLESS - IPv6 : 2053"
-      - "💦 51 - VLESS - Clean IP : 2053"
-      - "💦 52 - VLESS - Clean IP : 2053"
-      - "💦 53 - VLESS - Clean IP : 2053"
-      - "💦 54 - VLESS - Clean IP : 2053"
-      - "💦 55 - VLESS - Clean IP : 2053"
-      - "💦 56 - VLESS - Clean IP : 2053"
-      - "💦 57 - VLESS - Clean IP : 2053"
-      - "💦 58 - VLESS - Clean IP : 2053"
-      - "💦 59 - VLESS - Clean IP : 2053"
-      - "💦 60 - VLESS - Clean IP : 2053"
-      - "💦 61 - VLESS - Clean IP : 2053"
-      - "💦 62 - VLESS - Clean IP : 2053"
-      - "💦 63 - VLESS - Clean IP : 2053"
-      - "💦 64 - VLESS - Clean IP : 2053"
-      - "💦 65 - VLESS - Clean IP : 2053"
-      - "💦 66 - VLESS - Clean IP : 2053"
-      - "💦 1 - Trojan - Domain : 443"
-      - "💦 2 - Trojan - Domain : 443"
-      - "💦 3 - Trojan - IPv4 : 443"
-      - "💦 4 - Trojan - IPv4 : 443"
-      - "💦 5 - Trojan - IPv6 : 443"
-      - "💦 6 - Trojan - IPv6 : 443"
-      - "💦 7 - Trojan - Clean IP : 443"
-      - "💦 8 - Trojan - Clean IP : 443"
-      - "💦 9 - Trojan - Clean IP : 443"
-      - "💦 10 - Trojan - Clean IP : 443"
-      - "💦 11 - Trojan - Clean IP : 443"
-      - "💦 12 - Trojan - Clean IP : 443"
-      - "💦 13 - Trojan - Clean IP : 443"
-      - "💦 14 - Trojan - Clean IP : 443"
-      - "💦 15 - Trojan - Clean IP : 443"
-      - "💦 16 - Trojan - Clean IP : 443"
-      - "💦 17 - Trojan - Clean IP : 443"
-      - "💦 18 - Trojan - Clean IP : 443"
-      - "💦 19 - Trojan - Clean IP : 443"
-      - "💦 20 - Trojan - Clean IP : 443"
-      - "💦 21 - Trojan - Clean IP : 443"
-      - "💦 22 - Trojan - Clean IP : 443"
-      - "💦 23 - Trojan - Domain : 8443"
-      - "💦 24 - Trojan - Domain : 8443"
-      - "💦 25 - Trojan - IPv4 : 8443"
-      - "💦 26 - Trojan - IPv4 : 8443"
-      - "💦 27 - Trojan - IPv6 : 8443"
-      - "💦 28 - Trojan - IPv6 : 8443"
-      - "💦 29 - Trojan - Clean IP : 8443"
-      - "💦 30 - Trojan - Clean IP : 8443"
-      - "💦 31 - Trojan - Clean IP : 8443"
-      - "💦 32 - Trojan - Clean IP : 8443"
-      - "💦 33 - Trojan - Clean IP : 8443"
-      - "💦 34 - Trojan - Clean IP : 8443"
-      - "💦 35 - Trojan - Clean IP : 8443"
-      - "💦 36 - Trojan - Clean IP : 8443"
-      - "💦 37 - Trojan - Clean IP : 8443"
-      - "💦 38 - Trojan - Clean IP : 8443"
-      - "💦 39 - Trojan - Clean IP : 8443"
-      - "💦 40 - Trojan - Clean IP : 8443"
-      - "💦 41 - Trojan - Clean IP : 8443"
-      - "💦 42 - Trojan - Clean IP : 8443"
-      - "💦 43 - Trojan - Clean IP : 8443"
-      - "💦 44 - Trojan - Clean IP : 8443"
-      - "💦 45 - Trojan - Domain : 2053"
-      - "💦 46 - Trojan - Domain : 2053"
-      - "💦 47 - Trojan - IPv4 : 2053"
-      - "💦 48 - Trojan - IPv4 : 2053"
-      - "💦 49 - Trojan - IPv6 : 2053"
-      - "💦 50 - Trojan - IPv6 : 2053"
-      - "💦 51 - Trojan - Clean IP : 2053"
-      - "💦 52 - Trojan - Clean IP : 2053"
-      - "💦 53 - Trojan - Clean IP : 2053"
-      - "💦 54 - Trojan - Clean IP : 2053"
-      - "💦 55 - Trojan - Clean IP : 2053"
-      - "💦 56 - Trojan - Clean IP : 2053"
-      - "💦 57 - Trojan - Clean IP : 2053"
-      - "💦 58 - Trojan - Clean IP : 2053"
-      - "💦 59 - Trojan - Clean IP : 2053"
-      - "💦 60 - Trojan - Clean IP : 2053"
-      - "💦 61 - Trojan - Clean IP : 2053"
-      - "💦 62 - Trojan - Clean IP : 2053"
-      - "💦 63 - Trojan - Clean IP : 2053"
-      - "💦 64 - Trojan - Clean IP : 2053"
-      - "💦 65 - Trojan - Clean IP : 2053"
-      - "💦 66 - Trojan - Clean IP : 2053"
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
+      - defaultName_17
+      - defaultName_18
+      - defaultName_19
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - defaultName_23
+      - defaultName_24
+      - defaultName_25
+      - defaultName_26
+      - defaultName_27
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - defaultName_32
+      - defaultName_33
+      - defaultName_34
+      - defaultName_35
+      - defaultName_36
+      - defaultName_37
+      - defaultName_38
+      - defaultName_39
+      - defaultName_40
+      - defaultName_41
+      - defaultName_42
+      - defaultName_43
+      - defaultName_44
+      - defaultName_45
+      - defaultName_46
+      - defaultName_47
+      - defaultName_48
+      - defaultName_49
+      - defaultName_50
+      - defaultName_51
+      - defaultName_52
+      - defaultName_53
+      - defaultName_54
+      - defaultName_55
+      - defaultName_56
+      - defaultName_57
+      - defaultName_58
+      - defaultName_59
+      - defaultName_60
+      - defaultName_61
+      - defaultName_62
+      - defaultName_63
+      - defaultName_64
+      - defaultName_65
+      - defaultName_66
+      - defaultName_67
+      - defaultName_68
+      - defaultName_69
+      - defaultName_70
+      - defaultName_71
+      - defaultName_72
+      - defaultName_73
+      - defaultName_74
+      - defaultName_75
+      - defaultName_76
+      - defaultName_77
+      - defaultName_78
+      - defaultName_79
+      - defaultName_80
+      - defaultName_81
+      - defaultName_82
+      - defaultName_83
+      - defaultName_84
+      - defaultName_85
+      - defaultName_86
+      - defaultName_87
+      - defaultName_88
+      - defaultName_89
+      - defaultName_90
+      - defaultName_91
+      - defaultName_92
+      - defaultName_93
+      - defaultName_94
+      - defaultName_95
+      - defaultName_96
+      - defaultName_97
+      - defaultName_98
+      - defaultName_99
+      - defaultName_100
+      - defaultName_101
+      - defaultName_102
+      - defaultName_103
+      - defaultName_104
+      - defaultName_105
+      - defaultName_106
+      - defaultName_107
+      - defaultName_108
+      - defaultName_109
+      - defaultName_110
+      - defaultName_111
+      - defaultName_112
+      - defaultName_113
+      - defaultName_114
+      - defaultName_115
+      - defaultName_116
+      - defaultName_117
+      - defaultName_118
+      - defaultName_119
+      - defaultName_120
+      - 🇩🇪_1
+      - 🇮🇹_1
+      - 🇩🇪_2
+      - 🇳🇱_1
+      - 🇫🇷_1
+      - 🇫🇮_1
+      - 🇩🇪_3
+      - 🇭🇰_1
+      - 🇩🇪_4
+      - 🇩🇪_5
+      - 🇩🇪_6
+      - 🇩🇪_7
+      - 🇮🇹_2
+      - 🇩🇪_8
+      - 🇮🇹_3
+      - 🇩🇪_9
+      - 🇳🇱_2
+      - 🇫🇷_2
+      - 🇫🇮_2
+      - 🇩🇪_10
+      - 🇭🇰_2
+      - 🇩🇪_11
+      - 🇩🇪_12
+      - 🇩🇪_13
+      - 🇩🇪_14
+      - 🇮🇹_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "💦 1 - VLESS - Domain : 443"
-      - "💦 2 - VLESS - Domain : 443"
-      - "💦 3 - VLESS - IPv4 : 443"
-      - "💦 4 - VLESS - IPv4 : 443"
-      - "💦 5 - VLESS - IPv6 : 443"
-      - "💦 6 - VLESS - IPv6 : 443"
-      - "💦 7 - VLESS - Clean IP : 443"
-      - "💦 8 - VLESS - Clean IP : 443"
-      - "💦 9 - VLESS - Clean IP : 443"
-      - "💦 10 - VLESS - Clean IP : 443"
-      - "💦 11 - VLESS - Clean IP : 443"
-      - "💦 12 - VLESS - Clean IP : 443"
-      - "💦 13 - VLESS - Clean IP : 443"
-      - "💦 14 - VLESS - Clean IP : 443"
-      - "💦 15 - VLESS - Clean IP : 443"
-      - "💦 16 - VLESS - Clean IP : 443"
-      - "💦 17 - VLESS - Clean IP : 443"
-      - "💦 18 - VLESS - Clean IP : 443"
-      - "💦 19 - VLESS - Clean IP : 443"
-      - "💦 20 - VLESS - Clean IP : 443"
-      - "💦 21 - VLESS - Clean IP : 443"
-      - "💦 22 - VLESS - Clean IP : 443"
-      - "💦 23 - VLESS - Domain : 8443"
-      - "💦 24 - VLESS - Domain : 8443"
-      - "💦 25 - VLESS - IPv4 : 8443"
-      - "💦 26 - VLESS - IPv4 : 8443"
-      - "💦 27 - VLESS - IPv6 : 8443"
-      - "💦 28 - VLESS - IPv6 : 8443"
-      - "💦 29 - VLESS - Clean IP : 8443"
-      - "💦 30 - VLESS - Clean IP : 8443"
-      - "💦 31 - VLESS - Clean IP : 8443"
-      - "💦 32 - VLESS - Clean IP : 8443"
-      - "💦 33 - VLESS - Clean IP : 8443"
-      - "💦 34 - VLESS - Clean IP : 8443"
-      - "💦 35 - VLESS - Clean IP : 8443"
-      - "💦 36 - VLESS - Clean IP : 8443"
-      - "💦 37 - VLESS - Clean IP : 8443"
-      - "💦 38 - VLESS - Clean IP : 8443"
-      - "💦 39 - VLESS - Clean IP : 8443"
-      - "💦 40 - VLESS - Clean IP : 8443"
-      - "💦 41 - VLESS - Clean IP : 8443"
-      - "💦 42 - VLESS - Clean IP : 8443"
-      - "💦 43 - VLESS - Clean IP : 8443"
-      - "💦 44 - VLESS - Clean IP : 8443"
-      - "💦 45 - VLESS - Domain : 2053"
-      - "💦 46 - VLESS - Domain : 2053"
-      - "💦 47 - VLESS - IPv4 : 2053"
-      - "💦 48 - VLESS - IPv4 : 2053"
-      - "💦 49 - VLESS - IPv6 : 2053"
-      - "💦 50 - VLESS - IPv6 : 2053"
-      - "💦 51 - VLESS - Clean IP : 2053"
-      - "💦 52 - VLESS - Clean IP : 2053"
-      - "💦 53 - VLESS - Clean IP : 2053"
-      - "💦 54 - VLESS - Clean IP : 2053"
-      - "💦 55 - VLESS - Clean IP : 2053"
-      - "💦 56 - VLESS - Clean IP : 2053"
-      - "💦 57 - VLESS - Clean IP : 2053"
-      - "💦 58 - VLESS - Clean IP : 2053"
-      - "💦 59 - VLESS - Clean IP : 2053"
-      - "💦 60 - VLESS - Clean IP : 2053"
-      - "💦 61 - VLESS - Clean IP : 2053"
-      - "💦 62 - VLESS - Clean IP : 2053"
-      - "💦 63 - VLESS - Clean IP : 2053"
-      - "💦 64 - VLESS - Clean IP : 2053"
-      - "💦 65 - VLESS - Clean IP : 2053"
-      - "💦 66 - VLESS - Clean IP : 2053"
-      - "💦 1 - Trojan - Domain : 443"
-      - "💦 2 - Trojan - Domain : 443"
-      - "💦 3 - Trojan - IPv4 : 443"
-      - "💦 4 - Trojan - IPv4 : 443"
-      - "💦 5 - Trojan - IPv6 : 443"
-      - "💦 6 - Trojan - IPv6 : 443"
-      - "💦 7 - Trojan - Clean IP : 443"
-      - "💦 8 - Trojan - Clean IP : 443"
-      - "💦 9 - Trojan - Clean IP : 443"
-      - "💦 10 - Trojan - Clean IP : 443"
-      - "💦 11 - Trojan - Clean IP : 443"
-      - "💦 12 - Trojan - Clean IP : 443"
-      - "💦 13 - Trojan - Clean IP : 443"
-      - "💦 14 - Trojan - Clean IP : 443"
-      - "💦 15 - Trojan - Clean IP : 443"
-      - "💦 16 - Trojan - Clean IP : 443"
-      - "💦 17 - Trojan - Clean IP : 443"
-      - "💦 18 - Trojan - Clean IP : 443"
-      - "💦 19 - Trojan - Clean IP : 443"
-      - "💦 20 - Trojan - Clean IP : 443"
-      - "💦 21 - Trojan - Clean IP : 443"
-      - "💦 22 - Trojan - Clean IP : 443"
-      - "💦 23 - Trojan - Domain : 8443"
-      - "💦 24 - Trojan - Domain : 8443"
-      - "💦 25 - Trojan - IPv4 : 8443"
-      - "💦 26 - Trojan - IPv4 : 8443"
-      - "💦 27 - Trojan - IPv6 : 8443"
-      - "💦 28 - Trojan - IPv6 : 8443"
-      - "💦 29 - Trojan - Clean IP : 8443"
-      - "💦 30 - Trojan - Clean IP : 8443"
-      - "💦 31 - Trojan - Clean IP : 8443"
-      - "💦 32 - Trojan - Clean IP : 8443"
-      - "💦 33 - Trojan - Clean IP : 8443"
-      - "💦 34 - Trojan - Clean IP : 8443"
-      - "💦 35 - Trojan - Clean IP : 8443"
-      - "💦 36 - Trojan - Clean IP : 8443"
-      - "💦 37 - Trojan - Clean IP : 8443"
-      - "💦 38 - Trojan - Clean IP : 8443"
-      - "💦 39 - Trojan - Clean IP : 8443"
-      - "💦 40 - Trojan - Clean IP : 8443"
-      - "💦 41 - Trojan - Clean IP : 8443"
-      - "💦 42 - Trojan - Clean IP : 8443"
-      - "💦 43 - Trojan - Clean IP : 8443"
-      - "💦 44 - Trojan - Clean IP : 8443"
-      - "💦 45 - Trojan - Domain : 2053"
-      - "💦 46 - Trojan - Domain : 2053"
-      - "💦 47 - Trojan - IPv4 : 2053"
-      - "💦 48 - Trojan - IPv4 : 2053"
-      - "💦 49 - Trojan - IPv6 : 2053"
-      - "💦 50 - Trojan - IPv6 : 2053"
-      - "💦 51 - Trojan - Clean IP : 2053"
-      - "💦 52 - Trojan - Clean IP : 2053"
-      - "💦 53 - Trojan - Clean IP : 2053"
-      - "💦 54 - Trojan - Clean IP : 2053"
-      - "💦 55 - Trojan - Clean IP : 2053"
-      - "💦 56 - Trojan - Clean IP : 2053"
-      - "💦 57 - Trojan - Clean IP : 2053"
-      - "💦 58 - Trojan - Clean IP : 2053"
-      - "💦 59 - Trojan - Clean IP : 2053"
-      - "💦 60 - Trojan - Clean IP : 2053"
-      - "💦 61 - Trojan - Clean IP : 2053"
-      - "💦 62 - Trojan - Clean IP : 2053"
-      - "💦 63 - Trojan - Clean IP : 2053"
-      - "💦 64 - Trojan - Clean IP : 2053"
-      - "💦 65 - Trojan - Clean IP : 2053"
-      - "💦 66 - Trojan - Clean IP : 2053"
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
+      - defaultName_17
+      - defaultName_18
+      - defaultName_19
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - defaultName_23
+      - defaultName_24
+      - defaultName_25
+      - defaultName_26
+      - defaultName_27
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - defaultName_32
+      - defaultName_33
+      - defaultName_34
+      - defaultName_35
+      - defaultName_36
+      - defaultName_37
+      - defaultName_38
+      - defaultName_39
+      - defaultName_40
+      - defaultName_41
+      - defaultName_42
+      - defaultName_43
+      - defaultName_44
+      - defaultName_45
+      - defaultName_46
+      - defaultName_47
+      - defaultName_48
+      - defaultName_49
+      - defaultName_50
+      - defaultName_51
+      - defaultName_52
+      - defaultName_53
+      - defaultName_54
+      - defaultName_55
+      - defaultName_56
+      - defaultName_57
+      - defaultName_58
+      - defaultName_59
+      - defaultName_60
+      - defaultName_61
+      - defaultName_62
+      - defaultName_63
+      - defaultName_64
+      - defaultName_65
+      - defaultName_66
+      - defaultName_67
+      - defaultName_68
+      - defaultName_69
+      - defaultName_70
+      - defaultName_71
+      - defaultName_72
+      - defaultName_73
+      - defaultName_74
+      - defaultName_75
+      - defaultName_76
+      - defaultName_77
+      - defaultName_78
+      - defaultName_79
+      - defaultName_80
+      - defaultName_81
+      - defaultName_82
+      - defaultName_83
+      - defaultName_84
+      - defaultName_85
+      - defaultName_86
+      - defaultName_87
+      - defaultName_88
+      - defaultName_89
+      - defaultName_90
+      - defaultName_91
+      - defaultName_92
+      - defaultName_93
+      - defaultName_94
+      - defaultName_95
+      - defaultName_96
+      - defaultName_97
+      - defaultName_98
+      - defaultName_99
+      - defaultName_100
+      - defaultName_101
+      - defaultName_102
+      - defaultName_103
+      - defaultName_104
+      - defaultName_105
+      - defaultName_106
+      - defaultName_107
+      - defaultName_108
+      - defaultName_109
+      - defaultName_110
+      - defaultName_111
+      - defaultName_112
+      - defaultName_113
+      - defaultName_114
+      - defaultName_115
+      - defaultName_116
+      - defaultName_117
+      - defaultName_118
+      - defaultName_119
+      - defaultName_120
+      - 🇩🇪_1
+      - 🇮🇹_1
+      - 🇩🇪_2
+      - 🇳🇱_1
+      - 🇫🇷_1
+      - 🇫🇮_1
+      - 🇩🇪_3
+      - 🇭🇰_1
+      - 🇩🇪_4
+      - 🇩🇪_5
+      - 🇩🇪_6
+      - 🇩🇪_7
+      - 🇮🇹_2
+      - 🇩🇪_8
+      - 🇮🇹_3
+      - 🇩🇪_9
+      - 🇳🇱_2
+      - 🇫🇷_2
+      - 🇫🇮_2
+      - 🇩🇪_10
+      - 🇭🇰_2
+      - 🇩🇪_11
+      - 🇩🇪_12
+      - 🇩🇪_13
+      - 🇩🇪_14
+      - 🇮🇹_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "💦 1 - VLESS - Domain : 443"
-      - "💦 2 - VLESS - Domain : 443"
-      - "💦 3 - VLESS - IPv4 : 443"
-      - "💦 4 - VLESS - IPv4 : 443"
-      - "💦 5 - VLESS - IPv6 : 443"
-      - "💦 6 - VLESS - IPv6 : 443"
-      - "💦 7 - VLESS - Clean IP : 443"
-      - "💦 8 - VLESS - Clean IP : 443"
-      - "💦 9 - VLESS - Clean IP : 443"
-      - "💦 10 - VLESS - Clean IP : 443"
-      - "💦 11 - VLESS - Clean IP : 443"
-      - "💦 12 - VLESS - Clean IP : 443"
-      - "💦 13 - VLESS - Clean IP : 443"
-      - "💦 14 - VLESS - Clean IP : 443"
-      - "💦 15 - VLESS - Clean IP : 443"
-      - "💦 16 - VLESS - Clean IP : 443"
-      - "💦 17 - VLESS - Clean IP : 443"
-      - "💦 18 - VLESS - Clean IP : 443"
-      - "💦 19 - VLESS - Clean IP : 443"
-      - "💦 20 - VLESS - Clean IP : 443"
-      - "💦 21 - VLESS - Clean IP : 443"
-      - "💦 22 - VLESS - Clean IP : 443"
-      - "💦 23 - VLESS - Domain : 8443"
-      - "💦 24 - VLESS - Domain : 8443"
-      - "💦 25 - VLESS - IPv4 : 8443"
-      - "💦 26 - VLESS - IPv4 : 8443"
-      - "💦 27 - VLESS - IPv6 : 8443"
-      - "💦 28 - VLESS - IPv6 : 8443"
-      - "💦 29 - VLESS - Clean IP : 8443"
-      - "💦 30 - VLESS - Clean IP : 8443"
-      - "💦 31 - VLESS - Clean IP : 8443"
-      - "💦 32 - VLESS - Clean IP : 8443"
-      - "💦 33 - VLESS - Clean IP : 8443"
-      - "💦 34 - VLESS - Clean IP : 8443"
-      - "💦 35 - VLESS - Clean IP : 8443"
-      - "💦 36 - VLESS - Clean IP : 8443"
-      - "💦 37 - VLESS - Clean IP : 8443"
-      - "💦 38 - VLESS - Clean IP : 8443"
-      - "💦 39 - VLESS - Clean IP : 8443"
-      - "💦 40 - VLESS - Clean IP : 8443"
-      - "💦 41 - VLESS - Clean IP : 8443"
-      - "💦 42 - VLESS - Clean IP : 8443"
-      - "💦 43 - VLESS - Clean IP : 8443"
-      - "💦 44 - VLESS - Clean IP : 8443"
-      - "💦 45 - VLESS - Domain : 2053"
-      - "💦 46 - VLESS - Domain : 2053"
-      - "💦 47 - VLESS - IPv4 : 2053"
-      - "💦 48 - VLESS - IPv4 : 2053"
-      - "💦 49 - VLESS - IPv6 : 2053"
-      - "💦 50 - VLESS - IPv6 : 2053"
-      - "💦 51 - VLESS - Clean IP : 2053"
-      - "💦 52 - VLESS - Clean IP : 2053"
-      - "💦 53 - VLESS - Clean IP : 2053"
-      - "💦 54 - VLESS - Clean IP : 2053"
-      - "💦 55 - VLESS - Clean IP : 2053"
-      - "💦 56 - VLESS - Clean IP : 2053"
-      - "💦 57 - VLESS - Clean IP : 2053"
-      - "💦 58 - VLESS - Clean IP : 2053"
-      - "💦 59 - VLESS - Clean IP : 2053"
-      - "💦 60 - VLESS - Clean IP : 2053"
-      - "💦 61 - VLESS - Clean IP : 2053"
-      - "💦 62 - VLESS - Clean IP : 2053"
-      - "💦 63 - VLESS - Clean IP : 2053"
-      - "💦 64 - VLESS - Clean IP : 2053"
-      - "💦 65 - VLESS - Clean IP : 2053"
-      - "💦 66 - VLESS - Clean IP : 2053"
-      - "💦 1 - Trojan - Domain : 443"
-      - "💦 2 - Trojan - Domain : 443"
-      - "💦 3 - Trojan - IPv4 : 443"
-      - "💦 4 - Trojan - IPv4 : 443"
-      - "💦 5 - Trojan - IPv6 : 443"
-      - "💦 6 - Trojan - IPv6 : 443"
-      - "💦 7 - Trojan - Clean IP : 443"
-      - "💦 8 - Trojan - Clean IP : 443"
-      - "💦 9 - Trojan - Clean IP : 443"
-      - "💦 10 - Trojan - Clean IP : 443"
-      - "💦 11 - Trojan - Clean IP : 443"
-      - "💦 12 - Trojan - Clean IP : 443"
-      - "💦 13 - Trojan - Clean IP : 443"
-      - "💦 14 - Trojan - Clean IP : 443"
-      - "💦 15 - Trojan - Clean IP : 443"
-      - "💦 16 - Trojan - Clean IP : 443"
-      - "💦 17 - Trojan - Clean IP : 443"
-      - "💦 18 - Trojan - Clean IP : 443"
-      - "💦 19 - Trojan - Clean IP : 443"
-      - "💦 20 - Trojan - Clean IP : 443"
-      - "💦 21 - Trojan - Clean IP : 443"
-      - "💦 22 - Trojan - Clean IP : 443"
-      - "💦 23 - Trojan - Domain : 8443"
-      - "💦 24 - Trojan - Domain : 8443"
-      - "💦 25 - Trojan - IPv4 : 8443"
-      - "💦 26 - Trojan - IPv4 : 8443"
-      - "💦 27 - Trojan - IPv6 : 8443"
-      - "💦 28 - Trojan - IPv6 : 8443"
-      - "💦 29 - Trojan - Clean IP : 8443"
-      - "💦 30 - Trojan - Clean IP : 8443"
-      - "💦 31 - Trojan - Clean IP : 8443"
-      - "💦 32 - Trojan - Clean IP : 8443"
-      - "💦 33 - Trojan - Clean IP : 8443"
-      - "💦 34 - Trojan - Clean IP : 8443"
-      - "💦 35 - Trojan - Clean IP : 8443"
-      - "💦 36 - Trojan - Clean IP : 8443"
-      - "💦 37 - Trojan - Clean IP : 8443"
-      - "💦 38 - Trojan - Clean IP : 8443"
-      - "💦 39 - Trojan - Clean IP : 8443"
-      - "💦 40 - Trojan - Clean IP : 8443"
-      - "💦 41 - Trojan - Clean IP : 8443"
-      - "💦 42 - Trojan - Clean IP : 8443"
-      - "💦 43 - Trojan - Clean IP : 8443"
-      - "💦 44 - Trojan - Clean IP : 8443"
-      - "💦 45 - Trojan - Domain : 2053"
-      - "💦 46 - Trojan - Domain : 2053"
-      - "💦 47 - Trojan - IPv4 : 2053"
-      - "💦 48 - Trojan - IPv4 : 2053"
-      - "💦 49 - Trojan - IPv6 : 2053"
-      - "💦 50 - Trojan - IPv6 : 2053"
-      - "💦 51 - Trojan - Clean IP : 2053"
-      - "💦 52 - Trojan - Clean IP : 2053"
-      - "💦 53 - Trojan - Clean IP : 2053"
-      - "💦 54 - Trojan - Clean IP : 2053"
-      - "💦 55 - Trojan - Clean IP : 2053"
-      - "💦 56 - Trojan - Clean IP : 2053"
-      - "💦 57 - Trojan - Clean IP : 2053"
-      - "💦 58 - Trojan - Clean IP : 2053"
-      - "💦 59 - Trojan - Clean IP : 2053"
-      - "💦 60 - Trojan - Clean IP : 2053"
-      - "💦 61 - Trojan - Clean IP : 2053"
-      - "💦 62 - Trojan - Clean IP : 2053"
-      - "💦 63 - Trojan - Clean IP : 2053"
-      - "💦 64 - Trojan - Clean IP : 2053"
-      - "💦 65 - Trojan - Clean IP : 2053"
-      - "💦 66 - Trojan - Clean IP : 2053"
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
+      - defaultName_17
+      - defaultName_18
+      - defaultName_19
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - defaultName_23
+      - defaultName_24
+      - defaultName_25
+      - defaultName_26
+      - defaultName_27
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - defaultName_32
+      - defaultName_33
+      - defaultName_34
+      - defaultName_35
+      - defaultName_36
+      - defaultName_37
+      - defaultName_38
+      - defaultName_39
+      - defaultName_40
+      - defaultName_41
+      - defaultName_42
+      - defaultName_43
+      - defaultName_44
+      - defaultName_45
+      - defaultName_46
+      - defaultName_47
+      - defaultName_48
+      - defaultName_49
+      - defaultName_50
+      - defaultName_51
+      - defaultName_52
+      - defaultName_53
+      - defaultName_54
+      - defaultName_55
+      - defaultName_56
+      - defaultName_57
+      - defaultName_58
+      - defaultName_59
+      - defaultName_60
+      - defaultName_61
+      - defaultName_62
+      - defaultName_63
+      - defaultName_64
+      - defaultName_65
+      - defaultName_66
+      - defaultName_67
+      - defaultName_68
+      - defaultName_69
+      - defaultName_70
+      - defaultName_71
+      - defaultName_72
+      - defaultName_73
+      - defaultName_74
+      - defaultName_75
+      - defaultName_76
+      - defaultName_77
+      - defaultName_78
+      - defaultName_79
+      - defaultName_80
+      - defaultName_81
+      - defaultName_82
+      - defaultName_83
+      - defaultName_84
+      - defaultName_85
+      - defaultName_86
+      - defaultName_87
+      - defaultName_88
+      - defaultName_89
+      - defaultName_90
+      - defaultName_91
+      - defaultName_92
+      - defaultName_93
+      - defaultName_94
+      - defaultName_95
+      - defaultName_96
+      - defaultName_97
+      - defaultName_98
+      - defaultName_99
+      - defaultName_100
+      - defaultName_101
+      - defaultName_102
+      - defaultName_103
+      - defaultName_104
+      - defaultName_105
+      - defaultName_106
+      - defaultName_107
+      - defaultName_108
+      - defaultName_109
+      - defaultName_110
+      - defaultName_111
+      - defaultName_112
+      - defaultName_113
+      - defaultName_114
+      - defaultName_115
+      - defaultName_116
+      - defaultName_117
+      - defaultName_118
+      - defaultName_119
+      - defaultName_120
+      - 🇩🇪_1
+      - 🇮🇹_1
+      - 🇩🇪_2
+      - 🇳🇱_1
+      - 🇫🇷_1
+      - 🇫🇮_1
+      - 🇩🇪_3
+      - 🇭🇰_1
+      - 🇩🇪_4
+      - 🇩🇪_5
+      - 🇩🇪_6
+      - 🇩🇪_7
+      - 🇮🇹_2
+      - 🇩🇪_8
+      - 🇮🇹_3
+      - 🇩🇪_9
+      - 🇳🇱_2
+      - 🇫🇷_2
+      - 🇫🇮_2
+      - 🇩🇪_10
+      - 🇭🇰_2
+      - 🇩🇪_11
+      - 🇩🇪_12
+      - 🇩🇪_13
+      - 🇩🇪_14
+      - 🇮🇹_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "💦 1 - VLESS - Domain : 443"
-      - "💦 2 - VLESS - Domain : 443"
-      - "💦 3 - VLESS - IPv4 : 443"
-      - "💦 4 - VLESS - IPv4 : 443"
-      - "💦 5 - VLESS - IPv6 : 443"
-      - "💦 6 - VLESS - IPv6 : 443"
-      - "💦 7 - VLESS - Clean IP : 443"
-      - "💦 8 - VLESS - Clean IP : 443"
-      - "💦 9 - VLESS - Clean IP : 443"
-      - "💦 10 - VLESS - Clean IP : 443"
-      - "💦 11 - VLESS - Clean IP : 443"
-      - "💦 12 - VLESS - Clean IP : 443"
-      - "💦 13 - VLESS - Clean IP : 443"
-      - "💦 14 - VLESS - Clean IP : 443"
-      - "💦 15 - VLESS - Clean IP : 443"
-      - "💦 16 - VLESS - Clean IP : 443"
-      - "💦 17 - VLESS - Clean IP : 443"
-      - "💦 18 - VLESS - Clean IP : 443"
-      - "💦 19 - VLESS - Clean IP : 443"
-      - "💦 20 - VLESS - Clean IP : 443"
-      - "💦 21 - VLESS - Clean IP : 443"
-      - "💦 22 - VLESS - Clean IP : 443"
-      - "💦 23 - VLESS - Domain : 8443"
-      - "💦 24 - VLESS - Domain : 8443"
-      - "💦 25 - VLESS - IPv4 : 8443"
-      - "💦 26 - VLESS - IPv4 : 8443"
-      - "💦 27 - VLESS - IPv6 : 8443"
-      - "💦 28 - VLESS - IPv6 : 8443"
-      - "💦 29 - VLESS - Clean IP : 8443"
-      - "💦 30 - VLESS - Clean IP : 8443"
-      - "💦 31 - VLESS - Clean IP : 8443"
-      - "💦 32 - VLESS - Clean IP : 8443"
-      - "💦 33 - VLESS - Clean IP : 8443"
-      - "💦 34 - VLESS - Clean IP : 8443"
-      - "💦 35 - VLESS - Clean IP : 8443"
-      - "💦 36 - VLESS - Clean IP : 8443"
-      - "💦 37 - VLESS - Clean IP : 8443"
-      - "💦 38 - VLESS - Clean IP : 8443"
-      - "💦 39 - VLESS - Clean IP : 8443"
-      - "💦 40 - VLESS - Clean IP : 8443"
-      - "💦 41 - VLESS - Clean IP : 8443"
-      - "💦 42 - VLESS - Clean IP : 8443"
-      - "💦 43 - VLESS - Clean IP : 8443"
-      - "💦 44 - VLESS - Clean IP : 8443"
-      - "💦 45 - VLESS - Domain : 2053"
-      - "💦 46 - VLESS - Domain : 2053"
-      - "💦 47 - VLESS - IPv4 : 2053"
-      - "💦 48 - VLESS - IPv4 : 2053"
-      - "💦 49 - VLESS - IPv6 : 2053"
-      - "💦 50 - VLESS - IPv6 : 2053"
-      - "💦 51 - VLESS - Clean IP : 2053"
-      - "💦 52 - VLESS - Clean IP : 2053"
-      - "💦 53 - VLESS - Clean IP : 2053"
-      - "💦 54 - VLESS - Clean IP : 2053"
-      - "💦 55 - VLESS - Clean IP : 2053"
-      - "💦 56 - VLESS - Clean IP : 2053"
-      - "💦 57 - VLESS - Clean IP : 2053"
-      - "💦 58 - VLESS - Clean IP : 2053"
-      - "💦 59 - VLESS - Clean IP : 2053"
-      - "💦 60 - VLESS - Clean IP : 2053"
-      - "💦 61 - VLESS - Clean IP : 2053"
-      - "💦 62 - VLESS - Clean IP : 2053"
-      - "💦 63 - VLESS - Clean IP : 2053"
-      - "💦 64 - VLESS - Clean IP : 2053"
-      - "💦 65 - VLESS - Clean IP : 2053"
-      - "💦 66 - VLESS - Clean IP : 2053"
-      - "💦 1 - Trojan - Domain : 443"
-      - "💦 2 - Trojan - Domain : 443"
-      - "💦 3 - Trojan - IPv4 : 443"
-      - "💦 4 - Trojan - IPv4 : 443"
-      - "💦 5 - Trojan - IPv6 : 443"
-      - "💦 6 - Trojan - IPv6 : 443"
-      - "💦 7 - Trojan - Clean IP : 443"
-      - "💦 8 - Trojan - Clean IP : 443"
-      - "💦 9 - Trojan - Clean IP : 443"
-      - "💦 10 - Trojan - Clean IP : 443"
-      - "💦 11 - Trojan - Clean IP : 443"
-      - "💦 12 - Trojan - Clean IP : 443"
-      - "💦 13 - Trojan - Clean IP : 443"
-      - "💦 14 - Trojan - Clean IP : 443"
-      - "💦 15 - Trojan - Clean IP : 443"
-      - "💦 16 - Trojan - Clean IP : 443"
-      - "💦 17 - Trojan - Clean IP : 443"
-      - "💦 18 - Trojan - Clean IP : 443"
-      - "💦 19 - Trojan - Clean IP : 443"
-      - "💦 20 - Trojan - Clean IP : 443"
-      - "💦 21 - Trojan - Clean IP : 443"
-      - "💦 22 - Trojan - Clean IP : 443"
-      - "💦 23 - Trojan - Domain : 8443"
-      - "💦 24 - Trojan - Domain : 8443"
-      - "💦 25 - Trojan - IPv4 : 8443"
-      - "💦 26 - Trojan - IPv4 : 8443"
-      - "💦 27 - Trojan - IPv6 : 8443"
-      - "💦 28 - Trojan - IPv6 : 8443"
-      - "💦 29 - Trojan - Clean IP : 8443"
-      - "💦 30 - Trojan - Clean IP : 8443"
-      - "💦 31 - Trojan - Clean IP : 8443"
-      - "💦 32 - Trojan - Clean IP : 8443"
-      - "💦 33 - Trojan - Clean IP : 8443"
-      - "💦 34 - Trojan - Clean IP : 8443"
-      - "💦 35 - Trojan - Clean IP : 8443"
-      - "💦 36 - Trojan - Clean IP : 8443"
-      - "💦 37 - Trojan - Clean IP : 8443"
-      - "💦 38 - Trojan - Clean IP : 8443"
-      - "💦 39 - Trojan - Clean IP : 8443"
-      - "💦 40 - Trojan - Clean IP : 8443"
-      - "💦 41 - Trojan - Clean IP : 8443"
-      - "💦 42 - Trojan - Clean IP : 8443"
-      - "💦 43 - Trojan - Clean IP : 8443"
-      - "💦 44 - Trojan - Clean IP : 8443"
-      - "💦 45 - Trojan - Domain : 2053"
-      - "💦 46 - Trojan - Domain : 2053"
-      - "💦 47 - Trojan - IPv4 : 2053"
-      - "💦 48 - Trojan - IPv4 : 2053"
-      - "💦 49 - Trojan - IPv6 : 2053"
-      - "💦 50 - Trojan - IPv6 : 2053"
-      - "💦 51 - Trojan - Clean IP : 2053"
-      - "💦 52 - Trojan - Clean IP : 2053"
-      - "💦 53 - Trojan - Clean IP : 2053"
-      - "💦 54 - Trojan - Clean IP : 2053"
-      - "💦 55 - Trojan - Clean IP : 2053"
-      - "💦 56 - Trojan - Clean IP : 2053"
-      - "💦 57 - Trojan - Clean IP : 2053"
-      - "💦 58 - Trojan - Clean IP : 2053"
-      - "💦 59 - Trojan - Clean IP : 2053"
-      - "💦 60 - Trojan - Clean IP : 2053"
-      - "💦 61 - Trojan - Clean IP : 2053"
-      - "💦 62 - Trojan - Clean IP : 2053"
-      - "💦 63 - Trojan - Clean IP : 2053"
-      - "💦 64 - Trojan - Clean IP : 2053"
-      - "💦 65 - Trojan - Clean IP : 2053"
-      - "💦 66 - Trojan - Clean IP : 2053"
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
+      - defaultName_17
+      - defaultName_18
+      - defaultName_19
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - defaultName_23
+      - defaultName_24
+      - defaultName_25
+      - defaultName_26
+      - defaultName_27
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - defaultName_32
+      - defaultName_33
+      - defaultName_34
+      - defaultName_35
+      - defaultName_36
+      - defaultName_37
+      - defaultName_38
+      - defaultName_39
+      - defaultName_40
+      - defaultName_41
+      - defaultName_42
+      - defaultName_43
+      - defaultName_44
+      - defaultName_45
+      - defaultName_46
+      - defaultName_47
+      - defaultName_48
+      - defaultName_49
+      - defaultName_50
+      - defaultName_51
+      - defaultName_52
+      - defaultName_53
+      - defaultName_54
+      - defaultName_55
+      - defaultName_56
+      - defaultName_57
+      - defaultName_58
+      - defaultName_59
+      - defaultName_60
+      - defaultName_61
+      - defaultName_62
+      - defaultName_63
+      - defaultName_64
+      - defaultName_65
+      - defaultName_66
+      - defaultName_67
+      - defaultName_68
+      - defaultName_69
+      - defaultName_70
+      - defaultName_71
+      - defaultName_72
+      - defaultName_73
+      - defaultName_74
+      - defaultName_75
+      - defaultName_76
+      - defaultName_77
+      - defaultName_78
+      - defaultName_79
+      - defaultName_80
+      - defaultName_81
+      - defaultName_82
+      - defaultName_83
+      - defaultName_84
+      - defaultName_85
+      - defaultName_86
+      - defaultName_87
+      - defaultName_88
+      - defaultName_89
+      - defaultName_90
+      - defaultName_91
+      - defaultName_92
+      - defaultName_93
+      - defaultName_94
+      - defaultName_95
+      - defaultName_96
+      - defaultName_97
+      - defaultName_98
+      - defaultName_99
+      - defaultName_100
+      - defaultName_101
+      - defaultName_102
+      - defaultName_103
+      - defaultName_104
+      - defaultName_105
+      - defaultName_106
+      - defaultName_107
+      - defaultName_108
+      - defaultName_109
+      - defaultName_110
+      - defaultName_111
+      - defaultName_112
+      - defaultName_113
+      - defaultName_114
+      - defaultName_115
+      - defaultName_116
+      - defaultName_117
+      - defaultName_118
+      - defaultName_119
+      - defaultName_120
+      - 🇩🇪_1
+      - 🇮🇹_1
+      - 🇩🇪_2
+      - 🇳🇱_1
+      - 🇫🇷_1
+      - 🇫🇮_1
+      - 🇩🇪_3
+      - 🇭🇰_1
+      - 🇩🇪_4
+      - 🇩🇪_5
+      - 🇩🇪_6
+      - 🇩🇪_7
+      - 🇮🇹_2
+      - 🇩🇪_8
+      - 🇮🇹_3
+      - 🇩🇪_9
+      - 🇳🇱_2
+      - 🇫🇷_2
+      - 🇫🇮_2
+      - 🇩🇪_10
+      - 🇭🇰_2
+      - 🇩🇪_11
+      - 🇩🇪_12
+      - 🇩🇪_13
+      - 🇩🇪_14
+      - 🇮🇹_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "💦 1 - VLESS - Domain : 443"
-      - "💦 2 - VLESS - Domain : 443"
-      - "💦 3 - VLESS - IPv4 : 443"
-      - "💦 4 - VLESS - IPv4 : 443"
-      - "💦 5 - VLESS - IPv6 : 443"
-      - "💦 6 - VLESS - IPv6 : 443"
-      - "💦 7 - VLESS - Clean IP : 443"
-      - "💦 8 - VLESS - Clean IP : 443"
-      - "💦 9 - VLESS - Clean IP : 443"
-      - "💦 10 - VLESS - Clean IP : 443"
-      - "💦 11 - VLESS - Clean IP : 443"
-      - "💦 12 - VLESS - Clean IP : 443"
-      - "💦 13 - VLESS - Clean IP : 443"
-      - "💦 14 - VLESS - Clean IP : 443"
-      - "💦 15 - VLESS - Clean IP : 443"
-      - "💦 16 - VLESS - Clean IP : 443"
-      - "💦 17 - VLESS - Clean IP : 443"
-      - "💦 18 - VLESS - Clean IP : 443"
-      - "💦 19 - VLESS - Clean IP : 443"
-      - "💦 20 - VLESS - Clean IP : 443"
-      - "💦 21 - VLESS - Clean IP : 443"
-      - "💦 22 - VLESS - Clean IP : 443"
-      - "💦 23 - VLESS - Domain : 8443"
-      - "💦 24 - VLESS - Domain : 8443"
-      - "💦 25 - VLESS - IPv4 : 8443"
-      - "💦 26 - VLESS - IPv4 : 8443"
-      - "💦 27 - VLESS - IPv6 : 8443"
-      - "💦 28 - VLESS - IPv6 : 8443"
-      - "💦 29 - VLESS - Clean IP : 8443"
-      - "💦 30 - VLESS - Clean IP : 8443"
-      - "💦 31 - VLESS - Clean IP : 8443"
-      - "💦 32 - VLESS - Clean IP : 8443"
-      - "💦 33 - VLESS - Clean IP : 8443"
-      - "💦 34 - VLESS - Clean IP : 8443"
-      - "💦 35 - VLESS - Clean IP : 8443"
-      - "💦 36 - VLESS - Clean IP : 8443"
-      - "💦 37 - VLESS - Clean IP : 8443"
-      - "💦 38 - VLESS - Clean IP : 8443"
-      - "💦 39 - VLESS - Clean IP : 8443"
-      - "💦 40 - VLESS - Clean IP : 8443"
-      - "💦 41 - VLESS - Clean IP : 8443"
-      - "💦 42 - VLESS - Clean IP : 8443"
-      - "💦 43 - VLESS - Clean IP : 8443"
-      - "💦 44 - VLESS - Clean IP : 8443"
-      - "💦 45 - VLESS - Domain : 2053"
-      - "💦 46 - VLESS - Domain : 2053"
-      - "💦 47 - VLESS - IPv4 : 2053"
-      - "💦 48 - VLESS - IPv4 : 2053"
-      - "💦 49 - VLESS - IPv6 : 2053"
-      - "💦 50 - VLESS - IPv6 : 2053"
-      - "💦 51 - VLESS - Clean IP : 2053"
-      - "💦 52 - VLESS - Clean IP : 2053"
-      - "💦 53 - VLESS - Clean IP : 2053"
-      - "💦 54 - VLESS - Clean IP : 2053"
-      - "💦 55 - VLESS - Clean IP : 2053"
-      - "💦 56 - VLESS - Clean IP : 2053"
-      - "💦 57 - VLESS - Clean IP : 2053"
-      - "💦 58 - VLESS - Clean IP : 2053"
-      - "💦 59 - VLESS - Clean IP : 2053"
-      - "💦 60 - VLESS - Clean IP : 2053"
-      - "💦 61 - VLESS - Clean IP : 2053"
-      - "💦 62 - VLESS - Clean IP : 2053"
-      - "💦 63 - VLESS - Clean IP : 2053"
-      - "💦 64 - VLESS - Clean IP : 2053"
-      - "💦 65 - VLESS - Clean IP : 2053"
-      - "💦 66 - VLESS - Clean IP : 2053"
-      - "💦 1 - Trojan - Domain : 443"
-      - "💦 2 - Trojan - Domain : 443"
-      - "💦 3 - Trojan - IPv4 : 443"
-      - "💦 4 - Trojan - IPv4 : 443"
-      - "💦 5 - Trojan - IPv6 : 443"
-      - "💦 6 - Trojan - IPv6 : 443"
-      - "💦 7 - Trojan - Clean IP : 443"
-      - "💦 8 - Trojan - Clean IP : 443"
-      - "💦 9 - Trojan - Clean IP : 443"
-      - "💦 10 - Trojan - Clean IP : 443"
-      - "💦 11 - Trojan - Clean IP : 443"
-      - "💦 12 - Trojan - Clean IP : 443"
-      - "💦 13 - Trojan - Clean IP : 443"
-      - "💦 14 - Trojan - Clean IP : 443"
-      - "💦 15 - Trojan - Clean IP : 443"
-      - "💦 16 - Trojan - Clean IP : 443"
-      - "💦 17 - Trojan - Clean IP : 443"
-      - "💦 18 - Trojan - Clean IP : 443"
-      - "💦 19 - Trojan - Clean IP : 443"
-      - "💦 20 - Trojan - Clean IP : 443"
-      - "💦 21 - Trojan - Clean IP : 443"
-      - "💦 22 - Trojan - Clean IP : 443"
-      - "💦 23 - Trojan - Domain : 8443"
-      - "💦 24 - Trojan - Domain : 8443"
-      - "💦 25 - Trojan - IPv4 : 8443"
-      - "💦 26 - Trojan - IPv4 : 8443"
-      - "💦 27 - Trojan - IPv6 : 8443"
-      - "💦 28 - Trojan - IPv6 : 8443"
-      - "💦 29 - Trojan - Clean IP : 8443"
-      - "💦 30 - Trojan - Clean IP : 8443"
-      - "💦 31 - Trojan - Clean IP : 8443"
-      - "💦 32 - Trojan - Clean IP : 8443"
-      - "💦 33 - Trojan - Clean IP : 8443"
-      - "💦 34 - Trojan - Clean IP : 8443"
-      - "💦 35 - Trojan - Clean IP : 8443"
-      - "💦 36 - Trojan - Clean IP : 8443"
-      - "💦 37 - Trojan - Clean IP : 8443"
-      - "💦 38 - Trojan - Clean IP : 8443"
-      - "💦 39 - Trojan - Clean IP : 8443"
-      - "💦 40 - Trojan - Clean IP : 8443"
-      - "💦 41 - Trojan - Clean IP : 8443"
-      - "💦 42 - Trojan - Clean IP : 8443"
-      - "💦 43 - Trojan - Clean IP : 8443"
-      - "💦 44 - Trojan - Clean IP : 8443"
-      - "💦 45 - Trojan - Domain : 2053"
-      - "💦 46 - Trojan - Domain : 2053"
-      - "💦 47 - Trojan - IPv4 : 2053"
-      - "💦 48 - Trojan - IPv4 : 2053"
-      - "💦 49 - Trojan - IPv6 : 2053"
-      - "💦 50 - Trojan - IPv6 : 2053"
-      - "💦 51 - Trojan - Clean IP : 2053"
-      - "💦 52 - Trojan - Clean IP : 2053"
-      - "💦 53 - Trojan - Clean IP : 2053"
-      - "💦 54 - Trojan - Clean IP : 2053"
-      - "💦 55 - Trojan - Clean IP : 2053"
-      - "💦 56 - Trojan - Clean IP : 2053"
-      - "💦 57 - Trojan - Clean IP : 2053"
-      - "💦 58 - Trojan - Clean IP : 2053"
-      - "💦 59 - Trojan - Clean IP : 2053"
-      - "💦 60 - Trojan - Clean IP : 2053"
-      - "💦 61 - Trojan - Clean IP : 2053"
-      - "💦 62 - Trojan - Clean IP : 2053"
-      - "💦 63 - Trojan - Clean IP : 2053"
-      - "💦 64 - Trojan - Clean IP : 2053"
-      - "💦 65 - Trojan - Clean IP : 2053"
-      - "💦 66 - Trojan - Clean IP : 2053"
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
+      - defaultName_17
+      - defaultName_18
+      - defaultName_19
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - defaultName_23
+      - defaultName_24
+      - defaultName_25
+      - defaultName_26
+      - defaultName_27
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - defaultName_32
+      - defaultName_33
+      - defaultName_34
+      - defaultName_35
+      - defaultName_36
+      - defaultName_37
+      - defaultName_38
+      - defaultName_39
+      - defaultName_40
+      - defaultName_41
+      - defaultName_42
+      - defaultName_43
+      - defaultName_44
+      - defaultName_45
+      - defaultName_46
+      - defaultName_47
+      - defaultName_48
+      - defaultName_49
+      - defaultName_50
+      - defaultName_51
+      - defaultName_52
+      - defaultName_53
+      - defaultName_54
+      - defaultName_55
+      - defaultName_56
+      - defaultName_57
+      - defaultName_58
+      - defaultName_59
+      - defaultName_60
+      - defaultName_61
+      - defaultName_62
+      - defaultName_63
+      - defaultName_64
+      - defaultName_65
+      - defaultName_66
+      - defaultName_67
+      - defaultName_68
+      - defaultName_69
+      - defaultName_70
+      - defaultName_71
+      - defaultName_72
+      - defaultName_73
+      - defaultName_74
+      - defaultName_75
+      - defaultName_76
+      - defaultName_77
+      - defaultName_78
+      - defaultName_79
+      - defaultName_80
+      - defaultName_81
+      - defaultName_82
+      - defaultName_83
+      - defaultName_84
+      - defaultName_85
+      - defaultName_86
+      - defaultName_87
+      - defaultName_88
+      - defaultName_89
+      - defaultName_90
+      - defaultName_91
+      - defaultName_92
+      - defaultName_93
+      - defaultName_94
+      - defaultName_95
+      - defaultName_96
+      - defaultName_97
+      - defaultName_98
+      - defaultName_99
+      - defaultName_100
+      - defaultName_101
+      - defaultName_102
+      - defaultName_103
+      - defaultName_104
+      - defaultName_105
+      - defaultName_106
+      - defaultName_107
+      - defaultName_108
+      - defaultName_109
+      - defaultName_110
+      - defaultName_111
+      - defaultName_112
+      - defaultName_113
+      - defaultName_114
+      - defaultName_115
+      - defaultName_116
+      - defaultName_117
+      - defaultName_118
+      - defaultName_119
+      - defaultName_120
+      - 🇩🇪_1
+      - 🇮🇹_1
+      - 🇩🇪_2
+      - 🇳🇱_1
+      - 🇫🇷_1
+      - 🇫🇮_1
+      - 🇩🇪_3
+      - 🇭🇰_1
+      - 🇩🇪_4
+      - 🇩🇪_5
+      - 🇩🇪_6
+      - 🇩🇪_7
+      - 🇮🇹_2
+      - 🇩🇪_8
+      - 🇮🇹_3
+      - 🇩🇪_9
+      - 🇳🇱_2
+      - 🇫🇷_2
+      - 🇫🇮_2
+      - 🇩🇪_10
+      - 🇭🇰_2
+      - 🇩🇪_11
+      - 🇩🇪_12
+      - 🇩🇪_13
+      - 🇩🇪_14
+      - 🇮🇹_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "💦 1 - VLESS - Domain : 443"
-      - "💦 2 - VLESS - Domain : 443"
-      - "💦 3 - VLESS - IPv4 : 443"
-      - "💦 4 - VLESS - IPv4 : 443"
-      - "💦 5 - VLESS - IPv6 : 443"
-      - "💦 6 - VLESS - IPv6 : 443"
-      - "💦 7 - VLESS - Clean IP : 443"
-      - "💦 8 - VLESS - Clean IP : 443"
-      - "💦 9 - VLESS - Clean IP : 443"
-      - "💦 10 - VLESS - Clean IP : 443"
-      - "💦 11 - VLESS - Clean IP : 443"
-      - "💦 12 - VLESS - Clean IP : 443"
-      - "💦 13 - VLESS - Clean IP : 443"
-      - "💦 14 - VLESS - Clean IP : 443"
-      - "💦 15 - VLESS - Clean IP : 443"
-      - "💦 16 - VLESS - Clean IP : 443"
-      - "💦 17 - VLESS - Clean IP : 443"
-      - "💦 18 - VLESS - Clean IP : 443"
-      - "💦 19 - VLESS - Clean IP : 443"
-      - "💦 20 - VLESS - Clean IP : 443"
-      - "💦 21 - VLESS - Clean IP : 443"
-      - "💦 22 - VLESS - Clean IP : 443"
-      - "💦 23 - VLESS - Domain : 8443"
-      - "💦 24 - VLESS - Domain : 8443"
-      - "💦 25 - VLESS - IPv4 : 8443"
-      - "💦 26 - VLESS - IPv4 : 8443"
-      - "💦 27 - VLESS - IPv6 : 8443"
-      - "💦 28 - VLESS - IPv6 : 8443"
-      - "💦 29 - VLESS - Clean IP : 8443"
-      - "💦 30 - VLESS - Clean IP : 8443"
-      - "💦 31 - VLESS - Clean IP : 8443"
-      - "💦 32 - VLESS - Clean IP : 8443"
-      - "💦 33 - VLESS - Clean IP : 8443"
-      - "💦 34 - VLESS - Clean IP : 8443"
-      - "💦 35 - VLESS - Clean IP : 8443"
-      - "💦 36 - VLESS - Clean IP : 8443"
-      - "💦 37 - VLESS - Clean IP : 8443"
-      - "💦 38 - VLESS - Clean IP : 8443"
-      - "💦 39 - VLESS - Clean IP : 8443"
-      - "💦 40 - VLESS - Clean IP : 8443"
-      - "💦 41 - VLESS - Clean IP : 8443"
-      - "💦 42 - VLESS - Clean IP : 8443"
-      - "💦 43 - VLESS - Clean IP : 8443"
-      - "💦 44 - VLESS - Clean IP : 8443"
-      - "💦 45 - VLESS - Domain : 2053"
-      - "💦 46 - VLESS - Domain : 2053"
-      - "💦 47 - VLESS - IPv4 : 2053"
-      - "💦 48 - VLESS - IPv4 : 2053"
-      - "💦 49 - VLESS - IPv6 : 2053"
-      - "💦 50 - VLESS - IPv6 : 2053"
-      - "💦 51 - VLESS - Clean IP : 2053"
-      - "💦 52 - VLESS - Clean IP : 2053"
-      - "💦 53 - VLESS - Clean IP : 2053"
-      - "💦 54 - VLESS - Clean IP : 2053"
-      - "💦 55 - VLESS - Clean IP : 2053"
-      - "💦 56 - VLESS - Clean IP : 2053"
-      - "💦 57 - VLESS - Clean IP : 2053"
-      - "💦 58 - VLESS - Clean IP : 2053"
-      - "💦 59 - VLESS - Clean IP : 2053"
-      - "💦 60 - VLESS - Clean IP : 2053"
-      - "💦 61 - VLESS - Clean IP : 2053"
-      - "💦 62 - VLESS - Clean IP : 2053"
-      - "💦 63 - VLESS - Clean IP : 2053"
-      - "💦 64 - VLESS - Clean IP : 2053"
-      - "💦 65 - VLESS - Clean IP : 2053"
-      - "💦 66 - VLESS - Clean IP : 2053"
-      - "💦 1 - Trojan - Domain : 443"
-      - "💦 2 - Trojan - Domain : 443"
-      - "💦 3 - Trojan - IPv4 : 443"
-      - "💦 4 - Trojan - IPv4 : 443"
-      - "💦 5 - Trojan - IPv6 : 443"
-      - "💦 6 - Trojan - IPv6 : 443"
-      - "💦 7 - Trojan - Clean IP : 443"
-      - "💦 8 - Trojan - Clean IP : 443"
-      - "💦 9 - Trojan - Clean IP : 443"
-      - "💦 10 - Trojan - Clean IP : 443"
-      - "💦 11 - Trojan - Clean IP : 443"
-      - "💦 12 - Trojan - Clean IP : 443"
-      - "💦 13 - Trojan - Clean IP : 443"
-      - "💦 14 - Trojan - Clean IP : 443"
-      - "💦 15 - Trojan - Clean IP : 443"
-      - "💦 16 - Trojan - Clean IP : 443"
-      - "💦 17 - Trojan - Clean IP : 443"
-      - "💦 18 - Trojan - Clean IP : 443"
-      - "💦 19 - Trojan - Clean IP : 443"
-      - "💦 20 - Trojan - Clean IP : 443"
-      - "💦 21 - Trojan - Clean IP : 443"
-      - "💦 22 - Trojan - Clean IP : 443"
-      - "💦 23 - Trojan - Domain : 8443"
-      - "💦 24 - Trojan - Domain : 8443"
-      - "💦 25 - Trojan - IPv4 : 8443"
-      - "💦 26 - Trojan - IPv4 : 8443"
-      - "💦 27 - Trojan - IPv6 : 8443"
-      - "💦 28 - Trojan - IPv6 : 8443"
-      - "💦 29 - Trojan - Clean IP : 8443"
-      - "💦 30 - Trojan - Clean IP : 8443"
-      - "💦 31 - Trojan - Clean IP : 8443"
-      - "💦 32 - Trojan - Clean IP : 8443"
-      - "💦 33 - Trojan - Clean IP : 8443"
-      - "💦 34 - Trojan - Clean IP : 8443"
-      - "💦 35 - Trojan - Clean IP : 8443"
-      - "💦 36 - Trojan - Clean IP : 8443"
-      - "💦 37 - Trojan - Clean IP : 8443"
-      - "💦 38 - Trojan - Clean IP : 8443"
-      - "💦 39 - Trojan - Clean IP : 8443"
-      - "💦 40 - Trojan - Clean IP : 8443"
-      - "💦 41 - Trojan - Clean IP : 8443"
-      - "💦 42 - Trojan - Clean IP : 8443"
-      - "💦 43 - Trojan - Clean IP : 8443"
-      - "💦 44 - Trojan - Clean IP : 8443"
-      - "💦 45 - Trojan - Domain : 2053"
-      - "💦 46 - Trojan - Domain : 2053"
-      - "💦 47 - Trojan - IPv4 : 2053"
-      - "💦 48 - Trojan - IPv4 : 2053"
-      - "💦 49 - Trojan - IPv6 : 2053"
-      - "💦 50 - Trojan - IPv6 : 2053"
-      - "💦 51 - Trojan - Clean IP : 2053"
-      - "💦 52 - Trojan - Clean IP : 2053"
-      - "💦 53 - Trojan - Clean IP : 2053"
-      - "💦 54 - Trojan - Clean IP : 2053"
-      - "💦 55 - Trojan - Clean IP : 2053"
-      - "💦 56 - Trojan - Clean IP : 2053"
-      - "💦 57 - Trojan - Clean IP : 2053"
-      - "💦 58 - Trojan - Clean IP : 2053"
-      - "💦 59 - Trojan - Clean IP : 2053"
-      - "💦 60 - Trojan - Clean IP : 2053"
-      - "💦 61 - Trojan - Clean IP : 2053"
-      - "💦 62 - Trojan - Clean IP : 2053"
-      - "💦 63 - Trojan - Clean IP : 2053"
-      - "💦 64 - Trojan - Clean IP : 2053"
-      - "💦 65 - Trojan - Clean IP : 2053"
-      - "💦 66 - Trojan - Clean IP : 2053"
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
+      - defaultName_17
+      - defaultName_18
+      - defaultName_19
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - defaultName_23
+      - defaultName_24
+      - defaultName_25
+      - defaultName_26
+      - defaultName_27
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - defaultName_32
+      - defaultName_33
+      - defaultName_34
+      - defaultName_35
+      - defaultName_36
+      - defaultName_37
+      - defaultName_38
+      - defaultName_39
+      - defaultName_40
+      - defaultName_41
+      - defaultName_42
+      - defaultName_43
+      - defaultName_44
+      - defaultName_45
+      - defaultName_46
+      - defaultName_47
+      - defaultName_48
+      - defaultName_49
+      - defaultName_50
+      - defaultName_51
+      - defaultName_52
+      - defaultName_53
+      - defaultName_54
+      - defaultName_55
+      - defaultName_56
+      - defaultName_57
+      - defaultName_58
+      - defaultName_59
+      - defaultName_60
+      - defaultName_61
+      - defaultName_62
+      - defaultName_63
+      - defaultName_64
+      - defaultName_65
+      - defaultName_66
+      - defaultName_67
+      - defaultName_68
+      - defaultName_69
+      - defaultName_70
+      - defaultName_71
+      - defaultName_72
+      - defaultName_73
+      - defaultName_74
+      - defaultName_75
+      - defaultName_76
+      - defaultName_77
+      - defaultName_78
+      - defaultName_79
+      - defaultName_80
+      - defaultName_81
+      - defaultName_82
+      - defaultName_83
+      - defaultName_84
+      - defaultName_85
+      - defaultName_86
+      - defaultName_87
+      - defaultName_88
+      - defaultName_89
+      - defaultName_90
+      - defaultName_91
+      - defaultName_92
+      - defaultName_93
+      - defaultName_94
+      - defaultName_95
+      - defaultName_96
+      - defaultName_97
+      - defaultName_98
+      - defaultName_99
+      - defaultName_100
+      - defaultName_101
+      - defaultName_102
+      - defaultName_103
+      - defaultName_104
+      - defaultName_105
+      - defaultName_106
+      - defaultName_107
+      - defaultName_108
+      - defaultName_109
+      - defaultName_110
+      - defaultName_111
+      - defaultName_112
+      - defaultName_113
+      - defaultName_114
+      - defaultName_115
+      - defaultName_116
+      - defaultName_117
+      - defaultName_118
+      - defaultName_119
+      - defaultName_120
+      - 🇩🇪_1
+      - 🇮🇹_1
+      - 🇩🇪_2
+      - 🇳🇱_1
+      - 🇫🇷_1
+      - 🇫🇮_1
+      - 🇩🇪_3
+      - 🇭🇰_1
+      - 🇩🇪_4
+      - 🇩🇪_5
+      - 🇩🇪_6
+      - 🇩🇪_7
+      - 🇮🇹_2
+      - 🇩🇪_8
+      - 🇮🇹_3
+      - 🇩🇪_9
+      - 🇳🇱_2
+      - 🇫🇷_2
+      - 🇫🇮_2
+      - 🇩🇪_10
+      - 🇭🇰_2
+      - 🇩🇪_11
+      - 🇩🇪_12
+      - 🇩🇪_13
+      - 🇩🇪_14
+      - 🇮🇹_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -3071,138 +2843,152 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "💦 1 - VLESS - Domain : 443"
-      - "💦 2 - VLESS - Domain : 443"
-      - "💦 3 - VLESS - IPv4 : 443"
-      - "💦 4 - VLESS - IPv4 : 443"
-      - "💦 5 - VLESS - IPv6 : 443"
-      - "💦 6 - VLESS - IPv6 : 443"
-      - "💦 7 - VLESS - Clean IP : 443"
-      - "💦 8 - VLESS - Clean IP : 443"
-      - "💦 9 - VLESS - Clean IP : 443"
-      - "💦 10 - VLESS - Clean IP : 443"
-      - "💦 11 - VLESS - Clean IP : 443"
-      - "💦 12 - VLESS - Clean IP : 443"
-      - "💦 13 - VLESS - Clean IP : 443"
-      - "💦 14 - VLESS - Clean IP : 443"
-      - "💦 15 - VLESS - Clean IP : 443"
-      - "💦 16 - VLESS - Clean IP : 443"
-      - "💦 17 - VLESS - Clean IP : 443"
-      - "💦 18 - VLESS - Clean IP : 443"
-      - "💦 19 - VLESS - Clean IP : 443"
-      - "💦 20 - VLESS - Clean IP : 443"
-      - "💦 21 - VLESS - Clean IP : 443"
-      - "💦 22 - VLESS - Clean IP : 443"
-      - "💦 23 - VLESS - Domain : 8443"
-      - "💦 24 - VLESS - Domain : 8443"
-      - "💦 25 - VLESS - IPv4 : 8443"
-      - "💦 26 - VLESS - IPv4 : 8443"
-      - "💦 27 - VLESS - IPv6 : 8443"
-      - "💦 28 - VLESS - IPv6 : 8443"
-      - "💦 29 - VLESS - Clean IP : 8443"
-      - "💦 30 - VLESS - Clean IP : 8443"
-      - "💦 31 - VLESS - Clean IP : 8443"
-      - "💦 32 - VLESS - Clean IP : 8443"
-      - "💦 33 - VLESS - Clean IP : 8443"
-      - "💦 34 - VLESS - Clean IP : 8443"
-      - "💦 35 - VLESS - Clean IP : 8443"
-      - "💦 36 - VLESS - Clean IP : 8443"
-      - "💦 37 - VLESS - Clean IP : 8443"
-      - "💦 38 - VLESS - Clean IP : 8443"
-      - "💦 39 - VLESS - Clean IP : 8443"
-      - "💦 40 - VLESS - Clean IP : 8443"
-      - "💦 41 - VLESS - Clean IP : 8443"
-      - "💦 42 - VLESS - Clean IP : 8443"
-      - "💦 43 - VLESS - Clean IP : 8443"
-      - "💦 44 - VLESS - Clean IP : 8443"
-      - "💦 45 - VLESS - Domain : 2053"
-      - "💦 46 - VLESS - Domain : 2053"
-      - "💦 47 - VLESS - IPv4 : 2053"
-      - "💦 48 - VLESS - IPv4 : 2053"
-      - "💦 49 - VLESS - IPv6 : 2053"
-      - "💦 50 - VLESS - IPv6 : 2053"
-      - "💦 51 - VLESS - Clean IP : 2053"
-      - "💦 52 - VLESS - Clean IP : 2053"
-      - "💦 53 - VLESS - Clean IP : 2053"
-      - "💦 54 - VLESS - Clean IP : 2053"
-      - "💦 55 - VLESS - Clean IP : 2053"
-      - "💦 56 - VLESS - Clean IP : 2053"
-      - "💦 57 - VLESS - Clean IP : 2053"
-      - "💦 58 - VLESS - Clean IP : 2053"
-      - "💦 59 - VLESS - Clean IP : 2053"
-      - "💦 60 - VLESS - Clean IP : 2053"
-      - "💦 61 - VLESS - Clean IP : 2053"
-      - "💦 62 - VLESS - Clean IP : 2053"
-      - "💦 63 - VLESS - Clean IP : 2053"
-      - "💦 64 - VLESS - Clean IP : 2053"
-      - "💦 65 - VLESS - Clean IP : 2053"
-      - "💦 66 - VLESS - Clean IP : 2053"
-      - "💦 1 - Trojan - Domain : 443"
-      - "💦 2 - Trojan - Domain : 443"
-      - "💦 3 - Trojan - IPv4 : 443"
-      - "💦 4 - Trojan - IPv4 : 443"
-      - "💦 5 - Trojan - IPv6 : 443"
-      - "💦 6 - Trojan - IPv6 : 443"
-      - "💦 7 - Trojan - Clean IP : 443"
-      - "💦 8 - Trojan - Clean IP : 443"
-      - "💦 9 - Trojan - Clean IP : 443"
-      - "💦 10 - Trojan - Clean IP : 443"
-      - "💦 11 - Trojan - Clean IP : 443"
-      - "💦 12 - Trojan - Clean IP : 443"
-      - "💦 13 - Trojan - Clean IP : 443"
-      - "💦 14 - Trojan - Clean IP : 443"
-      - "💦 15 - Trojan - Clean IP : 443"
-      - "💦 16 - Trojan - Clean IP : 443"
-      - "💦 17 - Trojan - Clean IP : 443"
-      - "💦 18 - Trojan - Clean IP : 443"
-      - "💦 19 - Trojan - Clean IP : 443"
-      - "💦 20 - Trojan - Clean IP : 443"
-      - "💦 21 - Trojan - Clean IP : 443"
-      - "💦 22 - Trojan - Clean IP : 443"
-      - "💦 23 - Trojan - Domain : 8443"
-      - "💦 24 - Trojan - Domain : 8443"
-      - "💦 25 - Trojan - IPv4 : 8443"
-      - "💦 26 - Trojan - IPv4 : 8443"
-      - "💦 27 - Trojan - IPv6 : 8443"
-      - "💦 28 - Trojan - IPv6 : 8443"
-      - "💦 29 - Trojan - Clean IP : 8443"
-      - "💦 30 - Trojan - Clean IP : 8443"
-      - "💦 31 - Trojan - Clean IP : 8443"
-      - "💦 32 - Trojan - Clean IP : 8443"
-      - "💦 33 - Trojan - Clean IP : 8443"
-      - "💦 34 - Trojan - Clean IP : 8443"
-      - "💦 35 - Trojan - Clean IP : 8443"
-      - "💦 36 - Trojan - Clean IP : 8443"
-      - "💦 37 - Trojan - Clean IP : 8443"
-      - "💦 38 - Trojan - Clean IP : 8443"
-      - "💦 39 - Trojan - Clean IP : 8443"
-      - "💦 40 - Trojan - Clean IP : 8443"
-      - "💦 41 - Trojan - Clean IP : 8443"
-      - "💦 42 - Trojan - Clean IP : 8443"
-      - "💦 43 - Trojan - Clean IP : 8443"
-      - "💦 44 - Trojan - Clean IP : 8443"
-      - "💦 45 - Trojan - Domain : 2053"
-      - "💦 46 - Trojan - Domain : 2053"
-      - "💦 47 - Trojan - IPv4 : 2053"
-      - "💦 48 - Trojan - IPv4 : 2053"
-      - "💦 49 - Trojan - IPv6 : 2053"
-      - "💦 50 - Trojan - IPv6 : 2053"
-      - "💦 51 - Trojan - Clean IP : 2053"
-      - "💦 52 - Trojan - Clean IP : 2053"
-      - "💦 53 - Trojan - Clean IP : 2053"
-      - "💦 54 - Trojan - Clean IP : 2053"
-      - "💦 55 - Trojan - Clean IP : 2053"
-      - "💦 56 - Trojan - Clean IP : 2053"
-      - "💦 57 - Trojan - Clean IP : 2053"
-      - "💦 58 - Trojan - Clean IP : 2053"
-      - "💦 59 - Trojan - Clean IP : 2053"
-      - "💦 60 - Trojan - Clean IP : 2053"
-      - "💦 61 - Trojan - Clean IP : 2053"
-      - "💦 62 - Trojan - Clean IP : 2053"
-      - "💦 63 - Trojan - Clean IP : 2053"
-      - "💦 64 - Trojan - Clean IP : 2053"
-      - "💦 65 - Trojan - Clean IP : 2053"
-      - "💦 66 - Trojan - Clean IP : 2053"
+      - defaultName_1
+      - defaultName_2
+      - defaultName_3
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
+      - defaultName_17
+      - defaultName_18
+      - defaultName_19
+      - defaultName_20
+      - defaultName_21
+      - defaultName_22
+      - defaultName_23
+      - defaultName_24
+      - defaultName_25
+      - defaultName_26
+      - defaultName_27
+      - defaultName_28
+      - defaultName_29
+      - defaultName_30
+      - defaultName_31
+      - defaultName_32
+      - defaultName_33
+      - defaultName_34
+      - defaultName_35
+      - defaultName_36
+      - defaultName_37
+      - defaultName_38
+      - defaultName_39
+      - defaultName_40
+      - defaultName_41
+      - defaultName_42
+      - defaultName_43
+      - defaultName_44
+      - defaultName_45
+      - defaultName_46
+      - defaultName_47
+      - defaultName_48
+      - defaultName_49
+      - defaultName_50
+      - defaultName_51
+      - defaultName_52
+      - defaultName_53
+      - defaultName_54
+      - defaultName_55
+      - defaultName_56
+      - defaultName_57
+      - defaultName_58
+      - defaultName_59
+      - defaultName_60
+      - defaultName_61
+      - defaultName_62
+      - defaultName_63
+      - defaultName_64
+      - defaultName_65
+      - defaultName_66
+      - defaultName_67
+      - defaultName_68
+      - defaultName_69
+      - defaultName_70
+      - defaultName_71
+      - defaultName_72
+      - defaultName_73
+      - defaultName_74
+      - defaultName_75
+      - defaultName_76
+      - defaultName_77
+      - defaultName_78
+      - defaultName_79
+      - defaultName_80
+      - defaultName_81
+      - defaultName_82
+      - defaultName_83
+      - defaultName_84
+      - defaultName_85
+      - defaultName_86
+      - defaultName_87
+      - defaultName_88
+      - defaultName_89
+      - defaultName_90
+      - defaultName_91
+      - defaultName_92
+      - defaultName_93
+      - defaultName_94
+      - defaultName_95
+      - defaultName_96
+      - defaultName_97
+      - defaultName_98
+      - defaultName_99
+      - defaultName_100
+      - defaultName_101
+      - defaultName_102
+      - defaultName_103
+      - defaultName_104
+      - defaultName_105
+      - defaultName_106
+      - defaultName_107
+      - defaultName_108
+      - defaultName_109
+      - defaultName_110
+      - defaultName_111
+      - defaultName_112
+      - defaultName_113
+      - defaultName_114
+      - defaultName_115
+      - defaultName_116
+      - defaultName_117
+      - defaultName_118
+      - defaultName_119
+      - defaultName_120
+      - 🇩🇪_1
+      - 🇮🇹_1
+      - 🇩🇪_2
+      - 🇳🇱_1
+      - 🇫🇷_1
+      - 🇫🇮_1
+      - 🇩🇪_3
+      - 🇭🇰_1
+      - 🇩🇪_4
+      - 🇩🇪_5
+      - 🇩🇪_6
+      - 🇩🇪_7
+      - 🇮🇹_2
+      - 🇩🇪_8
+      - 🇮🇹_3
+      - 🇩🇪_9
+      - 🇳🇱_2
+      - 🇫🇷_2
+      - 🇫🇮_2
+      - 🇩🇪_10
+      - 🇭🇰_2
+      - 🇩🇪_11
+      - 🇩🇪_12
+      - 🇩🇪_13
+      - 🇩🇪_14
+      - 🇮🇹_4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

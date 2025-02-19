@@ -48,7 +48,7 @@
         "dns-hijack": [
             "any:53"
         ],
-        "mtu": 9000
+        "mtu": 1316
     },
     "sniffer": {
         "enable": true,

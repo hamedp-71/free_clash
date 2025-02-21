@@ -296,20 +296,6 @@
             "h4": 0,
             "h3": 0 }
         },
-        {
-    "name": "w-hamedp71",
-    "type": "wireguard",
-    "ip": "172.16.0.2/32",
-    "private-key": "uGcdKX8LYYIk/Xj+0QB/fvRPEoHx1WziauH6khat3U8=",
-    "server": "188.114.96.157",
-    "port": 945,
-    "public-key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-    "allowed-ips": ["0.0.0.0/0", "::/0"],
-    "reserved": [105, 13, 151],
-    "udp": true,
-    "mtu": 1316,
-    "keepalive": 5
-},
     ],
     "proxy-groups": [
         {
@@ -325,7 +311,6 @@
                 "london1-hamedp71",
                 "chisinau-hamedp71",
                 "newyorkcity-hamedp71"
-                "w-hamedp71"
             ]
         },
         {
@@ -343,7 +328,6 @@
                 "london1-hamedp71",
                 "chisinau-hamedp71",
                 "newyorkcity-hamedp71"
-                "w-hamedp71"
             ]
         }
     ],
